@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../culture-digitale/le-web-et-son-historire.html" />
+    <link rel="next" href="grille.html" />
     
     
-    <link rel="prev" href="../html/intro.html" />
+    <link rel="prev" href="../html/concepts.html" />
     
 
     </head>
@@ -163,6 +163,19 @@
             
         </li>
     
+        <li class="chapter " data-level="2.2" data-path="../html/concepts.html">
+            
+                <a href="../html/concepts.html">
+            
+                    
+                    Concepts essentiels
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
@@ -183,12 +196,38 @@
             
         </li>
     
+        <li class="chapter " data-level="3.2" data-path="grille.html">
+            
+                <a href="grille.html">
+            
+                    
+                    La grille
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
         <li class="header">JAVASCRIPT</li>
         
         
+    
+        <li class="chapter " data-level="4.1" data-path="../javascript.html">
+            
+                <a href="../javascript.html">
+            
+                    
+                    Comment hacker du js?
+            
+                </a>
+            
+
+            
+        </li>
     
 
     
@@ -464,136 +503,6 @@
 <p></p><p data-height="300" data-theme-id="0" data-slug-hash="EPYpPW" data-default-tab="css,result" data-user="jimoong" data-embed-version="2" data-pen-title="Kinegram" class="codepen">See the Pen <a href="https://codepen.io/jimoong/pen/EPYpPW/" target="_blank">Kinegram</a> by Jiwoong Lee (<a href="http://codepen.io/jimoong" target="_blank">@jimoong</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<h1 id="la-grille-css">La grille css:</h1>
-<h2 id="les-plus-connus">Les plus connus</h2>
-<ul>
-<li><a href="http://unsemantic.com/" target="_blank">http://unsemantic.com/</a></li>
-<li><a href="http://flexboxgrid.com/" target="_blank">http://flexboxgrid.com/</a></li>
-<li><a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a></li>
-</ul>
-<h2 id="le-syst&#xE8;me-bootstrap">Le syst&#xE8;me Bootstrap</h2>
-<blockquote>
-<p>Introduire ce qu&#x2019;est un framework.
-Pourquoi est-ce utile ?</p>
-</blockquote>
-<h3 id="utiliser-seulement-la-grille">Utiliser seulement la grille</h3>
-<h3 id="alternatives-pour-la-mise-en-page">Alternatives pour la mise en page</h3>
-<ul>
-<li><a href="http://www.intensivstation.ch/templates/" target="_blank">http://www.intensivstation.ch/templates/</a></li>
-</ul>
-<h1 id="comment-hacker-du-javascript-">Comment hacker du javascript ?</h1>
-<blockquote>
-<p>Conna&#xEE;tre assez de javascript pour &#xEA;tre dangeureux
-C&#x2019;est quoi ? Ou le trouve-t-on ? Essayer dans l&#x2019;inspecteur</p>
-</blockquote>
-<h2 id="quel-jour-fait-il-">Quel jour fait-il ?</h2>
-<p>Rendez-vous sur la page de l&#x2019;artiste <a href="http://davide.balula.free.fr/" target="_blank">Davide Balula</a> et inspecter le code source.</p>
-<p>On y trouve une fonction javascript qui affiche le jour d&#x2019;aujourdhui.</p>
-<pre><code class="lang-js">&lt;script&gt;
-  // La fonction execute ses instruction quand elle est appel&#xE9;e plus bas avec tomorrowIs()
-  function tomorrowIs() {
-
-    // repr&#xE9;sente une variable (bo&#xEE;te) dans laquelle sont stoqu&#xE9;e la liste des jours de la semaine
-    var weekDays = [
-      &quot;MONDAY&quot;,
-      &quot;TUESDAY&quot;,
-      &quot;WEDNESDAY&quot;,
-      &quot;THURSDAY&quot;,
-      &quot;FRIDAY&quot;,
-      &quot;SATURDAY&quot;,
-      &quot;SUNDAY&quot;
-    ];
-
-    // le num&#xE9;ro du de la semaine
-    var today = new Date().getDay();
-
-    // va rechercher dans la variable weekDays le jour qui correspond &#xE0; l&#x2019;index que l&#x2019;on a stoqu&#xE9; dans la variable today.
-    document.write(weekDays[today]);
-  }
-&lt;/script&gt;
-</code></pre>
-<p>Pour afficher le r&#xE9;sultat de cette fonction sur notre paqe html, il nous faut l&#x2019;appeller.</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
-  Aujourd&#x2019;hui, c&#x2019;est
-  <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="undefined">
-    tomorrowIs();
-  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-</code></pre>
-<p></p><p data-height="265" data-theme-id="0" data-slug-hash="NjNwpZ" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Today is" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/NjNwpZ/" target="_blank">Today is</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-<p><strong>Exercice:</strong> Remplacer les jours de la semaine par des vers de po&#xE9;sies (&#xE0; d&#xE9;faut, quelques unes du <a href="http://www.pipotron.free.fr" target="_blank">http://www.pipotron.free.fr</a>)</p>
-<h2 id="les-cent-mille-milliards-de-po&#xE8;mes-raymond-queneau">Les cent mille milliards de po&#xE8;mes (Raymond Queneau)</h2>
-<p>Nous pouvons reprendre le m&#xEA;me code et changer la m&#xE9;thode de s&#xE9;lection en applicant un nombre al&#xE9;atoire:</p>
-<pre><code class="lang-js">&lt;script&gt;
-  // La fonction execute ses instruction quand elle est appel&#xE9;e plus bas avec tomorrowIs()
-  function randomPoems() {
-
-    // repr&#xE9;sente une variable (bo&#xEE;te) dans laquelle sont stoqu&#xE9;e la liste des jours de la semaine
-    var poems = [
-      &quot;En ce qui concerne la restriction que nous constatons, il serait bon de favoriser la globalit&#xE9; des ouvertures possibles, avec beaucoup de recul.&quot;,
-      &quot;Compte tenu de la baisse de confiance observ&#xE9;e, on ne peut se passer d&apos;examiner l&apos;ensemble des am&#xE9;liorations r&#xE9;alisables, depuis longtemps.&quot;,
-      &quot;En ce qui concerne la dualit&#xE9; de la situation que nous constatons, il est n&#xE9;cessaire de consid&#xE9;rer la totalit&#xE9; des options opportunes, pour longtemps.&quot;,
-      &quot;Nonobstant cette inflexion intrins&#xE8;que, il ne faut pas s&apos;interdire de caract&#xE9;riser syst&#xE9;matiquement les actions de bon sens, de toute urgence.&quot;,
-      &quot;Malgr&#xE9; la situation de ces derniers temps, je sugg&#xE8;re fortement d&apos;uniformiser l&apos;ensemble des modalit&#xE9;s opportunes, parce que les m&#xEA;mes causes produisent les m&#xEA;mes effets.&quot;,
-      &quot;Quelle que soit complexit&#xE9; de ces derniers temps, il est pr&#xE9;f&#xE9;rable d&apos;inventorier les principales modalit&#xE9;s optimales, m&#xEA;me si nous devons en tirer des cons&#xE9;quences.&quot;,
-      &quot;O&#xF9; que nous m&#xE8;ne l&apos;aust&#xE9;rit&#xE9; intrins&#xE8;que, il est n&#xE9;cessaire de fa&#xE7;onner les relations des am&#xE9;liorations envisageables, &#xE0; l&apos;avenir.&quot;
-    ];
-
-    // le num&#xE9;ro du de la semaine
-    var random = Math.floor(Math.random() * poems.length);
-
-    // va rechercher dans la variable weekDays le jour qui correspond &#xE0; l&#x2019;index que l&#x2019;on a stoqu&#xE9; dans la variable today.
-    document.write(poems[random]);
-  }
-&lt;/script&gt;
-</code></pre>
-<p>Nous avons donc maintenant un g&#xE9;n&#xE9;rateur de po&#xE9;me al&#xE9;atoire mais cela ne reste qu&#x2019;une phrase &#xE0; la fois.
-Pour avoir plusieurs g&#xE9;n&#xE9;rateurs sur la m&#xEA;me page, il nous suffira de dupliquer le code situ&#xE9; dans les script tag et de changer le nom des foncions</p>
-<p><strong>Un example &#xE0; 2 fonctions de 2 vers ressemblera &#xE0; ceci:</strong></p>
-<pre><code class="lang-js">&lt;script&gt;
-  function randomPoems1() {
-    var poems = [
-      &quot;En ce qui concerne la restriction que nous constatons, il serait bon de favoriser la globalit&#xE9; des ouvertures possibles, avec beaucoup de recul.&quot;,
-      &quot;Compte tenu de la baisse de confiance observ&#xE9;e, on ne peut se passer d&apos;examiner l&apos;ensemble des am&#xE9;liorations r&#xE9;alisables, depuis longtemps.&quot;
-    ];
-
-    var random = Math.floor(Math.random() * poems.length);
-
-    document.write(poems[random]);
-  }
-
-  function randomPoems2() {
-    var poems = [
-      &quot;Nonobstant cette inflexion intrins&#xE8;que, il ne faut pas s&apos;interdire de caract&#xE9;riser syst&#xE9;matiquement les actions de bon sens, de toute urgence.&quot;,
-      &quot;Malgr&#xE9; la situation de ces derniers temps, je sugg&#xE8;re fortement d&apos;uniformiser l&apos;ensemble des modalit&#xE9;s opportunes, parce que les m&#xEA;mes causes produisent les m&#xEA;mes effets.&quot;
-    ];
-
-    var random = Math.floor(Math.random() * poems.length);
-
-    document.write(poems[random]);
-  }
-&lt;/script&gt;
-
-&lt;p&gt;
-&lt;script&gt;
-  randomPoems1();
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;script&gt;
-  randomPoems2();
-&lt;/script&gt;
-&lt;/p&gt;
-</code></pre>
-<p></p><p data-height="265" data-theme-id="0" data-slug-hash="dWMZdK" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Random poems 2" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/dWMZdK/" target="_blank">Random poems 2</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-<h2 id="&#xE0;-vous-de-jouer-">&#xC0; vous de jouer !</h2>
-<p>Bonus <a href="http://revolver-on-mintcream.com/" target="_blank">http://revolver-on-mintcream.com/</a></p>
-<h1 id="">#</h1>
-
                                 
                                 </section>
                             
@@ -620,12 +529,12 @@ Pour avoir plusieurs g&#xE9;n&#xE9;rateurs sur la m&#xEA;me page, il nous suffir
 
             
                 
-                <a href="../html/intro.html" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="../html/concepts.html" class="navigation navigation-prev " aria-label="Previous page: Concepts essentiels">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../culture-digitale/le-web-et-son-historire.html" class="navigation navigation-next " aria-label="Next page: Le web et son histoire">
+                <a href="grille.html" class="navigation navigation-next " aria-label="Next page: La grille">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -636,7 +545,7 @@ Pour avoir plusieurs g&#xE9;n&#xE9;rateurs sur la m&#xEA;me page, il nous suffir
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Animations","level":"3.1","depth":1,"next":{"title":"Le web et son histoire","level":"6.1","depth":1,"path":"culture-digitale/le-web-et-son-historire.md","ref":"culture-digitale/le-web-et-son-historire.md","articles":[]},"previous":{"title":"Introduction","level":"2.1","depth":1,"path":"html/intro.md","ref":"html/intro.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/animations.md","mtime":"2018-01-06T17:34:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-06T18:11:16.254Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Animations","level":"3.1","depth":1,"next":{"title":"La grille","level":"3.2","depth":1,"path":"css/grille.md","ref":"css/grille.md","articles":[]},"previous":{"title":"Concepts essentiels","level":"2.2","depth":1,"path":"html/concepts.md","ref":"html/concepts.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/animations.md","mtime":"2018-01-06T18:46:18.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-06T21:32:56.206Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../css/animations.html" />
+    <link rel="next" href="concepts.html" />
     
     
     <link rel="prev" href="../mise_en_ligne.html" />
@@ -163,6 +163,19 @@
             
         </li>
     
+        <li class="chapter " data-level="2.2" data-path="concepts.html">
+            
+                <a href="concepts.html">
+            
+                    
+                    Concepts essentiels
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
@@ -183,12 +196,38 @@
             
         </li>
     
+        <li class="chapter " data-level="3.2" data-path="../css/grille.html">
+            
+                <a href="../css/grille.html">
+            
+                    
+                    La grille
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
         <li class="header">JAVASCRIPT</li>
         
         
+    
+        <li class="chapter " data-level="4.1" data-path="../javascript.html">
+            
+                <a href="../javascript.html">
+            
+                    
+                    Comment hacker du js?
+            
+                </a>
+            
+
+            
+        </li>
     
 
     
@@ -292,67 +331,71 @@
 <p><img src="https://31.media.tumblr.com/4cb7911e3b942a76a06f1d12864cf54e/tumblr_myjmgq3DyP1ry46hlo1_r1_400.gif" alt=""></p>
 <!-- toc -->
 <ul>
-<li><a href="#definiton">D&#xE9;finiton</a><ul>
-<li><a href="#quest-ce-que-quune-balise-">Qu&#x2019;est-ce que qu&#x2019;une balise ?</a></li>
-</ul>
-</li>
-<li><a href="#concepts-essentiels">Concepts essentiels</a><ul>
-<li><a href="#balises-%C2%ABblock%C2%BB-vs-%C2%ABinline%C2%BB">Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</a></li>
-<li><a href="#les-adresses-%C2%ABabsolues%C2%BB-vs-%C2%ABrelatives%C2%BB-vs-%C2%ABancres%C2%BB">Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</a></li>
-<li><a href="#lhtml-semantique">L&#x2019;html s&#xE9;mantique</a></li>
-<li><a href="#pourquoi-ma-page-daccueil-doit-elle-sappeller-%C2%ABindexhtml%C2%BB-">Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</a></li>
-</ul>
-</li>
+<li><a href="#definiton">D&#xE9;finiton</a></li>
+<li><a href="#de-quoi-a-t-on-besoin-pour-coder-de-html">De quoi a-t-on besoin pour coder de html?</a></li>
+<li><a href="#a-quoi-ca-ressemble">A quoi &#xE7;a ressemble?</a></li>
+<li><a href="#les-balises">Les balises</a></li>
+<li><a href="#premier-squelette-de-page">Premier squelette de page</a></li>
 </ul>
 <!-- tocstop -->
 <h1 id="d&#xE9;finiton">D&#xE9;finiton</h1>
-<p>Un browser = traducteur
-Montrer une page web et son code. Ca fait peur mais en fait c&#x2019;est tr&#xE8;s simple. Bient&#xF4;t vous serez tous parfait bilingue HTML/Fran&#xE7;ais Fran&#xE7;ais/HTML.</p>
+<p>HTML signifie &#xAB; HyperText Markup Language &#xBB; qu&apos;on peut traduire par &#xAB; langage de balises pour l&apos;hypertexte &#xBB;. Il est utilis&#xE9; afin de cr&#xE9;er et de repr&#xE9;senter le contenu d&apos;une page web. D&apos;autres technologies sont utilis&#xE9;es avec HTML pour d&#xE9;crire la pr&#xE9;sentation d&apos;une page (CSS) et/ou ses fonctionnalit&#xE9;s interactives (JavaScript).<sup><a href="#fn_2" id="reffn_2">2</a></sup></p>
+<h1 id="de-quoi-a-t-on-besoin-pour-coder-de-html">De quoi a-t-on besoin pour coder de html?</h1>
+<ul>
+<li>Un navigateur (pour visualiser)</li>
+<li>Un editeur de texte (VsCode, Atom, Sublime Text, TextEdit,&#x2026;)</li>
+<li>Votre gestionnaire de fichiers (le finder sur Mac)</li>
+</ul>
+<h1 id="a-quoi-&#xE7;a-ressemble">A quoi &#xE7;a ressemble?</h1>
+<p>D&#xE9;marrez votre navigateur et visiter n&#x2019;importe quelle page web.</p>
+<p><img src="../assets/images/html/html-inspect.png" alt=""></p>
+<p>Ca fait peur mais en fait c&#x2019;est tr&#xE8;s simple. Bient&#xF4;t vous serez tous parfait bilingue HTML/Fran&#xE7;ais Fran&#xE7;ais/HTML.</p>
+<blockquote>
+<p>Un navigateur est un traducteur</p>
 <p>Le webdesign en 4 minutes - <a href="http://jgthms.com/web-design-in-4-minutes/#share" target="_blank">http://jgthms.com/web-design-in-4-minutes/#share</a></p>
-<h2 id="quest-ce-que-quune-balise-">Qu&#x2019;est-ce que qu&#x2019;une balise ?</h2>
-<p>Le texte s&#x2019;affiche en ligne =&gt; il faut des balises pour structurer la page.</p>
+</blockquote>
+<h1 id="les-balises">Les balises</h1>
+<p>En HTML une balise est utilis&#xE9;e pour cr&#xE9;er un element.</p>
+<p><img src="../assets/images/html/anatomy-of-an-html-element.png" alt="https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png"></p>
+<p>Le nom d&#x2019;un &#xE9;l&#xE9;ment HTML est le nom utilis&#xE9; dans des chevrons comme par exemple</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<p>pour un paragraphe. Notez que le nom de la balise fermante est pr&#xE9;c&#xE9;d&#xE9; par un caract&#xE8;re barre oblique. <sup><a href="#fn_3" id="reffn_3">3</a></sup></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<p>Ne pas inclure une balise de fermeture est une erreur fr&#xE9;quente chez les d&#xE9;butants, et peut conduire &#xE0; des r&#xE9;sultats &#xE9;tranges.</p>
 <blockquote>
 <p><strong>Pour vous aider:</strong></p>
 <ul>
-<li>balise = boite / contenu. Poup&#xE9;e russe (2 partie sauf certaine)</li>
+<li>balise = boite / contenu. Poup&#xE9;e russe (2 parties sauf certaines)</li>
 <li>html = les murs de la maison</li>
 <li>head = grenier (ce quon ne voit pas)</li>
-<li>body = living</li>
+<li>body = le salon</li>
 </ul>
 </blockquote>
-<p>Example :</p>
-<p data-height="265" data-theme-id="0" data-slug-hash="jYwdbp" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Hello world" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/jYwdbp/" target="_blank">Hello world</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
-
-<p>Premier squelette de page :</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-  &lt;title&gt;Ma page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<h1 id="premier-squelette-de-page">Premier squelette de page</h1>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Ma page<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   Hello world
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><p><a href="http://jsbin.com/?html,output" target="_blank">http://jsbin.com/?html,output</a></p>
-<h1 id="concepts-essentiels">Concepts essentiels</h1>
-<h2 id="balises-&#xAB;block&#xBB;-vs-&#xAB;inline&#xBB;">Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</h2>
-<h2 id="les-adresses-&#xAB;absolues&#xBB;-vs-&#xAB;relatives&#xBB;-vs-&#xAB;ancres&#xBB;">Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</h2>
-<h2 id="lhtml-s&#xE9;mantique">L&#x2019;html s&#xE9;mantique</h2>
-<h2 id="pourquoi-ma-page-daccueil-doit-elle-sappeller-&#xAB;indexhtml&#xBB;-">Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</h2>
-<p>Ascii art en jouant avec des caract&#xE8;res:</p>
-<pre><code>&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;
-&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;
-&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;
-&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;  &#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2554;&#x255D;
-&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;
-&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;
-</code></pre><p><sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p><a href="http://jsbin.com/?html,output" target="_blank">http://jsbin.com/?html,output</a></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
-<p><sup><a href="#fn_1" id="reffn_1">1</a></sup> Ascii art generator <a href="http://patorjk.com/software/taag/#p=testall&amp;f=Isometric1&amp;t=Type%20Something%20" target="_blank">http://patorjk.com/software/taag/#p=testall&amp;f=Isometric1&amp;t=Type%20Something%20</a></p>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://developer.mozilla.org/fr/docs/Glossaire/balise" target="_blank">https://developer.mozilla.org/fr/docs/Glossaire/balise</a>)<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">https://developer.mozilla.org/fr/docs/Web/HTML</a>)<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
 
                                 
                                 </section>
@@ -385,7 +428,7 @@ Montrer une page web et son code. Ca fait peur mais en fait c&#x2019;est tr&#xE8
                 </a>
                 
                 
-                <a href="../css/animations.html" class="navigation navigation-next " aria-label="Next page: Animations">
+                <a href="concepts.html" class="navigation navigation-next " aria-label="Next page: Concepts essentiels">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -396,7 +439,7 @@ Montrer une page web et son code. Ca fait peur mais en fait c&#x2019;est tr&#xE8
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"2.1","depth":1,"next":{"title":"Animations","level":"3.1","depth":1,"path":"css/animations.md","ref":"css/animations.md","articles":[]},"previous":{"title":"Mise en ligne","level":"1.4","depth":1,"path":"mise_en_ligne.md","ref":"mise_en_ligne.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/intro.md","mtime":"2018-01-06T17:34:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-06T18:11:16.254Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"2.1","depth":1,"next":{"title":"Concepts essentiels","level":"2.2","depth":1,"path":"html/concepts.md","ref":"html/concepts.md","articles":[]},"previous":{"title":"Mise en ligne","level":"1.4","depth":1,"path":"mise_en_ligne.md","ref":"mise_en_ligne.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/intro.md","mtime":"2018-01-06T21:12:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-06T21:32:56.206Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
