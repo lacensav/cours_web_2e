@@ -2,11 +2,11 @@
 
 <!-- toc -->
 
-## Différence entre le Web et Internet ?
+# Différence entre le Web et Internet ?
 
 La plupart du temps, on parle de « net » en disant « j’ai trouvé ça sur le net ». Le mot « Net » entretient cette confusion entre World Wide Web et Internet.
 
-## L’internet, une infrastructure
+# L’internet, une infrastructure
 
 [https://atlas.developmentseed.org/communications/](https://atlas.developmentseed.org/communications/)
 
@@ -20,7 +20,7 @@ Le terme a été officialisé le 1er janvier 1983, 8 ans avant que n’existe le
 
 https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet
 
-## Le World Wide Web
+# Le World Wide Web
 
 La « toile mondiale » si on fait une traduction sauvage, désigne un des services accessible via le réseau Internet, possible grâce à un protocole particulier, le http.
 

@@ -10,6 +10,7 @@
 ## HTML
 
 * [Introduction](html/intro.md)
+* [Concepts essentiels](html/concepts.md)
 
 ## CSS
 

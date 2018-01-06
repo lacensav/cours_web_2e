@@ -6,29 +6,56 @@
 
 # Définiton
 
-Un browser = traducteur
-Montrer une page web et son code. Ca fait peur mais en fait c’est très simple. Bientôt vous serez tous parfait bilingue HTML/Français Français/HTML.
+HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).[^2]
 
-Le webdesign en 4 minutes - http://jgthms.com/web-design-in-4-minutes/#share
+# De quoi a-t-on besoin pour coder de html?
 
-## Qu’est-ce que qu’une balise ?
+* Un navigateur (pour visualiser)
+* Un editeur de texte (VsCode, Atom, Sublime Text, TextEdit,…)
+* Votre gestionnaire de fichiers (le finder sur Mac)
 
-Le texte s’affiche en ligne => il faut des balises pour structurer la page.
+# A quoi ça ressemble?
+
+Démarrez votre navigateur et visiter n’importe quelle page web.
+
+![](../assets/images/html/html-inspect.png)
+
+Ca fait peur mais en fait c’est très simple. Bientôt vous serez tous parfait bilingue HTML/Français Français/HTML.
+
+> Un navigateur est un traducteur
+
+> Le webdesign en 4 minutes - http://jgthms.com/web-design-in-4-minutes/#share
+
+# Les balises
+
+En HTML une balise est utilisée pour créer un element.
+
+![https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png](../assets/images/html/anatomy-of-an-html-element.png)
+
+Le nom d’un élément HTML est le nom utilisé dans des chevrons comme par exemple
+
+```html
+<p>
+```
+
+pour un paragraphe. Notez que le nom de la balise fermante est précédé par un caractère barre oblique. [^3]
+
+```html
+</p>
+```
+
+Ne pas inclure une balise de fermeture est une erreur fréquente chez les débutants, et peut conduire à des résultats étranges.
 
 > **Pour vous aider:**
 >
-> * balise = boite / contenu. Poupée russe (2 partie sauf certaine)
+> * balise = boite / contenu. Poupée russe (2 parties sauf certaines)
 > * html = les murs de la maison
 > * head = grenier (ce quon ne voit pas)
-> * body = living
+> * body = le salon
 
-Example :
+# Premier squelette de page
 
-<p data-height="265" data-theme-id="0" data-slug-hash="jYwdbp" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Hello world" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/jYwdbp/">Hello world</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-
-Premier squelette de page :
-
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,31 +71,9 @@ Premier squelette de page :
 
 http://jsbin.com/?html,output
 
-# Concepts essentiels
-
-## Balises «block» vs «inline»
-
-## Les adresses «absolues» vs «relatives» vs «ancres»
-
-## L’html sémantique
-
-## Pourquoi ma page d’accueil doit-elle s’appeller «index.html» ?
-
-Ascii art en jouant avec des caractères:
-
-```
-███████╗███╗   ██╗███████╗ █████╗ ██╗   ██╗
-██╔════╝████╗  ██║██╔════╝██╔══██╗██║   ██║
-█████╗  ██╔██╗ ██║███████╗███████║██║   ██║
-██╔══╝  ██║╚██╗██║╚════██║██╔══██║╚██╗ ██╔╝
-███████╗██║ ╚████║███████║██║  ██║ ╚████╔╝
-╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝  ╚═══╝  
-```
-
-[^1]
-
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
-[^1] Ascii art generator http://patorjk.com/software/taag/#p=testall&f=Isometric1&t=Type%20Something%20
+[^3]: https://developer.mozilla.org/fr/docs/Glossaire/balise)
+[^2]: https://developer.mozilla.org/fr/docs/Web/HTML)
