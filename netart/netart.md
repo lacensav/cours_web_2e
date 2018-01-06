@@ -1,10 +1,10 @@
-# Net.art
+# Net.art / Digital art
 
 <!-- toc -->
 
-# Definition
+# Net.art
 
-# Artistes vu au cours
+Definition du net.art
 
 ## Jodi
 
@@ -55,7 +55,21 @@ I hope you enjoyed my first FAQ
 
 – Dina Kelberman
 
+# Digital art
+
 ## Mario Klingemann
 
 Ai art, neural quasimodo
 http://mario-klingemann.tumblr.com/
+
+![](../assets/images/netart/mario-klingemann-doll-factory.gif)
+
+## Kyle McDonald
+
+Site: http://kylemcdonald.net/
+
+Shu Lea Cheang's I.K.U. in the style of Picasso's "Girl with Mandolin". Excerpt begins at 39:42, the scene with all the inflatable dolls. More on I.K.U.: imdb.com/title/tt0255233/
+
+https://vimeo.com/138217571
+
+![https://vimeo.com/138217571](../assets/images/netart/kyle-mcdonald-picasso-porn.gif)
