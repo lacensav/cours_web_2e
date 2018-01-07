@@ -55,6 +55,12 @@ I hope you enjoyed my first FAQ
 
 – Dina Kelberman
 
+## Donald Hanson
+
+I created an net art piece that moves to a new URL whenever someone views it. It is not possible to link to the art piece. Over time the art piece will become very hard to view. This is an experiment in introducing artificial scarcity into digital work.
+
+https://t.co/L3FZ2lJDKE
+
 # Digital art
 
 ## Mario Klingemann
