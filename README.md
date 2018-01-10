@@ -27,14 +27,17 @@ ensav@rorsvort.com
 
 ## Editeurs de textes
 
+* [Virtual Studio Code](https://code.visualstudio.com/)
 * [Sublime Text 2](https://www.sublimetext.com/)
 * [Atom](https://atom.io/)
 * [Code](https://code.visualstudio.com/)
 
 ## Hébergeurs
 
-* [BitBallon](https://www.bitballoon.com) #statique #drag_and_drop
+* [BitBalloon](https://www.bitballoon.com) #statique #drag_and_drop
 * [Get Forge](https://getforge.com) #statique #drag_and_drop
+* [Amazon s3](http://www.smalldatajournalism.com/projects/one-offs/using-amazon-s3/)
+* [Neocities](https://neocities.org/) # Hébergement basique + editeur
 * [Hostinger (pour le wordpress)](http://www.hostinger.fr/commander) #ftp
 
 ## Logiciels ftp
