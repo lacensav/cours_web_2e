@@ -7,10 +7,23 @@
 * [Exercices](exercices.md)
 * [Mise en ligne](mise_en_ligne.md)
 
+## CULTURE DIGITALE
+
+* [Le web et son histoire](culture-digitale/le-web-et-son-historire.md)
+* [Procédés de création](outils/procedes-de-creation.md)
+* [Contre culture digitale](culture-digitale/contre-culture-digitale.md)
+* [Art et mémoire](culture-digitale/art-et-memoire.md)
+
+## Artistes
+
+* [Net.art](art/netart.md)
+* [Map.art](art/mapart.md)
+
 ## HTML
 
 * [Introduction](html/intro.md)
 * [Concepts essentiels](html/concepts.md)
+* [How-to](html/how-to.md)
 
 ## CSS
 
@@ -24,10 +37,3 @@
 ## WORDPRESS
 
 * [Introduction](wordpress.md)
-
-## CULTURE DIGITALE
-
-* [Le web et son histoire](culture-digitale/le-web-et-son-historire.md)
-* [Procédés de création](outils/procedes-de-creation.md)
-* [Net.art](netart/netart.md)
-* [Contre culture digitale](culture-digitale/contre-culture-digitale.md)

@@ -1,6 +1,8 @@
 # Comment mettre son code en ligne
 
-# Histoire de l’hébergement et son évolution du gratuit au payant
+<!-- toc -->
+
+## Histoire de l’hébergement et son évolution du gratuit au payant
 
 > Vocabulaire (hébergement, hosting)
 
@@ -34,25 +36,25 @@ En 2004, en France, le député Jean Dionis a présenté une loi qui impose aux 
 Attention Faire rapport avec états unis ou netflix paye pour un plus haut débis (ref: taxe emission carbone rachetée par eu aux autre pays)
 Histoire de altern.org et de Valentin Lacambre (une figure héroïque).
 
-# La réservation d’un hébergement
+## La réservation d’un hébergement
 
-Bien prendre note de la procédure ou d'aller voir sur les slides
+Bien prendre note de la procédure ou d'aller voir sur les slides: https://goo.gl/s3c6wr
 
 * Ouvrir File zilla
-* Reserver hebergement
+* Reserver hebergement ()
 * recupérer info de connexion dans son mail
 * Connecter Filezilla
 
 ---
 
 Sur folder local, faire faire un dossier
-Faire un fichier index.html, Expliquer la raison pour index html. Expliquer la relation entre dossier / url.
+Faire un fichier index.html,
+Expliquer la raison pour index html.
+Expliquer la relation entre dossier / url.
 Faire un dossier exo1
 Copier leur exercice dans un fichier index. Le déplacer dans le dossier exo1
-
 Le faire taper l'url dans le navigateur
 Expliquer maintenant quon va vouloir faire un lien entre les deux pages
-
 Lien relatif et absolu (Metaphore de la poste)
 
 # Html et format d'image

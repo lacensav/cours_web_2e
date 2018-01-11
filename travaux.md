@@ -4,7 +4,9 @@
 
 ## Travail 1 (Proposition)
 
-Récréer une page html structurée selon un modèle papier (Par exemple https://lacensav.github.io/cours_web_2e/2B/default-template/index.html mais sans le css).
+Récréer une page html structurée selon un modèle
+
+(Par exemple https://lacensav.github.io/cours_web_2e/2B/default-template/index.html).
 
 * Reprendre un maximum d’éléments html possible.
 * Inclure une feuille de style déjà préparée.
