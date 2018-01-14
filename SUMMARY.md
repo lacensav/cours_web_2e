@@ -24,6 +24,7 @@
 * [Introduction](html/intro.md)
 * [Concepts essentiels](html/concepts.md)
 * [How-to](html/how-to.md)
+* [Usabilité](html/usabilite.md)
 
 ## CSS
 
