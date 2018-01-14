@@ -47,13 +47,13 @@ Juste pour référence comme vous l’avez sans doute déjà aborder dans d’au
 ![olia summer](../assets/images/netart/olia03.gif)
 
 Un gif animé découpé et séquencé sur plusieurs nom de domaine.
-C'est un bel example de décentralisation.
+C'est un bel exemple de décentralisation.
 
 http://www.evan-roth.com/olia/summer/
 
 Elle se balance entre différents sites dont elle fait elle même partie.
 Si le web avait été décentralisé depuis le début, et qu'un des sites aurait disparu, nous aurions quand même pu accéder au même gif.
-Cette œuvre est une tentative cassée de décentralisé le contenu d’une œuvres. Mais elle est défaillantes, car comme chaque site redirige vers un autre, il suffit qu’un des sites disparessent pour casser la chaine.
+Cette œuvre est une tentative cassée de décentralisé le contenu d’une œuvres. Mais elle est défaillante, car comme chaque site redirige vers un autre, il suffit qu’un des sites disparaissent pour casser la chaîne.
 
 ## Alexei Shulgin's Form Art
 

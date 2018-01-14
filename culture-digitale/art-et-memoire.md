@@ -54,7 +54,7 @@ C'est dans les intersections créées lors du choc des expériences que la chimi
 
 > Le web s’envole et les écris restent
 
-Le web est ephemère mais rare sont les personnes qui s’en rendent compte.
+Le web est éphémère mais rare sont les personnes qui s’en rendent compte.
 Malgré que cela faisait partie des idées des créateurs du web, le web n’a pas de backup, pas de version, et le les sites changent ou disparaissent.
 En fait la réalité est que chacun est responsable de faire son historique du web.
 Il y a donc toute une série de savoir qui disparaissent avec le temps et qui sont perdus à jamais.
@@ -62,12 +62,12 @@ Heureusement qu’il nous reste les livres et [The Web archives](https://archive
 
 [The Web archives](https://archive.org/web/?&ui3=1) nous permet de, par exemple, voir comment le site d’Apple était en 1997 - [https://web.archive.org/web/19970715124703/http://www.apple.com/a](https://web.archive.org/web/19970715124703/http://www.apple.com/a)
 
-Ou de revoir des fameux virus DOS rendus maintenant innoffensif au [Malware museum](https://archive.org/details/malwaremuseum)
+Ou de revoir des fameux virus DOS rendus maintenant inoffensif au [Malware museum](https://archive.org/details/malwaremuseum)
 
 Ce côté éphémère à des implications non négligeable en ce sens qu’elle change notre rapport la Vérité et à la responsabilité des paroles.
-Quand quelqu’un écrivait un livre, il devait bien assumé ce qu’il y avait écris.
+Quand quelqu’un écrit un livre, il doit bien assumer ce qu’il écrit, à moins de brûler tous les exemplaires du livre.
 
-Pour le web c’est plus compliqué, on peut parfois vite aller effacer et changer du contenus comme si de rien n’étais.
+Pour le web c’est plus compliqué, on peut parfois vite aller effacer et changer du contenus comme si de rien n’était.
 
 On pourrait presque dire que l’internet n’a de mémoire que la somme des traces que ses utilisateurs en ont gardé. La mémoire du web serait-elle une œuvre d’art?
 
