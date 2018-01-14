@@ -4,30 +4,67 @@
 
 # Net.art
 
-Definition du net.art
+![Teo_Spiller_net.art.trade_(net.art).jpg](../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg)
+
+En Europe, et plus particulière en Europe de l’est, une scène se développe au milieu des années 90 qui se revendique du mouvement net.art. Les artistes s'approprient le web en l’utilisant de manière modeste dans la forme (sorte d’«Arte Povera» des arts numériques) mais s’impliquant fortement dans l’aspect culturel et politique de ce nouveau réseau.
+
+[http://en.wikipedia.org/wiki/Net.art](http://en.wikipedia.org/wiki/Net.art)
+
+Aujourd’hui on utilise ce terme pour désigner plus largement «L’art en ligne» ou «L’art en réseau».
 
 ## Jodi
+
+Jodi ou jodi.org est un collectif d'artistes de deux net-artistes : la néerlandaise Joan Heemskerk (née en 1968) et le belge Dirk Paesmans (né en 1965). Ils vivent et travaillent à Dordrecht aux Pays-Bas et sont des figures emblématiques de l’art en ligne.
+
+Leur travail se porte globalement sur la monstration des problèmes techniques des outils digitaux les plus courants (Stockage, interface, OS,…).
+
+Ils exploitent les failles pour les rendres consultables après que leur créateurs les ait réparées.
+
+http://en.wikipedia.org/wiki/Jodi_%28art_collective%29
+
+http://wwwwwwwww.jodi.org/
+
+http://arts-numeriques.codedrops.net/20location-jodi-1995
 
 ## Heat Bunting
 
 Voir un des premiers net artiste. Il utilise en 1994 ces bases: Heat Bunting, CV et projets, my first web page, Phone In (@king X)
 
-Heath Bunting est un artiste contemporain anglais né en 1966. Basé à Bristol, il est le fondateur du site irational.org et l’un des fondateurs au début des années 90 du mouvement Net.art. Activiste, il crée un faux site du CERN (pose deja la question de l’identité) ou encore maintient une carte des radios pirates (internet comme outils subversif) de Londres. Ses derniers travaux s’éloignent du réseau pour prendre des formes plus urbaines : dérive en skateboard, cartographie ... (expérience des limites)
+Heath Bunting est un artiste contemporain anglais né en 1966. Basé à Bristol, il est le fondateur du site irational.org et l’un des fondateurs au début des années 90 du mouvement Net.art. Activiste, il crée un **faux site du CERN (pose deja la question de l’identité)** ou encore maintient **une carte des radios pirates (internet comme outils subversif) de Londres**. Ses derniers travaux s’éloignent du réseau pour prendre des formes plus urbaines : dérive en skateboard, cartographie ... (expérience des limites)
 
 http://www.irational.org/cta/
 
 Bio/ cv: http://irational.org/cgi-bin/cv2/temp.pl
+
 Irrational.org: http://www.kuda.org/en/wonderful-world-irationalorg-tools-techniques-and-events-1996-2006-novi-sad
 
-Marcher de L'art sur internet
-http://www.artfacts.net/index.php?lang=1&living=1&pageType=ranking&paragraph=4
+## The Yes Men
+
+Juste pour référence comme vous l’avez sans doute déjà aborder dans d’autre cours.
 
 ## Olia Lialina: Summer
+
+![olia summer](../assets/images/netart/olia03.gif)
 
 Un gif animé découpé et séquencé sur plusieurs nom de domaine.
 C'est un bel example de décentralisation.
 
 http://www.evan-roth.com/olia/summer/
+
+Elle se balance entre différents sites dont elle fait elle même partie.
+Si le web avait été décentralisé depuis le début, et qu'un des sites aurait disparu, nous aurions quand même pu accéder au même gif.
+Cette œuvre est une tentative cassée de décentralisé le contenu d’une œuvres. Mais elle est défaillantes, car comme chaque site redirige vers un autre, il suffit qu’un des sites disparessent pour casser la chaine.
+
+## Alexei Shulgin's Form Art
+
+![](../assets/images/netart/alexei-shulgin-s-form-art.jpg)
+
+_1997 Alexei Shulgin's Form Art - Artsy.net_
+
+Cette œuvre est un labyrinthe crée avec des formulaire web.
+C'est une défonctionalisation claire d’un des composant majeur du web, leurs contenu étant envoyé dans le néant.
+
+https://www.artsy.net/artwork/alexei-shulgin-form-art
 
 ## Mendi Lewis Obadike
 
