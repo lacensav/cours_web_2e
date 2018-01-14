@@ -16,7 +16,7 @@ Rapport au livre.
 Tel était en tout cas le pari audacieux que l’humaniste Giulio Camillo (1480-1544),
 considéré comme l’un des personnages les plus célèbres de son temps, tenta de tenir en bâtissant son «théâtre de la mémoire ».
 
-Comme décrit dans «L’art de la mémoire» [^1], la mémoire artificielle se construit en créant à partir de choses dont on veut souvenir, des images mémorables (absurde, sex, symboles).
+Comme décrit dans «L’art de la mémoire» [^3], la mémoire artificielle se construit en créant à partir de choses dont on veut souvenir, des images mémorables (absurde, sex, symboles).
 
 Ce processus ressemble fort à ce que l’on connait dans la création artistique.
 
@@ -73,6 +73,6 @@ On pourrait presque dire que l’internet n’a de mémoire que la somme des tra
 
 ---
 
-[^1]: L’art de la mémoire, Frances A. Yates, Gallimard 1987
-[^2]: [La Trinité Intérieure : mémoire, intelligence et volonté chez Augustin](https://fr.wikipedia.org/wiki/Augustin_d%27Hippone)
-[^3]: https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3
+[^1]: [La Trinité Intérieure : mémoire, intelligence et volonté chez Augustin](https://fr.wikipedia.org/wiki/Augustin_d%27Hippone)
+[^2]: https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3
+[^3]: L’art de la mémoire, Frances A. Yates, Gallimard 1987
