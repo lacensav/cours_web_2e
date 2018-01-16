@@ -2,39 +2,49 @@
 
 <!-- toc -->
 
-## Histoire de l’hébergement et son évolution du gratuit au payant
-
-> Vocabulaire (hébergement, hosting)
-
 ## IP et DNS
 
-Lorsqu'un visiteur demande une page à son navigateur Web, celui-ci interroge des serveurs DNS pour connaître l'adresse IP du serveur hébergeant ce site. Dès qu'il obtient la réponse, le navigateur va interroger ce serveur et lui demander cette page. Le serveur web va alors chercher la page sur son ou ses disques durs (s'il s'agit d'une page statique), ou la fabriquer à l'aide d'un script (s'il s'agit d'une page dynamique), puis l'envoyer au navigateur, qui l'affiche sur l'écran du visiteur.
-Il peut être important de localiser l'endroit où l'hébergeur a ses serveurs. La plupart des moteurs de recherches se basent aussi sur la localisation des serveurs afin d'effectuer le référencement d'un site Web.
+Lorsque un visiteur demande une page à son navigateur Web, celui-ci interroge des serveurs DNS pour connaître l’adresse IP du serveur hébergeant ce site.
 
-## Faire trace route
+Dès qu’il obtient la réponse, le navigateur va interroger ce serveur et lui demander cette page.
 
-Montrer difference avec Tor et vpn:
+Le serveur web va alors chercher la page sur son ou ses disques durs (s’il s’agit d'une page statique), ou la fabriquer à l’aide d'un script (s’il s’agit d'une page dynamique), puis l’envoyer au navigateur, qui l’affiche sur l’écran du visiteur.
+
+Il peut être important de localiser l’endroit où l’hébergeur a ses serveurs. La plupart des moteurs de recherches se basent aussi sur la localisation des serveurs afin d'effectuer le référencement d'un site Web.
+
+## Quelle est mon IP?
+
 http://whatismyipaddress.com/
-http://cl.ly/image/0W051l2U3t3C
 
-## Type d'hébergement:
+Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’endroit d’où l’on fait notre connexion vers le web.
 
-![enter image description here](assets/images/deploy_strategies.jpg)
+![](../assets/images/html/ip-compare.png)
+
+## Les types d'hébergements
+
+![](assets/images/deploy_strategies.jpg)
 
 * Les hébergements partagés ou mutualisés
 * Les hébergements dédiés
-* L'hébergement virtuel dédié
+* L’hébergement virtuel dédié
 * Les hébergements dédiés dits « managés », avec « serveur dédié infogéré » ou « clés en main »
 * La colocation
 
 La plupart des hébergeurs sont payants.
 Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations gratuites sont souvent des offres d'appel pour les prestations payantes, plus riches en fonctionnalités et plus performantes.
 
-Lois de responsabilités des hébergeurs pour les données qu'ils hébergent:
-En 2004, en France, le député Jean Dionis a présenté une loi qui impose aux hébergeurs de se doter de moyens capable de bloquer les sites comportant des contenus à caractère raciste ou pédo-pornographique. Ce mouvement législatif avait déjà été entamé par l'affaire Altern.org. Si les hébergeurs ne sont plus en mesure de filtrer les informations qu'ils hébergent, ils ont néanmoins une obligation de prompte intervention concernant tous signalement de contenu illicite et autre.
+**La plupart des hébergeurs filtre le trafic et savent littéralement tout ce que vous avez consulté à moins d’utiliser Tor ou un VPN.**
 
-Attention Faire rapport avec états unis ou netflix paye pour un plus haut débis (ref: taxe emission carbone rachetée par eu aux autre pays)
-Histoire de altern.org et de Valentin Lacambre (une figure héroïque).
+Au US, netflix paye pour avoir un plus haut débit de la part des fournisseurs d’accès (ref: taxe émission carbone rachetée par eu aux autre pays).
+
+Aussi votre liberté d’expression n’est pas complète car les FAI peuvent, sur ordre de tribunal, faire tomber un site sous peine d’astreintes.
+
+Nous nous souviendrons du jugement d’Altern.org (Fondateur de [Gandi](https://www.gandi.net), un des 1er hébergeur français).
+Estelle Halliday fit un procès à AlternB parce qu’il hébergeait un site portant atteinte à sa personne.
+
+C’est la première fois qu’un fournisseur d’hébergement est supposé créer un préjudice direct alors qu’il se contente de fournir un espace d’expression.
+
+[En savoir plus](http://altern.org/alternb/defense/faq.html)
 
 ## La réservation d’un hébergement
 
@@ -53,7 +63,7 @@ Expliquer la raison pour index html.
 Expliquer la relation entre dossier / url.
 Faire un dossier exo1
 Copier leur exercice dans un fichier index. Le déplacer dans le dossier exo1
-Le faire taper l'url dans le navigateur
+Le faire taper l’url dans le navigateur
 Expliquer maintenant quon va vouloir faire un lien entre les deux pages
 Lien relatif et absolu (Metaphore de la poste)
 
