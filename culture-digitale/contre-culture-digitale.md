@@ -16,6 +16,9 @@ Cette dimension ressemble fort à ce qui est en jeux également en art où l’o
 
 C’est un combat incessant entre les artistes pour connaître ceux qui seront retenu de l’histoire.
 
+Il y a tellement de données en sciences qu’il devient difficile d’en faire de nouvelles histoires.
+Peut-être est-ce un des rôles de l’art.
+
 Dans les années 60, personne ne parlait encore de cybernétique mais tout le monde lisait McLuhan.
 
 ## Le darknet
