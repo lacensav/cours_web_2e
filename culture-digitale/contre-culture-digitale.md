@@ -29,7 +29,9 @@ Grace à Tor!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mnrn3y-Qbyk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Telecomix
+## Hacking
+
+### Telecomix
 
 C’est un groupe décentralisé d'activistes du net, engagés en faveur de la liberté d'expression. Le nom Telecomix désigne à la fois WeRebuild et Telecomix.
 
@@ -38,6 +40,12 @@ WeRebuild est un projet collaboratif utilisé afin de proposer et de discuter de
 Le 15 septembre 2011, Telecomix a détourné toutes les connexions au web syrien, et a redirigé les internautes vers une page qui contenait des instructions permettant de contourner la censure.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GPPCFLG2cIg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+_Telecomix et le printemps arabe_
+
+## L’internet des objets
+
+Google pour l’IDO : https://www.shodan.io/
 
 ## La quadrature du net
 

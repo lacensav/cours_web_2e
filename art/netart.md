@@ -100,6 +100,26 @@ https://t.co/L3FZ2lJDKE
 
 # Digital art
 
+## Jamie Zawinski
+
+Hacker culture site - https://www.jwz.org/
+
+## Jonathan Puckey
+
+![](../assets/images/netart/jonathan-puckey-pointer-pointer.jpg)
+
+http://pointerpointer.com/
+
+Ou plus sérieusement:
+
+_[Using internet as design tools](https://puckey.studio/projects/van-abbemuseum)_
+
+Ou encore
+
+![](../assets/images/netart/jonathan-puckey-anti-selfie-club.jpg)
+
+_[Anti selfie club](https://puckey.studio/projects/anti-selfie-club)_
+
 ## Mario Klingemann
 
 Ai art, neural quasimodo
