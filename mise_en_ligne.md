@@ -18,7 +18,7 @@ http://whatismyipaddress.com/
 
 Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’endroit d’où l’on fait notre connexion vers le web.
 
-![](../assets/images/html/ip-compare.png)
+![](assets/images/html/ip-compare.png)
 
 ## Les types d'hébergements
 
