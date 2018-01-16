@@ -2,6 +2,22 @@
 
 <!-- toc -->
 
+## L’art et la Cybernétique
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FS6rSNkjViM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Le monde de l’art et celui des ingénieurs informatique ont utilisés des concepts apparement semblable.
+Existe-t-il un modèle commun, secret?
+
+Une dimension importante de la science se trouve dans l’intérềt de l’histoire à se souvenir de celui qui a inventer quelque chose.
+L’histoire n’est qu’une fraction de ce que l’on a bien voulu retenir.
+
+Cette dimension ressemble fort à ce qui est en jeux également en art où l’on s’atèle à produire des images/histoire mémorable.
+
+C’est un combat incessant entre les artistes pour connaître ceux qui seront retenu de l’histoire.
+
+Dans les années 60, personne ne parlait encore de cybernétique mais tout le monde lisait McLuhan.
+
 ## Le darknet
 
 ### Comment s’y rend-on? À quoi cela sert-il?
