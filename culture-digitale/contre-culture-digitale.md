@@ -29,9 +29,13 @@ Grace à Tor!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mnrn3y-Qbyk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Hacking
+![](../assets/images/culture/dayli-tor-users-per-internet-users.png)
 
-### Telecomix
+_source: [http://geography.oii.ox.ac.uk/?page=tor](http://geography.oii.ox.ac.uk/?page=tor)_
+
+https://en.wikipedia.org/wiki/Hacktivism
+
+## Telecomix
 
 C’est un groupe décentralisé d'activistes du net, engagés en faveur de la liberté d'expression. Le nom Telecomix désigne à la fois WeRebuild et Telecomix.
 
