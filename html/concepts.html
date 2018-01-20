@@ -17,6 +17,14 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -60,7 +68,7 @@
     <link rel="next" href="how-to.html" />
     
     
-    <link rel="prev" href="intro.html" />
+    <link rel="prev" href="elements-de-mise-page.html" />
     
 
     </head>
@@ -242,9 +250,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="intro.html">
+        <li class="chapter " data-level="4.1" data-path="introduction.html">
             
-                <a href="intro.html">
+                <a href="introduction.html">
             
                     
                     Introduction
@@ -255,7 +263,33 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.2" data-path="concepts.html">
+        <li class="chapter " data-level="4.2" data-path="elements-de-base.html">
+            
+                <a href="elements-de-base.html">
+            
+                    
+                    Élements de base
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="elements-de-mise-page.html">
+            
+                <a href="elements-de-mise-page.html">
+            
+                    
+                    Élements de mise en page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.4" data-path="concepts.html">
             
                 <a href="concepts.html">
             
@@ -268,7 +302,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="how-to.html">
+        <li class="chapter " data-level="4.5" data-path="how-to.html">
             
                 <a href="how-to.html">
             
@@ -281,7 +315,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.4" data-path="usabilite.html">
+        <li class="chapter " data-level="4.6" data-path="usabilite.html">
             
                 <a href="usabilite.html">
             
@@ -412,39 +446,69 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="concepts-essentiels">Concepts essentiels</h1>
+                                <h1 id="Concepts_essentiels">Concepts essentiels</h1>
 <!-- toc -->
-<ul>
-<li><a href="#balises-%C2%ABblock%C2%BB-vs-%C2%ABinline%C2%BB">Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</a></li>
-<li><a href="#les-adresses-%C2%ABabsolues%C2%BB-vs-%C2%ABrelatives%C2%BB-vs-%C2%ABancres%C2%BB">Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</a></li>
-<li><a href="#lhtml-semantique">L&#x2019;html s&#xE9;mantique</a></li>
-<li><a href="#pourquoi-ma-page-daccueil-doit-elle-sappeller-%C2%ABindexhtml%C2%BB-">Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</a></li>
-</ul>
-<!-- tocstop -->
-<h2 id="balises-&#xAB;block&#xBB;-vs-&#xAB;inline&#xBB;">Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</h2>
+<h2 id="Balises_&#xAB;block&#xBB;_vs_&#xAB;inline&#xBB;">1. Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</h2>
 <p>Par default le texte s&#x2019;affiche en ligne =&gt; il faut des balises pour structurer la page. Example :</p>
 <p data-height="265" data-theme-id="0" data-slug-hash="jYwdbp" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Hello world" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/jYwdbp/" target="_blank">Hello world</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
 
-<p>Il existe deux cat&#xE9;gories importantes d&apos;&#xE9;l&#xE9;ments en HTML que vous devez conna&#xEE;tre : les &#xE9;l&#xE9;ments de <strong>niveau bloc (block)</strong> et les &#xE9;l&#xE9;ments <strong>en ligne (inline)</strong>.</p>
-<h3 id="les-&#xE9;l&#xE9;ments-de-niveau-de-bloc">Les &#xE9;l&#xE9;ments de niveau de bloc</h3>
+<p>Il existe deux cat&#xE9;gories importantes d&#x2019;&#xE9;l&#xE9;ments en HTML que vous devez conna&#xEE;tre : les &#xE9;l&#xE9;ments de <strong>niveau bloc (block)</strong> et les &#xE9;l&#xE9;ments <strong>en ligne (inline)</strong>.</p>
+<h3 id="Les_&#xE9;l&#xE9;ments_de_niveau_de_bloc">1.1. Les &#xE9;l&#xE9;ments de niveau de bloc</h3>
 <p>Ils sont souvent des <strong>&#xE9;l&#xE9;ments structurels</strong> de la page et repr&#xE9;sentent des <strong>paragraphes, des listes, des menus de navigation, des pieds de page, etc.</strong> Un &#xE9;l&#xE9;ment de niveau bloc ne peut pas &#xEA;tre imbriqu&#xE9; dans un &#xE9;l&#xE9;ment inline, mais il peut &#xEA;tre imbriqu&#xE9; dans un autre &#xE9;l&#xE9;ment de niveau bloc. <sup><a href="#fn_2" id="reffn_2">2</a></sup></p>
 <p data-height="265" data-theme-id="0" data-slug-hash="EobEoP" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Block tags" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/EobEoP/" target="_blank">Block tags</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
 
-<h3 id="les-&#xE9;l&#xE9;ments-en-ligne">Les &#xE9;l&#xE9;ments en ligne</h3>
-<p>Ce sont eux qui sont contenus dans des &#xE9;l&#xE9;ments de niveau bloc. Ils entourent seulement des petites parties du contenu du document, pas des paragraphes entiers ni des regroupements de contenu. Un &#xE9;l&#xE9;ment en ligne ne fait pas appara&#xEE;tre une nouvelle ligne dans le document. Il appara&#xEE;t g&#xE9;n&#xE9;ralement dans un paragraphe de texte, par exemple un &#xE9;l&#xE9;ment (hyperlien) <code>&lt;a&gt;</code> ou des &#xE9;l&#xE9;ments d&apos;accentuation tels que <code>&lt;em&gt;</code> ou <code>&lt;strong&gt;</code>.</p>
+<h3 id="Les_&#xE9;l&#xE9;ments_en_ligne">1.2. Les &#xE9;l&#xE9;ments en ligne</h3>
+<p>Ce sont eux qui sont contenus dans des &#xE9;l&#xE9;ments de niveau bloc. Ils entourent seulement des petites parties du contenu du document, pas des paragraphes entiers ni des regroupements de contenu. Un &#xE9;l&#xE9;ment en ligne ne fait pas appara&#xEE;tre une nouvelle ligne dans le document. Il appara&#xEE;t g&#xE9;n&#xE9;ralement dans un paragraphe de texte, par exemple un &#xE9;l&#xE9;ment (hyperlien) <code>&lt;a&gt;</code> ou des &#xE9;l&#xE9;ments d&#x2019;accentuation tels que <code>&lt;em&gt;</code> ou <code>&lt;strong&gt;</code>.</p>
 <p data-height="265" data-theme-id="0" data-slug-hash="XVzEEb" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Inline tags" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/XVzEEb/" target="_blank">Inline tags</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
 
-<h2 id="les-adresses-&#xAB;absolues&#xBB;-vs-&#xAB;relatives&#xBB;-vs-&#xAB;ancres&#xBB;">Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</h2>
-<p><a href="https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL" target="_blank">https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL</a></p>
-<h2 id="lhtml-s&#xE9;mantique">L&#x2019;html s&#xE9;mantique</h2>
-<h2 id="pourquoi-ma-page-daccueil-doit-elle-sappeller-&#xAB;indexhtml&#xBB;-">Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</h2>
+<h2 id="Les_adresses_&#xAB;absolues&#xBB;_vs_&#xAB;relatives&#xBB;_vs_&#xAB;ancres&#xBB;">2. Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</h2>
+<p>Lorsque l&#x2019;on doit faire un lien dans une page HTML, il existe diff&#xE9;rentes mani&#xE8;res de pointer vers un &#xE9;l&#xE9;ment.</p>
+<h3 id="Les_adresses_absolues">2.1. Les adresses absolues</h3>
+<p>Le chemin d&#x2019;une adresse absolue ne change pas est-il toujours valable quel que soit l&#x2019;endroit o&#xF9; on se trouve.
+Vous pouvez comparer cela l&#x2019;adresse que vous posez sur une enveloppe o&#xF9; que vous soyez dans le monde elle arrivera toujours au m&#xEA;me endroit.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="MrLEmm" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="MrLEmm" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MrLEmm/" target="_blank">MrLEmm</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
+
+<p>Le chemin de cette image permet &#xE0; cette image d&#x2019;&#xEA;tre utilis&#xE9;e sur n&#x2019;importe quelle page de votre site sans en changer l&#x2019;adresse.</p>
+<h3 id="Les_adresses_relatives">2.2. Les adresses relatives</h3>
+<p>Le chemin d&#x2019;une adresse relative ne fonctionne que par rapport &#xE0; l&#x2019;endroit o&#xF9; vous vous trouvez.
+Si je vous explique le trajet entre chambre et le salon, les instructions pour y arriver seront fausses si vous changer d&#x2019;endroit d&#x2019;origine</p>
+<p>Consid&#xE9;rons l&#x2019;arborescence de fichier la suivante, si dans mon fichier <code>example.html</code> dans mon <code>dossier1</code>, j&#x2019;ai un lien que je veux faire pointer vers <code>lacambre.html</code> dans mon <code>dossier2</code>, comment faire?</p>
+<pre><code>- dossier1
+  |-- example.html
+
+- dossier2
+  |-- lacambre.html
+</code></pre><p>Pour ce faire il nous faut:</p>
+<ul>
+<li>Sortir du <code>dossier1</code></li>
+<li>Renter dans le <code>dossier2</code></li>
+<li>R&#xE9;f&#xE9;rencer le fichier auquel on voudrait parvenir c&#x2019;est &#xE0; dire <code>lacambre.html</code></li>
+</ul>
+<p><strong>Pour sortir d&#x2019;un dossier, on utilise</strong> <code>../</code></p>
+<p><strong>Pour rentrer dans un dossier, on utilise le nom du dossier</strong> <code>dossier2</code> par exemple.</p>
+<p>Construisons l&#x2019;addresse de notre lien sur <code>example.html</code> pas &#xE0; pas:</p>
+<p><strong>Sortir du <code>dossier1</code></strong></p>
+<pre><code>..
+</code></pre><p><strong> Renter dans le <code>dossier2</code> </strong></p>
+<pre><code>../dossier2
+</code></pre><p><strong> R&#xE9;f&#xE9;rencer le fichier auquel on voudrait parvenir c&#x2019;est &#xE0; dire <code>lacambre.html</code></strong></p>
+<pre><code>../dossier2/lacambre.html
+</code></pre><p><strong> Le lien final</strong></p>
+<pre><code>&lt;a href=&quot;../dossier2/lacambre.html&quot;&gt;La Cambre&lt;/a&gt;
+</code></pre><h3 id="Les_ancres">2.3. Les ancres</h3>
+<p><span class="pg-emphasize pg-emphasize-yellow" style="">Les encres sont des pointeurs vers un &#xE9;l&#xE9;ment de la page HTML.</span>
+Lorsque vous cliquez sur un lien qui comporte une ancre, le navigateur va automatiquement scroller jusqu&apos;&#xE0; l&#x2019;endroit o&#xF9; se trouve l&#x2019;&#xE9;l&#xE9;ment en question.</p>
+<p>Un exemple courant o&#xF9; les ancres sont tr&#xE8;s utiles: <a href="how-to.html#une-navigation-avec-des-ancres">Une navigation avec des ancres</a></p>
+<p>Pour en savoir plus sur la cr&#xE9;ation de lien, rendez-vous sur:
+<a href="https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL" target="_blank">https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL</a></p>
+<h2 id="Pourquoi_ma_page_d&#x2019;accueil_doit-elle_s&#x2019;appeller_&#xAB;index_html&#xBB;_?">3. Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</h2>
 <p>Ascii art en jouant avec des caract&#xE8;res</p>
-<pre><code>&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557;   &#x2588;&#x2588;&#x2557;
-&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;
-&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;   &#x2588;&#x2588;&#x2551;
-&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;  &#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2554;&#x255D;
-&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;  &#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;
-&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;
+<pre><code>&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2557;
+&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551; &#x2588;&#x2588;&#x2551;
+&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2554;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551; &#x2588;&#x2588;&#x2551;
+&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D; &#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;&#x255A;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2554;&#x255D;
+&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551; &#x2588;&#x2588;&#x2551; &#x255A;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;
+&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D; &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D; &#x255A;&#x2550;&#x255D; &#x255A;&#x2550;&#x2550;&#x2550;&#x255D;
 </code></pre><p><sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
@@ -455,7 +519,9 @@
 <blockquote id="fn_2">
 <sup>2</sup>. <a href="https://developer.mozilla.org/fr/Apprendre/HTML/Introduction_%C3%A0_HTML/Getting_started" target="_blank">https://developer.mozilla.org/fr/Apprendre/HTML/Introduction_%C3%A0_HTML/Getting_started</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
 </blockquote>
+<pre><code>
 
+</code></pre><div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Concepts_essentiels">Concepts essentiels</a></p><li><a href="#Balises_&#xAB;block&#xBB;_vs_&#xAB;inline&#xBB;">1. Balises &#xAB;block&#xBB; vs &#xAB;inline&#xBB;</a></li><ul><li><a href="#Les_&#xE9;l&#xE9;ments_de_niveau_de_bloc">1.1. Les &#xE9;l&#xE9;ments de niveau de bloc</a></li><li><a href="#Les_&#xE9;l&#xE9;ments_en_ligne">1.2. Les &#xE9;l&#xE9;ments en ligne</a></li></ul><li><a href="#Les_adresses_&#xAB;absolues&#xBB;_vs_&#xAB;relatives&#xBB;_vs_&#xAB;ancres&#xBB;">2. Les adresses &#xAB;absolues&#xBB; vs &#xAB;relatives&#xBB; vs &#xAB;ancres&#xBB;</a></li><ul><li><a href="#Les_adresses_absolues">2.1. Les adresses absolues</a></li><li><a href="#Les_adresses_relatives">2.2. Les adresses relatives</a></li><li><a href="#Les_ancres">2.3. Les ancres</a></li></ul><li><a href="#Pourquoi_ma_page_d&#x2019;accueil_doit-elle_s&#x2019;appeller_&#xAB;index_html&#xBB;_?">3. Pourquoi ma page d&#x2019;accueil doit-elle s&#x2019;appeller &#xAB;index.html&#xBB; ?</a></li></ul></div><a href="#Balises_&#xAB;block&#xBB;_vs_&#xAB;inline&#xBB;" id="goTop"><i class="fa fa-arrow-up"></i></a>
                                 
                                 </section>
                             
@@ -482,7 +548,7 @@
 
             
                 
-                <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="elements-de-mise-page.html" class="navigation navigation-prev " aria-label="Previous page: Élements de mise en page">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -498,7 +564,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Concepts essentiels","level":"4.2","depth":1,"next":{"title":"How-to","level":"4.3","depth":1,"path":"html/how-to.md","ref":"html/how-to.md","articles":[]},"previous":{"title":"Introduction","level":"4.1","depth":1,"path":"html/intro.md","ref":"html/intro.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/concepts.md","mtime":"2018-01-07T12:08:13.375Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-16T22:45:43.231Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Concepts essentiels","level":"4.4","depth":1,"next":{"title":"How-to","level":"4.5","depth":1,"path":"html/how-to.md","ref":"html/how-to.md","articles":[]},"previous":{"title":"Élements de mise en page","level":"4.3","depth":1,"path":"html/elements-de-mise-page.md","ref":"html/elements-de-mise-page.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["navigator","emphasize"],"pluginsConfig":{"emphasize":{},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/concepts.md","mtime":"2018-01-20T21:32:04.233Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-20T22:12:47.468Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

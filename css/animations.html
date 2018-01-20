@@ -17,6 +17,14 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -242,9 +250,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="../html/intro.html">
+        <li class="chapter " data-level="4.1" data-path="../html/introduction.html">
             
-                <a href="../html/intro.html">
+                <a href="../html/introduction.html">
             
                     
                     Introduction
@@ -255,7 +263,33 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="../html/concepts.html">
+        <li class="chapter " data-level="4.2" data-path="../html/elements-de-base.html">
+            
+                <a href="../html/elements-de-base.html">
+            
+                    
+                    Élements de base
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../html/elements-de-mise-page.html">
+            
+                <a href="../html/elements-de-mise-page.html">
+            
+                    
+                    Élements de mise en page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../html/concepts.html">
             
                 <a href="../html/concepts.html">
             
@@ -268,7 +302,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="../html/how-to.html">
+        <li class="chapter " data-level="4.5" data-path="../html/how-to.html">
             
                 <a href="../html/how-to.html">
             
@@ -281,7 +315,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.4" data-path="../html/usabilite.html">
+        <li class="chapter " data-level="4.6" data-path="../html/usabilite.html">
             
                 <a href="../html/usabilite.html">
             
@@ -412,12 +446,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="animation-personnalis&#xE9;e-en-css">Animation personnalis&#xE9;e en css</h1>
+                                <h1 id="Animation_personnalis&#xE9;e_en_css">Animation personnalis&#xE9;e en css</h1>
 <ul>
 <li><a href="http://css3.bradshawenterprises.com/animations/" target="_blank">http://css3.bradshawenterprises.com/animations/</a></li>
 <li><a href="https://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068" target="_blank">https://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068</a></li>
 </ul>
-<h2 id="les-&#xAB;-keyframes-&#xBB;">Les &#xAB; keyframes &#xBB;</h2>
+<h2 id="Les_&#xAB;_keyframes_&#xBB;">1. Les &#xAB; keyframes &#xBB;</h2>
 <p><strong>Explication</strong></p>
 <p><strong>Example</strong></p>
 <pre><code class="lang-css">@<span class="hljs-keyword">keyframes</span> pincemi {
@@ -446,7 +480,7 @@
   }
 }
 </code></pre>
-<h2 id="lanimation">L&#x2019;animation</h2>
+<h2 id="L&#x2019;animation">2. L&#x2019;animation</h2>
 <p>Cette propri&#xE9;t&#xE9; est utilis&#xE9;e pour appeler une s&#xE9;rie de keyframes &#xE0; l&#x2019;int&#xE9;rieur d&#x2019;une d&#xE9;claration css.</p>
 <p><strong>Elle peut prendre ces propri&#xE9;t&#xE9;s:</strong></p>
 <ul>
@@ -474,7 +508,7 @@
 }
 </code></pre>
 <p>Ce code va cr&#xE9;er une animation infinie de 4s, avec 1s de retard et de direction oppos&#xE9;e.</p>
-<h3 id="les-pr&#xE9;fixes">Les pr&#xE9;fixes</h3>
+<h3 id="Les_pr&#xE9;fixes">2.1. Les pr&#xE9;fixes</h3>
 <p>Afin que ce code fonctionne dans tous les navigateurs, nous avons besoin d&#x2019;ajouter des pr&#xE9;fixes:</p>
 <ul>
 <li>Chrome &amp; Safari: <code>-webkit-</code></li>
@@ -508,7 +542,7 @@
   <span class="hljs-comment">/* vos styles */</span>
 }
 </code></pre>
-<h3 id="animations-multiples">Animations multiples</h3>
+<h3 id="Animations_multiples">2.2. Animations multiples</h3>
 <pre><code class="lang-css"><span class="hljs-selector-class">.hepla</span> {
   <span class="hljs-attribute">animation</span>: pincemi <span class="hljs-number">4s</span> <span class="hljs-number">1s</span> infinite linear alternate, pincemoi <span class="hljs-number">4s</span> <span class="hljs-number">1s</span> infinite
       linear alternate;
@@ -526,10 +560,10 @@
   }
 }
 </code></pre>
-<h3 id="dun-carr&#xE9;-a-un-cercle">D&#x2019;un carr&#xE9; a un cercle</h3>
+<h3 id="D&#x2019;un_carr&#xE9;_a_un_cercle">2.3. D&#x2019;un carr&#xE9; a un cercle</h3>
 <p data-height="300" data-theme-id="0" data-slug-hash="OmNxMj" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="From square to triangle" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OmNxMj/" target="_blank">From square to triangle</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p>
 
-<h3 id="appliquer-des-courbe-dacc&#xE9;l&#xE9;ration-avec-cubic-b&#xE9;zier">Appliquer des courbe d&#x2019;acc&#xE9;l&#xE9;ration avec cubic-b&#xE9;zier</h3>
+<h3 id="Appliquer_des_courbe_d&#x2019;acc&#xE9;l&#xE9;ration_avec_cubic-b&#xE9;zier">2.4. Appliquer des courbe d&#x2019;acc&#xE9;l&#xE9;ration avec cubic-b&#xE9;zier</h3>
 <blockquote>
 <p><a href="https://matthewlein.com/ceaser/" target="_blank">https://matthewlein.com/ceaser/</a></p>
 </blockquote>
@@ -541,7 +575,7 @@
   <span class="hljs-attribute">animation</span>: pincemi <span class="hljs-number">2s</span> <span class="hljs-number">1s</span> infinite <span class="hljs-built_in">cubic-bezier</span>(1, 0.015, 0.295, 1.225) alternate;
 }
 </code></pre>
-<h3 id="code-final">Code final</h3>
+<h3 id="Code_final">2.5. Code final</h3>
 <pre><code class="lang-css"><span class="hljs-selector-tag">div</span> {
   <span class="hljs-attribute">width</span>: <span class="hljs-number">200px</span>;
   <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
@@ -577,17 +611,17 @@
   }
 }
 </code></pre>
-<h2 id="example-danimation">Example d&#x2019;animation</h2>
-<h3 id="fond-anim&#xE9;">Fond anim&#xE9;</h3>
+<h2 id="Example_d&#x2019;animation">3. Example d&#x2019;animation</h2>
+<h3 id="Fond_anim&#xE9;">3.1. Fond anim&#xE9;</h3>
 <ul>
 <li><a href="http://www.gradient-animator.com/" target="_blank">http://www.gradient-animator.com/</a> (couleur, gradients)</li>
 <li><a href="http://davidwalsh.name/background-animation-css" target="_blank">http://davidwalsh.name/background-animation-css</a> (image)</li>
 </ul>
-<h3 id="kin&#xE9;gramme">Kin&#xE9;gramme</h3>
+<h3 id="Kin&#xE9;gramme">3.2. Kin&#xE9;gramme</h3>
 <p><a href="http://thinkzone.wlonk.com/Kinegram/Kinegram.htm" target="_blank">http://thinkzone.wlonk.com/Kinegram/Kinegram.htm</a></p>
 <p></p><p data-height="300" data-theme-id="0" data-slug-hash="EPYpPW" data-default-tab="css,result" data-user="jimoong" data-embed-version="2" data-pen-title="Kinegram" class="codepen">See the Pen <a href="https://codepen.io/jimoong/pen/EPYpPW/" target="_blank">Kinegram</a> by Jiwoong Lee (<a href="http://codepen.io/jimoong" target="_blank">@jimoong</a>) on <a href="http://codepen.io" target="_blank">CodePen</a>.</p><p></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Animation_personnalis&#xE9;e_en_css">Animation personnalis&#xE9;e en css</a></p><li><a href="#Les_&#xAB;_keyframes_&#xBB;">1. Les &#xAB; keyframes &#xBB;</a></li><li><a href="#L&#x2019;animation">2. L&#x2019;animation</a></li><ul><li><a href="#Les_pr&#xE9;fixes">2.1. Les pr&#xE9;fixes</a></li><li><a href="#Animations_multiples">2.2. Animations multiples</a></li><li><a href="#D&#x2019;un_carr&#xE9;_a_un_cercle">2.3. D&#x2019;un carr&#xE9; a un cercle</a></li><li><a href="#Appliquer_des_courbe_d&#x2019;acc&#xE9;l&#xE9;ration_avec_cubic-b&#xE9;zier">2.4. Appliquer des courbe d&#x2019;acc&#xE9;l&#xE9;ration avec cubic-b&#xE9;zier</a></li><li><a href="#Code_final">2.5. Code final</a></li></ul><li><a href="#Example_d&#x2019;animation">3. Example d&#x2019;animation</a></li><ul><li><a href="#Fond_anim&#xE9;">3.1. Fond anim&#xE9;</a></li><li><a href="#Kin&#xE9;gramme">3.2. Kin&#xE9;gramme</a></li></ul></ul></div><a href="#Les_&#xAB;_keyframes_&#xBB;" id="goTop"><i class="fa fa-arrow-up"></i></a>
                                 
                                 </section>
                             
@@ -630,7 +664,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Animations","level":"5.1","depth":1,"next":{"title":"La grille","level":"5.2","depth":1,"path":"css/grille.md","ref":"css/grille.md","articles":[]},"previous":{"title":"Usabilité","level":"4.4","depth":1,"path":"html/usabilite.md","ref":"html/usabilite.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/animations.md","mtime":"2018-01-07T12:08:13.375Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-16T22:45:43.231Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Animations","level":"5.1","depth":1,"next":{"title":"La grille","level":"5.2","depth":1,"path":"css/grille.md","ref":"css/grille.md","articles":[]},"previous":{"title":"Usabilité","level":"4.6","depth":1,"path":"html/usabilite.md","ref":"html/usabilite.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["navigator","emphasize"],"pluginsConfig":{"emphasize":{},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/animations.md","mtime":"2018-01-07T12:08:13.375Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-20T22:12:47.468Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

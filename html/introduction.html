@@ -17,6 +17,14 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -57,7 +65,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="concepts.html" />
+    <link rel="next" href="elements-de-base.html" />
     
     
     <link rel="prev" href="../art/mapart.html" />
@@ -242,9 +250,9 @@
         
         
     
-        <li class="chapter active" data-level="4.1" data-path="intro.html">
+        <li class="chapter active" data-level="4.1" data-path="introduction.html">
             
-                <a href="intro.html">
+                <a href="introduction.html">
             
                     
                     Introduction
@@ -255,7 +263,33 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="concepts.html">
+        <li class="chapter " data-level="4.2" data-path="elements-de-base.html">
+            
+                <a href="elements-de-base.html">
+            
+                    
+                    Élements de base
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="elements-de-mise-page.html">
+            
+                <a href="elements-de-mise-page.html">
+            
+                    
+                    Élements de mise en page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="concepts.html">
             
                 <a href="concepts.html">
             
@@ -268,7 +302,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="how-to.html">
+        <li class="chapter " data-level="4.5" data-path="how-to.html">
             
                 <a href="how-to.html">
             
@@ -281,7 +315,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.4" data-path="usabilite.html">
+        <li class="chapter " data-level="4.6" data-path="usabilite.html">
             
                 <a href="usabilite.html">
             
@@ -412,26 +446,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="quest-ce-que-lhtml">Qu&#x2019;est-ce que l&#x2019;Html</h1>
+                                <h1 id="Qu&#x2019;est-ce_que_l&#x2019;Html">Qu&#x2019;est-ce que l&#x2019;Html</h1>
 <p><img src="https://31.media.tumblr.com/4cb7911e3b942a76a06f1d12864cf54e/tumblr_myjmgq3DyP1ry46hlo1_r1_400.gif" alt=""></p>
 <!-- toc -->
-<ul>
-<li><a href="#definiton">D&#xE9;finiton</a></li>
-<li><a href="#de-quoi-a-t-on-besoin-pour-coder-de-html">De quoi a-t-on besoin pour coder de html?</a></li>
-<li><a href="#a-quoi-ca-ressemble">A quoi &#xE7;a ressemble?</a></li>
-<li><a href="#les-balises">Les balises</a></li>
-<li><a href="#premier-squelette-de-page">Premier squelette de page</a></li>
-</ul>
-<!-- tocstop -->
-<h1 id="d&#xE9;finiton">D&#xE9;finiton</h1>
+<h1 id="D&#xE9;finiton">D&#xE9;finiton</h1>
 <p>HTML signifie &#xAB; HyperText Markup Language &#xBB; qu&apos;on peut traduire par &#xAB; langage de balises pour l&apos;hypertexte &#xBB;. Il est utilis&#xE9; afin de cr&#xE9;er et de repr&#xE9;senter le contenu d&apos;une page web. D&apos;autres technologies sont utilis&#xE9;es avec HTML pour d&#xE9;crire la pr&#xE9;sentation d&apos;une page (CSS) et/ou ses fonctionnalit&#xE9;s interactives (JavaScript).<sup><a href="#fn_2" id="reffn_2">2</a></sup></p>
-<h1 id="de-quoi-a-t-on-besoin-pour-coder-de-html">De quoi a-t-on besoin pour coder de html?</h1>
+<h1 id="De_quoi_a-t-on_besoin_pour_coder_de_html?">De quoi a-t-on besoin pour coder de html?</h1>
 <ul>
 <li>Un navigateur (pour visualiser)</li>
 <li>Un editeur de texte (VsCode, Atom, Sublime Text, TextEdit,&#x2026;)</li>
 <li>Votre gestionnaire de fichiers (le finder sur Mac)</li>
 </ul>
-<h1 id="a-quoi-&#xE7;a-ressemble">A quoi &#xE7;a ressemble?</h1>
+<h1 id="A_quoi_&#xE7;a_ressemble?">A quoi &#xE7;a ressemble?</h1>
 <p>D&#xE9;marrez votre navigateur et visiter n&#x2019;importe quelle page web.</p>
 <p><img src="../assets/images/html/html-inspect.png" alt=""></p>
 <p>Ca fait peur mais en fait c&#x2019;est tr&#xE8;s simple. Bient&#xF4;t vous serez tous parfait bilingue HTML/Fran&#xE7;ais Fran&#xE7;ais/HTML.</p>
@@ -439,7 +465,7 @@
 <p>Un navigateur est un traducteur</p>
 <p>Le webdesign en 4 minutes - <a href="http://jgthms.com/web-design-in-4-minutes/#share" target="_blank">http://jgthms.com/web-design-in-4-minutes/#share</a></p>
 </blockquote>
-<h1 id="les-balises">Les balises</h1>
+<h1 id="Les_balises">Les balises</h1>
 <p>En HTML une balise est utilis&#xE9;e pour cr&#xE9;er un element.</p>
 <p><img src="../assets/images/html/anatomy-of-an-html-element.png" alt="https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png"></p>
 <p>Le nom d&#x2019;un &#xE9;l&#xE9;ment HTML est le nom utilis&#xE9; dans des chevrons comme par exemple</p>
@@ -458,7 +484,7 @@
 <li>body = le salon</li>
 </ul>
 </blockquote>
-<h1 id="premier-squelette-de-page">Premier squelette de page</h1>
+<h1 id="Premier_squelette_de_page">Premier squelette de page</h1>
 <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
@@ -513,7 +539,7 @@
                 </a>
                 
                 
-                <a href="concepts.html" class="navigation navigation-next " aria-label="Next page: Concepts essentiels">
+                <a href="elements-de-base.html" class="navigation navigation-next " aria-label="Next page: Élements de base">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -524,7 +550,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"4.1","depth":1,"next":{"title":"Concepts essentiels","level":"4.2","depth":1,"path":"html/concepts.md","ref":"html/concepts.md","articles":[]},"previous":{"title":"Map.art","level":"3.2","depth":1,"path":"art/mapart.md","ref":"art/mapart.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["simple-page-toc"],"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/intro.md","mtime":"2018-01-14T09:31:35.916Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-16T22:45:43.231Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"4.1","depth":1,"next":{"title":"Élements de base","level":"4.2","depth":1,"path":"html/elements-de-base.md","ref":"html/elements-de-base.md","articles":[]},"previous":{"title":"Map.art","level":"3.2","depth":1,"path":"art/mapart.md","ref":"art/mapart.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["navigator","emphasize"],"pluginsConfig":{"emphasize":{},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"html/introduction.md","mtime":"2018-01-20T21:43:19.898Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-20T22:12:47.468Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
