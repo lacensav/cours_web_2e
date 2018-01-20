@@ -21,7 +21,9 @@
 
 ## HTML
 
-* [Introduction](html/intro.md)
+* [Introduction](html/introduction.md)
+* [Élements de base](html/elements-de-base.md)
+* [Élements de mise en page](html/elements-de-mise-page.md)
 * [Concepts essentiels](html/concepts.md)
 * [How-to](html/how-to.md)
 * [Usabilité](html/usabilite.md)
