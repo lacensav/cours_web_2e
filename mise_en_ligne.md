@@ -33,7 +33,7 @@ Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’
 La plupart des hébergeurs sont payants.
 Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations gratuites sont souvent des offres d'appel pour les prestations payantes, plus riches en fonctionnalités et plus performantes.
 
-**La plupart des hébergeurs filtre le trafic et savent littéralement tout ce que vous avez consulté à moins d’utiliser Tor ou un VPN.**
+**La plupart des hébergeurs filtrent le trafic et savent littéralement tout ce que vous avez consulté à moins d’utiliser Tor ou un VPN.**
 
 Au US, netflix paye pour avoir un plus haut débit de la part des fournisseurs d’accès (ref: taxe émission carbone rachetée par eu aux autre pays).
 
@@ -46,32 +46,6 @@ C’est la première fois qu’un fournisseur d’hébergement est supposé cré
 
 [En savoir plus](http://altern.org/alternb/defense/faq.html)
 
-## La réservation d’un hébergement
+## Réserver son hébergement et transférer les fichiers
 
-Bien prendre note de la procédure ou d'aller voir sur les slides: https://goo.gl/s3c6wr
-
-* Ouvrir File zilla
-* Reserver hebergement ()
-* recupérer info de connexion dans son mail
-* Connecter Filezilla
-
----
-
-Sur folder local, faire faire un dossier
-Faire un fichier index.html,
-Expliquer la raison pour index html.
-Expliquer la relation entre dossier / url.
-Faire un dossier exo1
-Copier leur exercice dans un fichier index. Le déplacer dans le dossier exo1
-Le faire taper l’url dans le navigateur
-Expliquer maintenant quon va vouloir faire un lien entre les deux pages
-Lien relatif et absolu (Metaphore de la poste)
-
-# Html et format d'image
-
-http://www.sitepoint.com/gif-jpg-png-whats-difference/
-
-seuelement 1 balise body
-fermer les balises!
-texte dans body
-^
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRlSiIIGSZ6EnpTRJ-u9JI_HwjKkBzN1PI9A0fTzICbeHCaCk37v6Vwrz67B19OcycAfDKiy1udIMu0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

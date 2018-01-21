@@ -10,6 +10,8 @@ La plupart du temps, on parle de « net » en disant « j’ai trouvé ça su
 
 [https://atlas.developmentseed.org/communications/](https://atlas.developmentseed.org/communications/)
 
+[https://www.submarinecablemap.com/](https://www.submarinecablemap.com/)
+
 ![http://www.submarinecablemap.com/](../assets/images/internet-backbone-map.png)
 
 Internet, ou plutôt comme nous l’avons vu, L’internet, est le plus gros des réseaux internet du monde. C’est une infrastructure informatique permettant des transferts de données entre ordinateurs à travers un maillage (mesh) de serveurs et de routeurs.
@@ -40,11 +42,12 @@ Video Voyage en cybernetique : https://www.youtube.com/watch?v=AFOGk6qrEQU
 
 > **A méditer:**
 > Lien entre l’histoire comme compilation des meilleures histoires et la problématique de l’archivage sur le net.
-> Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier. Cela pose pas mal de question quant à la responsbilité qu’on les gens à mettre du contenu en ligne.[^2]
+> Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier.
+> Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.[^2]
 
 **1930 : Mundaneum**
 
-Le Mundaneum avait pour but de réunir dans un même lieu toutes les connaissances du monde et ce sous toutes ses formes (livres, affiches, journaux venant du monde entier...) dans un gigantesque et novateur Répertoire bibliographique universel5, que l’on peut considérer comme un ancêtre de Google ou Wikipédia à l’époque du papier. Cependant, devant l’ampleur de la tâche, les promoteurs durent privilégier certains domaines et se limiter essentiellement à la documentation internationale.
+Le Mundaneum avait pour but de réunir dans un même lieu toutes les connaissances du monde et ce, sous toutes ses formes (livres, affiches, journaux venant du monde entier...) dans un gigantesque et novateur Répertoire bibliographique universel5, que l’on peut considérer comme un ancêtre de Google ou Wikipédia à l’époque du papier. Cependant, devant l’ampleur de la tâche, les promoteurs durent privilégier certains domaines et se limiter essentiellement à la documentation internationale.
 
 http://lieu.mundaneum.org/fr/historique-lieu
 

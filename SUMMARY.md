@@ -30,8 +30,9 @@
 
 ## CSS
 
+* [Introduction](css/introduction.md)
 * [Animations](css/animations.md)
-* [La grille](css/grille.md)
+* [Framework & grille](css/grille.md)
 
 ## JAVASCRIPT
 

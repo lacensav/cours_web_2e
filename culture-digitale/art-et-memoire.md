@@ -1,6 +1,6 @@
 # Art et mémoire
 
-Parler de la relation entre la mémoire et internet.
+Relation entre la mémoire et internet.
 Memoire externe vs internet.
 Rapport au livre.
 
@@ -22,7 +22,7 @@ Ce processus ressemble fort à ce que l’on connait dans la création artistiqu
 
 L’artiste étant celui qui crée des images mémorables.
 
-« Une œuvre n’est pas quelque chose de beau à regarder, sa valeur c’est d'être une école de pensée. L’important est l’image mentale qu’elle imprime. » [^2]
+> « Une œuvre n’est pas quelque chose de beau à regarder, sa valeur c’est d'être une école de pensée. L’important est l’image mentale qu’elle imprime. » [^2]
 
 Mais dans ce processus il y a forcément abstraction, ne serait que lors de la symbolization.
 

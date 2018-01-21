@@ -1,5 +1,5 @@
 {
-  "plugins": ["navigator", "emphasize"],
+  "plugins": ["navigator", "emphasize", "collapsible-chapters"],
   "pluginsConfig": {
     "simple-page-toc": {
       "maxDepth": 2,
