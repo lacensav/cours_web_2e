@@ -1,11 +1,21 @@
-# Animation personnalisée en css
+## Les Transitions
 
-* http://css3.bradshawenterprises.com/animations/
-* https://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068
+les transitions nous permettent de faire une transition entre des valeurs de certaines propriétés CSS, sur une durée et une courbe d'accélération déterminée.
 
-## Les « keyframes »
+<p data-height="265" data-theme-id="0" data-slug-hash="VQawzN" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transition de couleur de fond" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VQawzN/">Transition de couleur de fond</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-**Explication**
+Nous pouvons également faire une transition en plusieurs propriété css à la fois. Il suffit de remplaces le nom le la propriété par `all`.
+
+Ce qui donne:
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MQyWrO" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transitions multiples" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MQyWrO/">Transitions multiples</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+## Animation personnalisée en css
+
+Pour réaliser des animations plus complexes, il existe un type de règle css qui nous permet de définir des images-clé.
+Pour chaque image clé (de 0 à 100), nous pouvons redéfinir les propriétés css qui s’aplliquent à l’élément.
+
+### Les « keyframes »
 
 **Example**
 
@@ -43,7 +53,7 @@ En version raccourcie
 }
 ```
 
-## L’animation
+### L’animation
 
 Cette propriété est utilisée pour appeler une série de keyframes à l’intérieur d’une déclaration css.
 
@@ -80,7 +90,7 @@ ou en version raccourcie
 
 Ce code va créer une animation infinie de 4s, avec 1s de retard et de direction opposée.
 
-### Les préfixes
+#### Les préfixes
 
 Afin que ce code fonctionne dans tous les navigateurs, nous avons besoin d’ajouter des préfixes:
 
@@ -121,7 +131,7 @@ Voici ce que donne notre déclaration animation avec les préfixes:
 }
 ```
 
-### Animations multiples
+#### Animations multiples
 
 ```css
 .hepla {
@@ -142,11 +152,11 @@ Voici ce que donne notre déclaration animation avec les préfixes:
 }
 ```
 
-### D’un carré a un cercle
+#### D’un carré a un cercle
 
 <p data-height="300" data-theme-id="0" data-slug-hash="OmNxMj" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="From square to triangle" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OmNxMj/">From square to triangle</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-### Appliquer des courbe d’accélération avec cubic-bézier
+#### Appliquer des courbe d’accélération avec cubic-bézier
 
 > https://matthewlein.com/ceaser/
 
@@ -161,7 +171,7 @@ div {
 }
 ```
 
-### Code final
+#### Code final
 
 ```css
 div {
@@ -200,14 +210,14 @@ div {
 }
 ```
 
-## Example d’animation
+### Example d’animation
 
-### Fond animé
+#### Fond animé
 
 * http://www.gradient-animator.com/ (couleur, gradients)
 * http://davidwalsh.name/background-animation-css (image)
 
-### Kinégramme
+#### Kinégramme
 
 http://thinkzone.wlonk.com/Kinegram/Kinegram.htm
 

@@ -17,6 +17,16 @@ Le motif se répète automatiquement car c’est le comportement par défault de
 
 <p data-height="265" data-theme-id="0" data-slug-hash="mpvqPP" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Galerie en flex" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/mpvqPP/">Galerie en flex</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-## Intégrer une vidéo
+## Intégrer une vidéo en fond de page
+
+<p data-height="265" data-theme-id="0" data-slug-hash="OQNJaR" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="FullScreen YouTube Video Background In Pure CSS" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OQNJaR/">FullScreen YouTube Video Background In Pure CSS</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+## Ajouter une police google
+
+Choisissez d’abord votre police [ici](https://fonts.google.com/)
+
+## Les formes formes géométrique en css
+
+[https://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
