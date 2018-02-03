@@ -468,7 +468,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <blockquote>
-<p><em>Last modified: Sun Jan 21 2018 17:20:58 GMT+0100 (CET)</em></p>
+<p><em>Last modified: Sat Feb 03 2018 18:12:31 GMT+0100 (CET)</em></p>
 </blockquote>
 <h2 id="Introduction">1. Introduction</h2>
 <blockquote>
@@ -538,13 +538,60 @@ Lorsqu&#x2019;il a &#xE9;t&#xE9; lanc&#xE9; en avril 2003, il ne contenait que c
 }
 </code></pre>
 <p><span class="pg-emphasize pg-emphasize-yellow" style="">Retenez: les id, c&#x2019;est comme highlander, il ne peut en rester qu&#x2019;un. Les classes &#xAB;C&#x2019;est la class!&#xBB; donc c&#x2019;est pour le style.</span></p>
+<p>Plus d&#x2019;info sur les s&#xE9;lecteurs css <a href="https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_CSS" target="_blank">ici</a></p>
 <h2 id="Anatomie_d&#x2019;une_r&#xE8;gle_css">4. Anatomie d&#x2019;une r&#xE8;gle css</h2>
 <figure id="fig5.1.1"><img src="../assets/images/css/regle-css.png" alt="Anatomie d&#x2019;une r&#xE8;gle css"><figcaption>Anatomie d&#x2019;une r&#xE8;gle css</figcaption></figure>
-<h2 id="La_cascade_et_h&#xE9;ritage">5. La cascade et h&#xE9;ritage</h2>
+<h2 id="Les_propi&#xE9;t&#xE9;s">5. Les propi&#xE9;t&#xE9;s</h2>
+<p>Voici une liste compl&#xE8;tes de toutes les propri&#xE9;t&#xE9;s que vous pouvez utiliser pour modifier l&#x2019;apparence d&#x2019;une balise html:</p>
+<p><a href="https://tympanus.net/codrops/css_reference/#section_css-property" target="_blank">https://tympanus.net/codrops/css_reference/#section_css-property</a></p>
+<h2 id="Les_unit&#xE9;s_des_valeurs">6. Les unit&#xE9;s des valeurs</h2>
+<p>Pour sp&#xE9;cifier les unit&#xE9;s de CSS vous avez la possibilit&#xE9; entre plusieurs unit&#xE9; de mesure.</p>
+<table>
+<thead>
+<tr>
+<th>Unit&#xE9;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>em</td>
+<td>Relative par rapport &#xE0; la taille de police de l&#x2019;&#xE9;lement courant</td>
+</tr>
+<tr>
+<td>rem</td>
+<td>Relative par rapport &#xE0; la taille de police du document</td>
+</tr>
+<tr>
+<td>vw</td>
+<td>Relative par rapport &#xE0; la largeur de la fen&#xEA;tre. 10vh == 10% de la largeur de la fen&#xEA;tre</td>
+</tr>
+<tr>
+<td>vh</td>
+<td>Relative par rapport &#xE0; la hauteur de la fen&#xEA;tre. 10vh == 10% de la hauteur de la fen&#xEA;tre</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Pourcentage par rapport au conteneur</td>
+</tr>
+</tbody>
+</table>
+<h2 id="La_cascade_et_h&#xE9;ritage">7. La cascade et h&#xE9;ritage</h2>
 <p data-height="265" data-theme-id="0" data-slug-hash="VygVXa" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Cascade &amp; h&#xE9;ritage" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VygVXa/" target="_blank">Cascade &amp; h&#xE9;ritage</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p>
 
-<h2 id="Le_positionnement">6. Le positionnement</h2>
+<p>Le style final d&apos;un &#xE9;l&#xE9;ment peut &#xEA;tre sp&#xE9;cifi&#xE9; &#xE0; de nombreux endroits, qui peuvent interagir de mani&#xE8;re complexe.
+C&#x2019;est ce qui rend CSS puissant, mais peut aussi le rendre d&#xE9;routant et difficile &#xE0; d&#xE9;buguer.</p>
+<p>Trois sources principales d&apos;information de styles forment une cascade.</p>
+<p>Celles-ci sont:</p>
+<ul>
+<li>Le style par d&#xE9;faut du navigateur pour le langage de balisage</li>
+<li>Le style sp&#xE9;cifi&#xE9; par l&apos;utilisateur lisant le document</li>
+<li>Le style li&#xE9; au document par son auteur</li>
+</ul>
+<h2 id="Le_positionnement">8. Le positionnement</h2>
 <p>Tutoriel complet <a href="http://fr.learnlayout.com/" target="_blank">http://fr.learnlayout.com/</a></p>
+<figure id="fig5.1.2"><img src="https://mdn.mozillademos.org/files/8685/boxmodel-3" alt="Illustration du &#xAB;Box model&#xBB;"><figcaption>Illustration du &#xAB;Box model&#xBB;</figcaption></figure>
+<p>Pour plus d&#x2019;info sur le &#xAB;Box model&#xBB; rendez-vous sur <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">Mozilla</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
@@ -554,7 +601,7 @@ Lorsqu&#x2019;il a &#xE9;t&#xE9; lanc&#xE9; en avril 2003, il ne contenait que c
 <blockquote id="fn_2">
 <sup>2</sup>. <a href="https://fr.wikipedia.org/wiki/CSS_Zen_Garden" target="_blank">https://fr.wikipedia.org/wiki/CSS_Zen_Garden</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
 </blockquote>
-<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#"></a></p><li><a href="#Introduction">1. Introduction</a></li><li><a href="#Que_peut-on_faire_avec_du_css?">2. Que peut-on faire avec du css?</a></li><ul><li><a href="#Css_zen_garden">2.1. Css zen garden</a></li></ul><li><a href="#Comment_cibler_un_&#xE9;l&#xE9;ment?">3. Comment cibler un &#xE9;l&#xE9;ment?</a></li><ul><li><a href="#L&#x2019;attribut_Id">3.1. L&#x2019;attribut Id</a></li><li><a href="#L&#x2019;attribut_class">3.2. L&#x2019;attribut class</a></li></ul><li><a href="#Anatomie_d&#x2019;une_r&#xE8;gle_css">4. Anatomie d&#x2019;une r&#xE8;gle css</a></li><li><a href="#La_cascade_et_h&#xE9;ritage">5. La cascade et h&#xE9;ritage</a></li><li><a href="#Le_positionnement">6. Le positionnement</a></li></ul></div><a href="#Introduction" id="goTop"><i class="fa fa-arrow-up"></i></a>
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#"></a></p><li><a href="#Introduction">1. Introduction</a></li><li><a href="#Que_peut-on_faire_avec_du_css?">2. Que peut-on faire avec du css?</a></li><ul><li><a href="#Css_zen_garden">2.1. Css zen garden</a></li></ul><li><a href="#Comment_cibler_un_&#xE9;l&#xE9;ment?">3. Comment cibler un &#xE9;l&#xE9;ment?</a></li><ul><li><a href="#L&#x2019;attribut_Id">3.1. L&#x2019;attribut Id</a></li><li><a href="#L&#x2019;attribut_class">3.2. L&#x2019;attribut class</a></li></ul><li><a href="#Anatomie_d&#x2019;une_r&#xE8;gle_css">4. Anatomie d&#x2019;une r&#xE8;gle css</a></li><li><a href="#Les_propi&#xE9;t&#xE9;s">5. Les propi&#xE9;t&#xE9;s</a></li><li><a href="#Les_unit&#xE9;s_des_valeurs">6. Les unit&#xE9;s des valeurs</a></li><li><a href="#La_cascade_et_h&#xE9;ritage">7. La cascade et h&#xE9;ritage</a></li><li><a href="#Le_positionnement">8. Le positionnement</a></li></ul></div><a href="#Introduction" id="goTop"><i class="fa fa-arrow-up"></i></a>
                                 
                                 </section>
                             
@@ -597,7 +644,7 @@ Lorsqu&#x2019;il a &#xE9;t&#xE9; lanc&#xE9; en avril 2003, il ne contenait que c
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"5.1","depth":1,"next":{"title":"Animations","level":"5.2","depth":1,"path":"css/animations.md","ref":"css/animations.md","articles":[]},"previous":{"title":"Usabilité","level":"4.6","depth":1,"path":"html/usabilite.md","ref":"html/usabilite.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: Inscription au chat","alt":"Inscription au chat","nro":1,"url":"https://img.shields.io/badge/Slack-Inscription-orange.svg","index":1,"caption_template":"_CAPTION_","label":"Inscription au chat","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","list_caption":"Figure: Accéder au chat","alt":"Accéder au chat","nro":2,"url":"https://img.shields.io/badge/Slack-Acc%C3%A9dez%20au%20chat-green.svg","index":2,"caption_template":"_CAPTION_","label":"Accéder au chat","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"culture-digitale/le-web-et-son-historire.html#fig2.1.1","level":"2.1","list_caption":"Figure: http://www.submarinecablemap.com/","alt":"http://www.submarinecablemap.com/","nro":3,"url":"../assets/images/internet-backbone-map.png","index":1,"caption_template":"_CAPTION_","label":"http://www.submarinecablemap.com/","attributes":{},"skip":false,"key":"2.1.1"},{"backlink":"culture-digitale/art-et-memoire.html#fig2.4.1","level":"2.4","list_caption":"Figure: Théâtre de la mémoire","alt":"Théâtre de la mémoire","nro":4,"url":"../assets/images/culture/theatre-memoire.jpg","index":1,"caption_template":"_CAPTION_","label":"Théâtre de la mémoire","attributes":{},"skip":false,"key":"2.4.1"},{"backlink":"art/netart.html#fig3.1.1","level":"3.1","list_caption":"Figure: Teo_Spiller_net.art.trade_(net.art).jpg","alt":"Teo_Spiller_net.art.trade_(net.art).jpg","nro":5,"url":"../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg","index":1,"caption_template":"_CAPTION_","label":"Teo_Spiller_net.art.trade_(net.art).jpg","attributes":{},"skip":false,"key":"3.1.1"},{"backlink":"art/netart.html#fig3.1.2","level":"3.1","list_caption":"Figure: olia summer","alt":"olia summer","nro":6,"url":"../assets/images/netart/olia03.gif","index":2,"caption_template":"_CAPTION_","label":"olia summer","attributes":{},"skip":false,"key":"3.1.2"},{"backlink":"art/netart.html#fig3.1.3","level":"3.1","list_caption":"Figure: https://vimeo.com/138217571","alt":"https://vimeo.com/138217571","nro":7,"url":"../assets/images/netart/kyle-mcdonald-picasso-porn.gif","index":3,"caption_template":"_CAPTION_","label":"https://vimeo.com/138217571","attributes":{},"skip":false,"key":"3.1.3"},{"backlink":"html/introduction.html#fig4.1.1","level":"4.1","list_caption":"Figure: https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","alt":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","nro":8,"url":"../assets/images/html/anatomy-of-an-html-element.png","index":1,"caption_template":"_CAPTION_","label":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","attributes":{},"skip":false,"key":"4.1.1"},{"backlink":"css/introduction.html#fig5.1.1","level":"5.1","list_caption":"Figure: Anatomie d’une règle css","alt":"Anatomie d’une règle css","nro":9,"url":"../assets/images/css/regle-css.png","index":1,"caption_template":"_CAPTION_","label":"Anatomie d’une règle css","attributes":{},"skip":false,"key":"5.1.1"},{"backlink":"wordpress.html#fig7.1.1","level":"7.1","list_caption":"Figure: squelette-wp","alt":"squelette-wp","nro":10,"url":"media/squelette-wp_2cihe6qvr.png","index":1,"caption_template":"_CAPTION_","label":"squelette-wp","attributes":{},"skip":false,"key":"7.1.1"}]},"plugins":["navigator","emphasize","collapsible-chapters","last-modified","image-captions"],"pluginsConfig":{"last-modified":{},"emphasize":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/introduction.md","mtime":"2018-01-21T16:20:58.038Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-21T16:21:12.350Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"5.1","depth":1,"next":{"title":"Animations","level":"5.2","depth":1,"path":"css/animations.md","ref":"css/animations.md","articles":[]},"previous":{"title":"Usabilité","level":"4.6","depth":1,"path":"html/usabilite.md","ref":"html/usabilite.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: Inscription au chat","alt":"Inscription au chat","nro":1,"url":"https://img.shields.io/badge/Slack-Inscription-orange.svg","index":1,"caption_template":"_CAPTION_","label":"Inscription au chat","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","list_caption":"Figure: Accéder au chat","alt":"Accéder au chat","nro":2,"url":"https://img.shields.io/badge/Slack-Acc%C3%A9dez%20au%20chat-green.svg","index":2,"caption_template":"_CAPTION_","label":"Accéder au chat","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"culture-digitale/le-web-et-son-historire.html#fig2.1.1","level":"2.1","list_caption":"Figure: http://www.submarinecablemap.com/","alt":"http://www.submarinecablemap.com/","nro":3,"url":"../assets/images/internet-backbone-map.png","index":1,"caption_template":"_CAPTION_","label":"http://www.submarinecablemap.com/","attributes":{},"skip":false,"key":"2.1.1"},{"backlink":"culture-digitale/art-et-memoire.html#fig2.4.1","level":"2.4","list_caption":"Figure: Théâtre de la mémoire","alt":"Théâtre de la mémoire","nro":4,"url":"../assets/images/culture/theatre-memoire.jpg","index":1,"caption_template":"_CAPTION_","label":"Théâtre de la mémoire","attributes":{},"skip":false,"key":"2.4.1"},{"backlink":"art/netart.html#fig3.1.1","level":"3.1","list_caption":"Figure: Teo_Spiller_net.art.trade_(net.art).jpg","alt":"Teo_Spiller_net.art.trade_(net.art).jpg","nro":5,"url":"../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg","index":1,"caption_template":"_CAPTION_","label":"Teo_Spiller_net.art.trade_(net.art).jpg","attributes":{},"skip":false,"key":"3.1.1"},{"backlink":"art/netart.html#fig3.1.2","level":"3.1","list_caption":"Figure: olia summer","alt":"olia summer","nro":6,"url":"../assets/images/netart/olia03.gif","index":2,"caption_template":"_CAPTION_","label":"olia summer","attributes":{},"skip":false,"key":"3.1.2"},{"backlink":"art/netart.html#fig3.1.3","level":"3.1","list_caption":"Figure: https://vimeo.com/138217571","alt":"https://vimeo.com/138217571","nro":7,"url":"../assets/images/netart/kyle-mcdonald-picasso-porn.gif","index":3,"caption_template":"_CAPTION_","label":"https://vimeo.com/138217571","attributes":{},"skip":false,"key":"3.1.3"},{"backlink":"html/introduction.html#fig4.1.1","level":"4.1","list_caption":"Figure: https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","alt":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","nro":8,"url":"../assets/images/html/anatomy-of-an-html-element.png","index":1,"caption_template":"_CAPTION_","label":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","attributes":{},"skip":false,"key":"4.1.1"},{"backlink":"css/introduction.html#fig5.1.1","level":"5.1","list_caption":"Figure: Anatomie d’une règle css","alt":"Anatomie d’une règle css","nro":9,"url":"../assets/images/css/regle-css.png","index":1,"caption_template":"_CAPTION_","label":"Anatomie d’une règle css","attributes":{},"skip":false,"key":"5.1.1"},{"backlink":"css/introduction.html#fig5.1.2","level":"5.1","list_caption":"Figure: Illustration du «Box model»","alt":"Illustration du «Box model»","nro":10,"url":"https://mdn.mozillademos.org/files/8685/boxmodel-3","index":2,"caption_template":"_CAPTION_","label":"Illustration du «Box model»","attributes":{},"skip":false,"key":"5.1.2"},{"backlink":"wordpress.html#fig7.1.1","level":"7.1","list_caption":"Figure: squelette-wp","alt":"squelette-wp","nro":11,"url":"media/squelette-wp_2cihe6qvr.png","index":1,"caption_template":"_CAPTION_","label":"squelette-wp","attributes":{},"skip":false,"key":"7.1.1"}]},"plugins":["navigator","emphasize","collapsible-chapters","last-modified","image-captions"],"pluginsConfig":{"last-modified":{},"emphasize":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/introduction.md","mtime":"2018-02-03T17:12:31.973Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-03T22:11:01.991Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
