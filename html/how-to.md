@@ -25,6 +25,8 @@ Le motif se répète automatiquement car c’est le comportement par défault de
 
 Choisissez d’abord votre police [ici](https://fonts.google.com/)
 
+<p data-height="265" data-theme-id="0" data-slug-hash="JpXGYg" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Google font" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/JpXGYg/">Google font</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
 ## Les formes formes géométrique en css
 
 [https://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)
