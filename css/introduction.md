@@ -89,9 +89,29 @@ et le css
 
 {%em%}Retenez: les id, c’est comme highlander, il ne peut en rester qu’un. Les classes «C’est la class!» donc c’est pour le style.{%endem%}
 
+Plus d’info sur les sélecteurs css [ici](https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_CSS)
+
 ## Anatomie d’une règle css
 
 ![Anatomie d’une règle css](../assets/images/css/regle-css.png)
+
+## Les propiétés
+
+Voici une liste complètes de toutes les propriétés que vous pouvez utiliser pour modifier l’apparence d’une balise html:
+
+[https://tympanus.net/codrops/css_reference/#section_css-property](https://tympanus.net/codrops/css_reference/#section_css-property)
+
+## Les unités des valeurs
+
+Pour spécifier les unités de CSS vous avez la possibilité entre plusieurs unité de mesure.
+
+| Unité | Description                                                                              |
+| ----- | ---------------------------------------------------------------------------------------- |
+| em    | Relative par rapport à la taille de police de l’élement courant                          |
+| rem   | Relative par rapport à la taille de police du document                                   |
+| vw    | Relative par rapport à la largeur de la fenêtre. 10vh == 10% de la largeur de la fenêtre |
+| vh    | Relative par rapport à la hauteur de la fenêtre. 10vh == 10% de la hauteur de la fenêtre |
+| %     | Pourcentage par rapport au conteneur                                                     |
 
 ## La cascade et héritage
 
@@ -108,23 +128,11 @@ Celles-ci sont:
 * Le style spécifié par l'utilisateur lisant le document
 * Le style lié au document par son auteur
 
-## Les unités
-
-Pour spécifier les unités de CSS vous avez la possibilité entre plusieurs unité de mesure.
-
-| Unité | Description                                                                              |
-| ----- | ---------------------------------------------------------------------------------------- |
-| em    | Relative par rapport à la taille de police de l’élement courant                          |
-| rem   | Relative par rapport à la taille de police du document                                   |
-| vw    | Relative par rapport à la largeur de la fenêtre. 10vh == 10% de la largeur de la fenêtre |
-| vh    | Relative par rapport à la hauteur de la fenêtre. 10vh == 10% de la hauteur de la fenêtre |
-| %     | Pourcentage par rapport au conteneur                                                     |
-
 ## Le positionnement
 
 Tutoriel complet [http://fr.learnlayout.com/](http://fr.learnlayout.com/)
 
-![Illustration du «Box model»](https://mdn.mozillademos.org/files/8685/boxmodel-(3)
+![Illustration du «Box model»](https://mdn.mozillademos.org/files/8685/boxmodel-3)
 
 Pour plus d’info sur le «Box model» rendez-vous sur [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model).
 
