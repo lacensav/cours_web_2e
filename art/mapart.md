@@ -18,6 +18,7 @@ Jon Rafman
 http://9-eyes.com/
 
 Emilio Vavarella
+Chasseur de glitch sur google street view
 http://emiliovavarella.com/archive/google-trilogy/report-a-problem/
 
 Halley doherty
