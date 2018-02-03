@@ -97,9 +97,36 @@ et le css
 
 <p data-height="265" data-theme-id="0" data-slug-hash="VygVXa" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Cascade & héritage" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VygVXa/">Cascade & héritage</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
+Le style final d'un élément peut être spécifié à de nombreux endroits, qui peuvent interagir de manière complexe.
+C’est ce qui rend CSS puissant, mais peut aussi le rendre déroutant et difficile à débuguer.
+
+Trois sources principales d'information de styles forment une cascade.
+
+Celles-ci sont:
+
+* Le style par défaut du navigateur pour le langage de balisage
+* Le style spécifié par l'utilisateur lisant le document
+* Le style lié au document par son auteur
+
+## Les unités
+
+Pour spécifier les unités de CSS vous avez la possibilité entre plusieurs unité de mesure.
+
+| Unité | Description                                                                              |
+| ----- | ---------------------------------------------------------------------------------------- |
+| em    | Relative par rapport à la taille de police de l’élement courant                          |
+| rem   | Relative par rapport à la taille de police du document                                   |
+| vw    | Relative par rapport à la largeur de la fenêtre. 10vh == 10% de la largeur de la fenêtre |
+| vh    | Relative par rapport à la hauteur de la fenêtre. 10vh == 10% de la hauteur de la fenêtre |
+| %     | Pourcentage par rapport au conteneur                                                     |
+
 ## Le positionnement
 
 Tutoriel complet [http://fr.learnlayout.com/](http://fr.learnlayout.com/)
+
+![Illustration du «Box model»](https://mdn.mozillademos.org/files/8685/boxmodel-(3)
+
+Pour plus d’info sur le «Box model» rendez-vous sur [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model).
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
