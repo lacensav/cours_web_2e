@@ -98,15 +98,44 @@ Pour en savoir plus sur la création de lien, rendez-vous sur:
 
 ## Pourquoi ma page d’accueil doit-elle s’appeller «index.html» ?
 
-Ascii art en jouant avec des caractères
+Quand un navigateur tente d’accéder à un site via une [Url](https://fr.wikipedia.org/wiki/Uniform_Resource_Locator), demande à accéder à un fichier se trouvant sur un serveur (celui où le site est hébergé).
+Mais si l’url est `http://monsite.com/`, cela correspond juste au dossier «pulbic_html» comme vous pouvez l’avoir sur Hostinger.
+Pour savoir quoi afficher, il faudrait spécifier un fichier comme `http://monsite.com/a-propos.html`.
+Si l’on ne lui dit rien, le serveur va automatiquement (par convention) chercher à l’intérieur du dossier un fichier qui s’appelle `index.html`.
 
+```html
+<!-- L’adresse voulue -->
+
+http://monsite.com/
+
+<!-- Le fichier demandé -->
+
+|public_html/
+  |-- index.html
 ```
-███████╗███╗ ██╗███████╗ █████╗ ██╗ ██╗
-██╔════╝████╗ ██║██╔════╝██╔══██╗██║ ██║
-█████╗ ██╔██╗ ██║███████╗███████║██║ ██║
-██╔══╝ ██║╚██╗██║╚════██║██╔══██║╚██╗ ██╔╝
-███████╗██║ ╚████║███████║██║ ██║ ╚████╔╝
-╚══════╝╚═╝ ╚═══╝╚══════╝╚═╝ ╚═╝ ╚═══╝
+
+```html
+<!-- L’adresse voulue -->
+
+http://monsite.com/travaux/archive.html
+
+<!-- Le fichier demandé -->
+
+|public_html/
+  |travaux/
+    |-- archive.html
+```
+
+```html
+<!-- L’adresse voulue -->
+
+http://monsite.com/expositions/
+
+<!-- Le fichier demandé -->
+
+|public_html/
+  |expositions/
+    |-- index.html
 ```
 
 [^1]
