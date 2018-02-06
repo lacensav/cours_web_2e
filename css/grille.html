@@ -225,25 +225,12 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../art/netart.html">
+        <li class="chapter " data-level="3.1" data-path="../art/artites-internet.html">
             
-                <a href="../art/netart.html">
-            
-                    
-                    Net.art
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2" data-path="../art/mapart.html">
-            
-                <a href="../art/mapart.html">
+                <a href="../art/artites-internet.html">
             
                     
-                    Map.art
+                    Artistes internet
             
                 </a>
             
@@ -409,12 +396,25 @@
         
         
     
-        <li class="chapter " data-level="7.1" data-path="../wordpress.html">
+        <li class="chapter " data-level="7.1" data-path="../wordpress/introduction.html">
             
-                <a href="../wordpress.html">
+                <a href="../wordpress/introduction.html">
             
                     
                     Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../wordpress/tour.html">
+            
+                <a href="../wordpress/tour.html">
+            
+                    
+                    Comment ça marche?
             
                 </a>
             
@@ -468,10 +468,10 @@
                                 <section class="normal markdown-section">
                                 
                                 <blockquote>
-<p><em>Last modified: Sun Jan 07 2018 13:08:13 GMT+0100 (CET)</em></p>
+<p><em>Last modified: Tue Feb 06 2018 23:17:43 GMT+0100 (CET)</em></p>
 </blockquote>
 <h1 id="La_grille_css:">La grille css:</h1>
-<h2 id="Example">1. Example</h2>
+<h2 id="Quelques_examples">1. Quelques examples</h2>
 <ul>
 <li><a href="http://unsemantic.com/" target="_blank">http://unsemantic.com/</a></li>
 <li><a href="http://flexboxgrid.com/" target="_blank">http://flexboxgrid.com/</a></li>
@@ -479,15 +479,45 @@
 </ul>
 <h1 id="Le_syst&#xE8;me_Bootstrap">Le syst&#xE8;me Bootstrap</h1>
 <h2 id="Qu&#x2019;est_un_framework?">2. Qu&#x2019;est un framework?</h2>
-<blockquote>
-<p>Pourquoi est-ce utile ?</p>
-</blockquote>
-<h2 id="Utiliser_seulement_la_grille">3. Utiliser seulement la grille</h2>
+<p>Un framework ensemble de styles pr&#xE9;d&#xE9;finis que l&#x2019;on peut r&#xE9;utiliser partout pour construire notre site plus rapidement garder une coh&#xE9;rence graphique.</p>
+<p>Pour pouvoir utiliser ce style, une documentation nous fournit des exemples de structures HTML &#xE0; utiliser pour chaque style.</p>
+<h2 id="Utiliser_la_grille_de_bootstrap">3. Utiliser la grille de bootstrap</h2>
+<p>Nous allons utiliser la grille de bootstrap car m&#xEA;me si nous n&#x2019;utilisons que la grille aujourd&#x2019;huie cela vous permettra d&#x2019;ajouter des modules au fur et &#xE0; mesure si vous d&#xE9;cidez de continuer a apprendre.</p>
+<h3 id="T&#xE9;l&#xE9;chargement">3.1. T&#xE9;l&#xE9;chargement</h3>
+<p>Commencez par t&#xE9;l&#xE9;charger la grille en vous rendant sur le <a href="https://getbootstrap.com/" target="_blank">site de bootstrap</a></p>
+<p><img src="../assets/images/bootstrap/bootstrap-grid-01.jpg" alt=""></p>
+<h3 id="Extraction">3.2. Extraction</h3>
+<p>Ensuite dezippez le dossier t&#xE9;l&#xE9;charg&#xE9; et allez regarder dans le dossier css.</p>
+<p><img src="../assets/images/bootstrap/bootstrap-grid-02.jpg" alt=""></p>
+<h3 id="Installation">3.3. Installation</h3>
+<p>Extrayez le fichier bootstrap-grid.css et allez le mettre dans le dossier de votre site.</p>
+<p><img src="../assets/images/bootstrap/bootstrap-grid-03.jpg" alt=""></p>
+<p>Ensuite faites un lien dans la partie <code>&lt;head&gt;</code> de votre page html vers cette nouvelle feuille de styles.</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Mon site<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;bootstrap-grid.css&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;styles.css&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;container&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-6&quot;</span>&gt;</span>hello<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-6&quot;</span>&gt;</span>hello<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
 <h2 id="Exemple_de_mod&#xE8;le_de_mise_en_page">4. Exemple de mod&#xE8;le de mise en page</h2>
+<p>Il est toujours possible de faire son layout soi-m&#xEA;me, sans utiliser de grille. Voici un exemple.</p>
 <p><a href="https://www.quackit.com/html/templates/layout_templates.cfm" target="_blank">https://www.quackit.com/html/templates/layout_templates.cfm</a></p>
 <p></p><p data-height="265" data-theme-id="0" data-slug-hash="GyOQXN" data-default-tab="result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="3 column layout" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/GyOQXN/" target="_blank">3 column layout</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort" target="_blank">@borisrorsvort</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.</p><p></p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Le_syst&#xE8;me_Bootstrap">Le syst&#xE8;me Bootstrap</a></p><li><a href="#Example">1. Example</a></li><li><a href="#Qu&#x2019;est_un_framework?">2. Qu&#x2019;est un framework?</a></li><li><a href="#Utiliser_seulement_la_grille">3. Utiliser seulement la grille</a></li><li><a href="#Exemple_de_mod&#xE8;le_de_mise_en_page">4. Exemple de mod&#xE8;le de mise en page</a></li></ul></div><a href="#Example" id="goTop"><i class="fa fa-arrow-up"></i></a>
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Le_syst&#xE8;me_Bootstrap">Le syst&#xE8;me Bootstrap</a></p><li><a href="#Quelques_examples">1. Quelques examples</a></li><li><a href="#Qu&#x2019;est_un_framework?">2. Qu&#x2019;est un framework?</a></li><li><a href="#Utiliser_la_grille_de_bootstrap">3. Utiliser la grille de bootstrap</a></li><ul><li><a href="#T&#xE9;l&#xE9;chargement">3.1. T&#xE9;l&#xE9;chargement</a></li><li><a href="#Extraction">3.2. Extraction</a></li><li><a href="#Installation">3.3. Installation</a></li></ul><li><a href="#Exemple_de_mod&#xE8;le_de_mise_en_page">4. Exemple de mod&#xE8;le de mise en page</a></li></ul></div><a href="#Quelques_examples" id="goTop"><i class="fa fa-arrow-up"></i></a>
                                 
                                 </section>
                             
@@ -530,7 +560,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Framework & grille","level":"5.3","depth":1,"next":{"title":"Comment hacker du js?","level":"6.1","depth":1,"path":"javascript.md","ref":"javascript.md","articles":[]},"previous":{"title":"Animations","level":"5.2","depth":1,"path":"css/animations.md","ref":"css/animations.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: Inscription au chat","alt":"Inscription au chat","nro":1,"url":"https://img.shields.io/badge/Slack-Inscription-orange.svg","index":1,"caption_template":"_CAPTION_","label":"Inscription au chat","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","list_caption":"Figure: Accéder au chat","alt":"Accéder au chat","nro":2,"url":"https://img.shields.io/badge/Slack-Acc%C3%A9dez%20au%20chat-green.svg","index":2,"caption_template":"_CAPTION_","label":"Accéder au chat","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"culture-digitale/le-web-et-son-historire.html#fig2.1.1","level":"2.1","list_caption":"Figure: http://www.submarinecablemap.com/","alt":"http://www.submarinecablemap.com/","nro":3,"url":"../assets/images/internet-backbone-map.png","index":1,"caption_template":"_CAPTION_","label":"http://www.submarinecablemap.com/","attributes":{},"skip":false,"key":"2.1.1"},{"backlink":"culture-digitale/art-et-memoire.html#fig2.4.1","level":"2.4","list_caption":"Figure: Théâtre de la mémoire","alt":"Théâtre de la mémoire","nro":4,"url":"../assets/images/culture/theatre-memoire.jpg","index":1,"caption_template":"_CAPTION_","label":"Théâtre de la mémoire","attributes":{},"skip":false,"key":"2.4.1"},{"backlink":"art/netart.html#fig3.1.1","level":"3.1","list_caption":"Figure: Teo_Spiller_net.art.trade_(net.art).jpg","alt":"Teo_Spiller_net.art.trade_(net.art).jpg","nro":5,"url":"../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg","index":1,"caption_template":"_CAPTION_","label":"Teo_Spiller_net.art.trade_(net.art).jpg","attributes":{},"skip":false,"key":"3.1.1"},{"backlink":"art/netart.html#fig3.1.2","level":"3.1","list_caption":"Figure: olia summer","alt":"olia summer","nro":6,"url":"../assets/images/netart/olia03.gif","index":2,"caption_template":"_CAPTION_","label":"olia summer","attributes":{},"skip":false,"key":"3.1.2"},{"backlink":"art/netart.html#fig3.1.3","level":"3.1","list_caption":"Figure: https://vimeo.com/138217571","alt":"https://vimeo.com/138217571","nro":7,"url":"../assets/images/netart/kyle-mcdonald-picasso-porn.gif","index":3,"caption_template":"_CAPTION_","label":"https://vimeo.com/138217571","attributes":{},"skip":false,"key":"3.1.3"},{"backlink":"html/introduction.html#fig4.1.1","level":"4.1","list_caption":"Figure: https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","alt":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","nro":8,"url":"../assets/images/html/anatomy-of-an-html-element.png","index":1,"caption_template":"_CAPTION_","label":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","attributes":{},"skip":false,"key":"4.1.1"},{"backlink":"css/introduction.html#fig5.1.1","level":"5.1","list_caption":"Figure: Anatomie d’une règle css","alt":"Anatomie d’une règle css","nro":9,"url":"../assets/images/css/regle-css.png","index":1,"caption_template":"_CAPTION_","label":"Anatomie d’une règle css","attributes":{},"skip":false,"key":"5.1.1"},{"backlink":"css/introduction.html#fig5.1.2","level":"5.1","list_caption":"Figure: Illustration du «Box model»","alt":"Illustration du «Box model»","nro":10,"url":"https://mdn.mozillademos.org/files/8685/boxmodel-3","index":2,"caption_template":"_CAPTION_","label":"Illustration du «Box model»","attributes":{},"skip":false,"key":"5.1.2"},{"backlink":"wordpress.html#fig7.1.1","level":"7.1","list_caption":"Figure: squelette-wp","alt":"squelette-wp","nro":11,"url":"media/squelette-wp_2cihe6qvr.png","index":1,"caption_template":"_CAPTION_","label":"squelette-wp","attributes":{},"skip":false,"key":"7.1.1"}]},"plugins":["navigator","emphasize","collapsible-chapters","last-modified","image-captions"],"pluginsConfig":{"last-modified":{},"emphasize":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/grille.md","mtime":"2018-01-07T12:08:13.375Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-03T22:16:57.920Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Framework & grille","level":"5.3","depth":1,"next":{"title":"Comment hacker du js?","level":"6.1","depth":1,"path":"javascript.md","ref":"javascript.md","articles":[]},"previous":{"title":"Animations","level":"5.2","depth":1,"path":"css/animations.md","ref":"css/animations.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","list_caption":"Figure: Inscription au chat","alt":"Inscription au chat","nro":1,"url":"https://img.shields.io/badge/Slack-Inscription-orange.svg","index":1,"caption_template":"_CAPTION_","label":"Inscription au chat","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","list_caption":"Figure: Accéder au chat","alt":"Accéder au chat","nro":2,"url":"https://img.shields.io/badge/Slack-Acc%C3%A9dez%20au%20chat-green.svg","index":2,"caption_template":"_CAPTION_","label":"Accéder au chat","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"culture-digitale/le-web-et-son-historire.html#fig2.1.1","level":"2.1","list_caption":"Figure: http://www.submarinecablemap.com/","alt":"http://www.submarinecablemap.com/","nro":3,"url":"../assets/images/internet-backbone-map.png","index":1,"caption_template":"_CAPTION_","label":"http://www.submarinecablemap.com/","attributes":{},"skip":false,"key":"2.1.1"},{"backlink":"culture-digitale/art-et-memoire.html#fig2.4.1","level":"2.4","list_caption":"Figure: Théâtre de la mémoire","alt":"Théâtre de la mémoire","nro":4,"url":"../assets/images/culture/theatre-memoire.jpg","index":1,"caption_template":"_CAPTION_","label":"Théâtre de la mémoire","attributes":{},"skip":false,"key":"2.4.1"},{"backlink":"art/artites-internet.html#fig3.1.1","level":"3.1","list_caption":"Figure: Teo_Spiller_net.art.trade_(net.art).jpg","alt":"Teo_Spiller_net.art.trade_(net.art).jpg","nro":5,"url":"../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg","index":1,"caption_template":"_CAPTION_","label":"Teo_Spiller_net.art.trade_(net.art).jpg","attributes":{},"skip":false,"key":"3.1.1"},{"backlink":"art/artites-internet.html#fig3.1.2","level":"3.1","list_caption":"Figure: olia summer","alt":"olia summer","nro":6,"url":"../assets/images/netart/olia03.gif","index":2,"caption_template":"_CAPTION_","label":"olia summer","attributes":{},"skip":false,"key":"3.1.2"},{"backlink":"art/artites-internet.html#fig3.1.3","level":"3.1","list_caption":"Figure: https://vimeo.com/138217571","alt":"https://vimeo.com/138217571","nro":7,"url":"../assets/images/netart/kyle-mcdonald-picasso-porn.gif","index":3,"caption_template":"_CAPTION_","label":"https://vimeo.com/138217571","attributes":{},"skip":false,"key":"3.1.3"},{"backlink":"html/introduction.html#fig4.1.1","level":"4.1","list_caption":"Figure: https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","alt":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","nro":8,"url":"../assets/images/html/anatomy-of-an-html-element.png","index":1,"caption_template":"_CAPTION_","label":"https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png","attributes":{},"skip":false,"key":"4.1.1"},{"backlink":"css/introduction.html#fig5.1.1","level":"5.1","list_caption":"Figure: Anatomie d’une règle css","alt":"Anatomie d’une règle css","nro":9,"url":"../assets/images/css/regle-css.png","index":1,"caption_template":"_CAPTION_","label":"Anatomie d’une règle css","attributes":{},"skip":false,"key":"5.1.1"},{"backlink":"css/introduction.html#fig5.1.2","level":"5.1","list_caption":"Figure: Illustration du «Box model»","alt":"Illustration du «Box model»","nro":10,"url":"https://mdn.mozillademos.org/files/8685/boxmodel-3","index":2,"caption_template":"_CAPTION_","label":"Illustration du «Box model»","attributes":{},"skip":false,"key":"5.1.2"},{"backlink":"wordpress/introduction.html#fig7.1.1","level":"7.1","list_caption":"Figure: wp-install-01","alt":"wp-install-01","nro":11,"url":"../assets/images/wordpress/wp-install-01.png","index":1,"caption_template":"_CAPTION_","label":"wp-install-01","attributes":{},"skip":false,"key":"7.1.1"},{"backlink":"wordpress/introduction.html#fig7.1.2","level":"7.1","list_caption":"Figure: wp-install-02","alt":"wp-install-02","nro":12,"url":"../assets/images/wordpress/wp-install-02.png","index":2,"caption_template":"_CAPTION_","label":"wp-install-02","attributes":{},"skip":false,"key":"7.1.2"},{"backlink":"wordpress/introduction.html#fig7.1.3","level":"7.1","list_caption":"Figure: wp-install-03","alt":"wp-install-03","nro":13,"url":"../assets/images/wordpress/wp-install-03.png","index":3,"caption_template":"_CAPTION_","label":"wp-install-03","attributes":{},"skip":false,"key":"7.1.3"},{"backlink":"wordpress/introduction.html#fig7.1.4","level":"7.1","list_caption":"Figure: wp-install-04","alt":"wp-install-04","nro":14,"url":"../assets/images/wordpress/wp-install-04.png","index":4,"caption_template":"_CAPTION_","label":"wp-install-04","attributes":{},"skip":false,"key":"7.1.4"},{"backlink":"wordpress/introduction.html#fig7.1.5","level":"7.1","list_caption":"Figure: wp-install-09","alt":"wp-install-09","nro":15,"url":"../assets/images/wordpress/wp-install-11.png","index":5,"caption_template":"_CAPTION_","label":"wp-install-09","attributes":{},"skip":false,"key":"7.1.5"},{"backlink":"wordpress/introduction.html#fig7.1.6","level":"7.1","list_caption":"Figure: wp-install-09","alt":"wp-install-09","nro":16,"url":"../assets/images/wordpress/wp-install-12.png","index":6,"caption_template":"_CAPTION_","label":"wp-install-09","attributes":{},"skip":false,"key":"7.1.6"},{"backlink":"wordpress/introduction.html#fig7.1.7","level":"7.1","list_caption":"Figure: wp-install-09","alt":"wp-install-09","nro":17,"url":"../assets/images/wordpress/wp-install-17.png","index":7,"caption_template":"_CAPTION_","label":"wp-install-09","attributes":{},"skip":false,"key":"7.1.7"},{"backlink":"wordpress/introduction.html#fig7.1.8","level":"7.1","list_caption":"Figure: wp-install-transfer","alt":"wp-install-transfer","nro":18,"url":"../assets/images/wordpress/wp-install-transfer.png","index":8,"caption_template":"_CAPTION_","label":"wp-install-transfer","attributes":{},"skip":false,"key":"7.1.8"},{"backlink":"wordpress/introduction.html#fig7.1.9","level":"7.1","list_caption":"Figure: wp-install-edit-config","alt":"wp-install-edit-config","nro":19,"url":"../assets/images/wordpress/wp-install-edit-config.png","index":9,"caption_template":"_CAPTION_","label":"wp-install-edit-config","attributes":{},"skip":false,"key":"7.1.9"},{"backlink":"wordpress/introduction.html#fig7.1.10","level":"7.1","list_caption":"Figure: wp-install-config-edit","alt":"wp-install-config-edit","nro":20,"url":"../assets/images/wordpress/wp-install-config-edit.png","index":10,"caption_template":"_CAPTION_","label":"wp-install-config-edit","attributes":{},"skip":false,"key":"7.1.10"},{"backlink":"wordpress/tour.html#fig7.2.1","level":"7.2","list_caption":"Figure: squelette-wp","alt":"squelette-wp","nro":21,"url":"../assets/images/wordpress/squelette-wp.png","index":1,"caption_template":"_CAPTION_","label":"squelette-wp","attributes":{},"skip":false,"key":"7.2.1"}]},"plugins":["navigator","emphasize","collapsible-chapters","last-modified","image-captions"],"pluginsConfig":{"last-modified":{},"emphasize":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/grille.md","mtime":"2018-02-06T22:17:43.466Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-06T22:21:10.037Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
