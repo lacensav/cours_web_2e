@@ -40,4 +40,5 @@
 
 ## WORDPRESS
 
-* [Introduction](wordpress.md)
+* [Introduction](wordpress/introduction.md)
+* [Comment ça marche?](wordpress/tour.md)
