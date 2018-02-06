@@ -18,8 +18,7 @@ ensav@rorsvort.com
 
 * Vous faire réfléchir artistiquement sur le phénomène internet.
 * Vous donner des outils intellectuels culturels, artistiques et techniques pour le comprendre, l’utiliser, en faire un medium créatif.
-* Grâce à l’étude du HTML, des outils d’édition du code, des bases des css et de WordPress, vous serez capables, en fin de cursus, de créer votre propre site et de le mettre en ligne. (ex: http://astrologer-longitudes-45521.bitballoon.com/)
-* Vous donner des outils intellectuels culturels, artistiques et techniques pour le comprendre, l’utiliser, en faire un medium créatif.
+* Grâce à l’étude du HTML, des outils d’édition du code, des bases des css et de WordPress, vous serez capables, en fin de cursus, de créer votre propre site et de le mettre en ligne.
 
 ## Matériel nécessaire
 
@@ -36,7 +35,7 @@ ensav@rorsvort.com
 
 * [BitBalloon](https://www.bitballoon.com) #statique #drag_and_drop
 * [Get Forge](https://getforge.com) #statique #drag_and_drop
-* [Amazon s3](http://www.smalldatajournalism.com/projects/one-offs/using-amazon-s3/)
+* [Amazon s3](http://www.smalldatajournalism.com/projects/one-offs/using-amazon-s3/) #statique
 * [Neocities](https://neocities.org/) # Hébergement basique + editeur
 * [Hostinger (pour le wordpress)](http://www.hostinger.fr/commander) #ftp
 

@@ -16,8 +16,7 @@
 
 ## Artistes
 
-* [Net.art](art/netart.md)
-* [Map.art](art/mapart.md)
+* [Artistes internet](art/artites-internet.md)
 
 ## HTML
 

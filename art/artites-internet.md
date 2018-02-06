@@ -2,8 +2,6 @@
 
 <!-- toc -->
 
-# Net.art
-
 ![Teo_Spiller_net.art.trade_(net.art).jpg](../assets/images/netart/Teo_Spiller_net.art.trade_net.art.jpg)
 
 En Europe, et plus particulière en Europe de l’est, une scène se développe au milieu des années 90 qui se revendique du mouvement net.art. Les artistes s'approprient le web en l’utilisant de manière modeste dans la forme (sorte d’«Arte Povera» des arts numériques) mais s’impliquant fortement dans l’aspect culturel et politique de ce nouveau réseau.
@@ -98,8 +96,6 @@ I created an net art piece that moves to a new URL whenever someone views it. It
 
 https://t.co/L3FZ2lJDKE
 
-# Digital art
-
 ## Jamie Zawinski
 
 Hacker culture site - https://www.jwz.org/
@@ -136,3 +132,36 @@ Shu Lea Cheang's I.K.U. in the style of Picasso's "Girl with Mandolin". Excerpt 
 https://vimeo.com/138217571
 
 ![https://vimeo.com/138217571](../assets/images/netart/kyle-mcdonald-picasso-porn.gif)
+
+## Ben Kinsley:
+
+http://benkinsley.com/street-with-a-view/
+
+## Paolo Cirio:
+
+http://www.paolocirio.net/work/street-ghosts/
+
+Life-sized pictures of people found on Google's Street View were printed and posted without authorization at the same spot where they were taken. The posters are printed in color on thin paper, cut along the outline, and then affixed with wheatpaste on the walls of public buildings at the precise spot on the wall where they appear in Google’s Street View image. Street Ghosts reveals the aesthetic, biopolitical, privacy and legal issues, which can be explored through the artist’s statement and theoretical considerations. The artwork becomes a performance, re-contextualizing not only ready made informational material, but also a conflict. Ghostly human bodies appear as casualties of the info-war in the city, a transitory record of collateral damage from the battle between corporations, governments, civilians and algorithms.
+
+## SOOZ collectif
+
+http://sooz.global/
+http://prostheticknowledge.tumblr.com/post/126370521356/sooz-online-net-art-exhibition-features-new-pieces
+http://sooz.global/#/feelingclose
+
+## Jan Robert Leegte
+
+http://www.bluemonochrome.com/
+
+## Jon Rafman
+
+http://9-eyes.com/
+
+## Emilio Vavarella
+
+Chasseur de glitch sur google street view
+http://emiliovavarella.com/archive/google-trilogy/report-a-problem/
+
+## Halley doherty
+
+http://www.theguardian.com/profile/halley-docherty
