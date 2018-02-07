@@ -90,21 +90,29 @@ Il décrit sa conception en détail dans son ouvrage Computer Lib/Dream machines
 **29 octobre 1969**
 
 Deux ordinateurs de l’université d’UCLA et StandFort s’envois le premier message, le simple mot login sera envoyé sur le réseau. c'est le point de départ d’une mise en réseau d’ordinateurs, mieux connu sous le nom d’Arpanet.
-https$//fr.wikipedia.org/wiki/ARPANET
+[https://fr.wikipedia.org/wiki/ARPANET](https://fr.wikipedia.org/wiki/ARPANET)
 
-**1989**
+**1971**
 Bon alors, envoyé le mot login c’etait un bon début mais envoyé un texte ce serait mieu! L'ingénieur Ray Tomlinson parvient à transférer 200 lignes de code d’un ordinateur à l’autre via deux boîtes aux lettres électroniques. Le courrier électronique fait son apparition sous le nom de Netmail (Network Mail).
 
-**1989**
+**1972**
 Le réseau Internet prend de l’ampleur avec la création des premières adresses email qui permettent alors de localiser les systèmes sur le réseau.
 
 **1983 : cyberpunk**
 http://tremblinguterus.blogspot.be/2012/10/cyber-threats-history-rise-of-hacker.html
 
-**1984 : Le Logiciel Libre**
+**1986 : Le Logiciel Libre**
 quand les ordinateurs sont entrés dans le monde des affaires, que les programmeurs ont commencé à subvenir à leurs besoins en limitant les droits associés à leurs logiciels et en en taxant chaque copie.
-Le Logiciel Libre, en tant qu'idée politique, a été popularisé par Richard Stallman depuis 1984, année où il a créé la Free Software Foundation et son projet GNU.
-Copy left en opposition au copyright
+Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement1, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.
+
+Définition de la Free Software Foundation (FSF):
+
+> * la liberté d'exécuter le programme, pour tous les usages ;
+> * la liberté d'étudier le fonctionnement du programme et de l'adapter à ses besoins ;
+> * la liberté de redistribuer des copies du programme (ce qui implique la possibilité aussi bien de donner que de vendre des copies) ;
+> * la liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
+
+[En savoir plus sur le logicial libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
 **1987 : Les artistes s’empare de l’hypertexte**
 Déjà bien avant le web on voit des artistes et des écrivains s’emparer de ce nouveau support et des capacité de l’hyper texte pour créer de nouvelles façons de raconter.
