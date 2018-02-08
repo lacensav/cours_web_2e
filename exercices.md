@@ -4,7 +4,7 @@
 
 ## Exercice 1
 
-* Inventer la plaquette d’une œuvre fictive avec les balises html que vous connaissez **(sans css)**
+* Inventer la plaquette d’exposition d’une œuvre fictive avec les balises html que vous connaissez **(sans style)**
 * Déployer sur [Bitballoon](https://www.bitballoon.com/).
 
 ## Exercice 2

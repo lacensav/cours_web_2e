@@ -64,12 +64,16 @@ USA vit dans la psychose d ’une attaque surprise de la Russie Paul Baran de la
 
 **1965 : Le message, c'est le médium.**
 Marshall McLuhan, philosophe des medias canadien.
-Elle signifie que la nature d’un media (du canal de transmission d’un message) compte plus que le sens ou le contenu du message
-Les médias agissent sur nos sens, nous « reprogramment », et conditionnent notre perception et notre appréhension du monde.
+Elle signifie que la nature d’un media (du canal de transmission d’un message) compte plus que le sens ou le contenu du message.
 
 > **A méditer:**
 > Les nouveaux médias commencent toujours par imiter les anciens médias. (ref skeuomorphisme interface Apple)
 > Reference Futuriste a propos des cubistes : comment voulez representer le mouvement et la vitesse avec une technique medievaleuse?
+
+> **À méditer:**
+> Les médias agissent sur nos sens, nous « reprogramment », et conditionnent notre perception et notre appréhension du monde.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78oMjNCAayQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 **1965 : L’hypertexte**
 Ted Nelson appelle hypertexte un réseau constitué par un ensemble de documents informatiques (originaux, citations, annotations) liés entre eux, soit tout un système hypertexte. Pour lui, la principale propriété de l’hypertexte est de ne pas être séquentiel (ou linéaire), par opposition à un discours ou aux pages d’un livre. Il s’agit aussi pour lui d’un « concept unifié d’idées et de données interconnectées, et de la façon dont ces idées et ces données peuvent être éditées sur un écran d’ordinateur »
@@ -114,6 +118,9 @@ Définition de la Free Software Foundation (FSF):
 
 [En savoir plus sur le logicial libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
+Il est interessant de voir comment certains artiste contemporain gère leur propriété intellectuelle:
+[Rapael Rosendael](/art/artites-internet.html#Rapael_Rosendael)
+
 **1987 : Les artistes s’empare de l’hypertexte**
 Déjà bien avant le web on voit des artistes et des écrivains s’emparer de ce nouveau support et des capacité de l’hyper texte pour créer de nouvelles façons de raconter.
 
@@ -128,6 +135,8 @@ Le Centre européen de recherche nucléaire (CERN) met en ligne la première pag
 **1994 :** Création du premier navigateur commercial, Netscape Navigator. Il sera longtemps plébiscité par les internautes avant l’arrivée d’Internet Explorer à la fin des années 1990.
 
 **1995 :** Amazon.com devient le premier portail de commerce électronique à voir le jour. Il offre notamment à Internet une nouvelle dimension commerciale.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WTKIgdfoHxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 **2009 :** Après les premiers réseaux sans fil portant la norme WaveLAN, le Wi-Fi fait son apparition. Dans le même temps, la Tunisie s’impose comme un pionnier dans le monde arabe et africain en permettant l’utilisation commerciale et publique de l’Internet dans le pays.
 

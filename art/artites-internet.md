@@ -40,6 +40,13 @@ Irrational.org: http://www.kuda.org/en/wonderful-world-irationalorg-tools-techni
 
 Juste pour référence comme vous l’avez sans doute déjà aborder dans d’autre cours.
 
+## Rapael Rosendael
+
+En plus de ses œuvres, il explore ce que cela veut dire de faire de l’art internet et de le vendre.
+http://www.artwebsitesalescontract.com/
+
+La version avocat: http://www.canevet.org/spip.php?article148
+
 ## Olia Lialina: Summer
 
 ![olia summer](../assets/images/netart/olia03.gif)
