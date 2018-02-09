@@ -8,6 +8,10 @@ ensav@rorsvort.com
 
 [![Accéder au chat](https://img.shields.io/badge/Slack-Acc%C3%A9dez%20au%20chat-green.svg)](https://lacenchat.slack.com)
 
+Présence
+
+[https://goo.gl/forms/p1OlKA5V1X75iU0r2](https://goo.gl/forms/p1OlKA5V1X75iU0r2)
+
 ## Structure
 
 * 4 semaines HTML,
