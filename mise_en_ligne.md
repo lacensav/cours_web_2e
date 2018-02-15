@@ -48,4 +48,27 @@ C’est la première fois qu’un fournisseur d’hébergement est supposé cré
 
 ## Réserver son hébergement et transférer les fichiers
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRlSiIIGSZ6EnpTRJ-u9JI_HwjKkBzN1PI9A0fTzICbeHCaCk37v6Vwrz67B19OcycAfDKiy1udIMu0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+### Réservation
+
+![](../assets/images/ftp/01.png)
+![](../assets/images/ftp/02.png)
+![](../assets/images/ftp/03.png)
+![](../assets/images/ftp/04.png)
+![](../assets/images/ftp/05.png)
+![](../assets/images/ftp/06.png)
+![](../assets/images/ftp/07.png)
+![](../assets/images/ftp/08.png)
+
+### Filezilla
+
+![](../assets/images/ftp/filezilla/01.png)
+![](../assets/images/ftp/filezilla/02.png)
+![](../assets/images/ftp/filezilla/03.png)
+![](../assets/images/ftp/filezilla/04.png)
+![](../assets/images/ftp/filezilla/05.png)
+![](../assets/images/ftp/filezilla/06.png)
+![](../assets/images/ftp/filezilla/07.png)
+![](../assets/images/ftp/filezilla/08.png)
+![](../assets/images/ftp/filezilla/09.png)
+![](../assets/images/ftp/filezilla/10.png)
+![](../assets/images/ftp/filezilla/11.png)

@@ -18,26 +18,6 @@ Critères d’évaluation:
 * Validité du code général
 * Quantité d’éléments convertis par rapport au document original ?
 
-## Travail 2 (Proposition)
-
-Créer un site de galerie d’art avec :
-
-* une page d’accueil
-* une page par artiste (3 min)
-* un menu de navigation entre les page
-* une œuvre de l’artiste réalisée complètement en css (avec lien vers l’image original)
-* une petite biographie de l’auteur avec du texte structuré (plusieurs niveau de texte,…)
-
-Artistes aux choix (Malevitch, Mondrian, Albers, …)
-
-Critères d’évaluation:
-
-* Le respect des consignes
-* La fidélité des reproductions
-* Le concept graphique de la galerie
-* La validité générale du code
-* Le site a bien été mis en ligne
-
 ## Travail de fin d’année
 
 À définir
