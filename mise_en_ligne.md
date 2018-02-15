@@ -50,20 +50,30 @@ C’est la première fois qu’un fournisseur d’hébergement est supposé cré
 
 ### Réservation
 
-![](assets/images/ftp/01.png)
-![](assets/images/ftp/02.png)
-![](assets/images/ftp/03.png)
-![](assets/images/ftp/04.png)
-![](assets/images/ftp/05.png)
-![](assets/images/ftp/06.png)
-![](assets/images/ftp/07.png)
-![](assets/images/ftp/08.png)
+![Enregistrement](assets/images/ftp/01.png)
+
+![Quitter la modal box, rester sur gratuit](assets/images/ftp/02.png)
+
+![Vérifier votre email](assets/images/ftp/03.png)
+
+![Votre email est bien vérifié](assets/images/ftp/04.png)
+
+![C'est bon, ça ne me dérange pas.](assets/images/ftp/05.png)
+
+![Cliquez sur l’adresse de votre site](assets/images/ftp/06.png)
+
+![Il vous demande d’ajouter une page d’accueil](assets/images/ftp/07.png)
+
+![Vos informations de connection ftp](assets/images/ftp/08.png)
 
 ### Filezilla
 
-![](assets/images/ftp/filezilla/01.png)
-![](assets/images/ftp/filezilla/02.png)
-![](assets/images/ftp/filezilla/03.png)
+![Utilisez de gestionnaire de site pour sauver vos infos de connection](assets/images/ftp/filezilla/01.png)
+
+![La connection devrait s’établir](assets/images/ftp/filezilla/02.png)
+
+![Acceptez de certificat](assets/images/ftp/filezilla/03.png)
+
 ![](assets/images/ftp/filezilla/04.png)
 ![](assets/images/ftp/filezilla/05.png)
 ![](assets/images/ftp/filezilla/06.png)
