@@ -13,6 +13,7 @@
 * [Procédés de création](outils/procedes-de-creation.md)
 * [Contre culture digitale](culture-digitale/contre-culture-digitale.md)
 * [Art et mémoire](culture-digitale/art-et-memoire.md)
+* [Glitch/bug art](culture-digitale/glitch.md)
 
 ## Artistes
 
