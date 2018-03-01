@@ -7,6 +7,7 @@ Récréer une page html structurée selon un modèle
 * Reprendre un maximum d’éléments html possible.
 * Inclure la feuille de style déjà préparée [Enregistrer-sous](./assets/images/travail/main.css).
 * Le lien "mail" de la page contact doit pointer vers une adresse email. Le téléphone vers un numéro de téléphone.
+* La navigation secondaire page 2 doit contenir des ancres
 * Ce travail est à réaliser seul(e)
 * Le tout doit être transféré via FTP sur votre serveur et accessible via une adresse de type: votrenomdutilisateur.000webhostapp.com/exo4/
 
