@@ -55,7 +55,7 @@ Recréer un site d’après une série de capture d’écran que je vous donnera
 
 Cette page doit contenir:
 
-* Votre tableau de Cardon (full HTML/CSS)
+* Votre tableau d’Albers (full HTML/CSS)
 * Votre image de base
 * Toute autre chose que vous jugeriez utile
 
