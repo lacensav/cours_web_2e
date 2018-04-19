@@ -1,6 +1,6 @@
 <!-- toc -->
 
-# Travail 1
+# Examen intermédiaire
 
 Récréer une page html structurée selon un modèle
 

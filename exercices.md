@@ -43,9 +43,11 @@ Strucure demandée:
     |-- ... autres fichiers si nécessaire
 ```
 
-## Exercice 4
+## Exercice 4 (examen intermédiaire)
 
 Recréer un site d’après une série de capture d’écran que je vous donnerai endéans les premières semaines de cours.
+
+[Voir la description](travaux.md)
 
 ## Exercice 5
 

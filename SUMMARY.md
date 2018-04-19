@@ -3,7 +3,7 @@
 ## GENERAL
 
 * [Introduction](README.md)
-* [Travaux](travaux.md)
+* [Examen intermédaire](travaux.md)
 * [Exercices](exercices.md)
 * [Mise en ligne](mise_en_ligne.md)
 
