@@ -123,8 +123,10 @@ Pour avoir plusieurs générateurs sur la même page, il nous suffira de dupliqu
 ```
 
 <p data-height="265" data-theme-id="0" data-slug-hash="dWMZdK" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Random poems 2" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/dWMZdK/">Random poems 2</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-## À vous de jouer !
+## Alterner des classes sur plusieurs balises
 
-Bonus http://revolver-on-mintcream.com/
+Cliquez sur le paragraphe
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MGYRKZ" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Js - toggle class" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MGYRKZ/">Js - toggle class</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
