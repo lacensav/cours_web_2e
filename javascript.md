@@ -47,7 +47,6 @@ Pour afficher le résultat de cette fonction sur notre paqe html, il nous faut l
 ```
 
 <p data-height="265" data-theme-id="0" data-slug-hash="NjNwpZ" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Today is" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/NjNwpZ/">Today is</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 **Exercice:** Remplacer les jours de la semaine par des vers de poésies (à défaut, quelques unes du http://www.pipotron.free.fr)
 
