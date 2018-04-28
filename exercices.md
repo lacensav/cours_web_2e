@@ -75,11 +75,13 @@ Vous devez m’envoyer l’URL de votre page, que vous aurez au préalable trans
 
 ## Exercice 7
 
-Recréer l’exercice de la [recette d’open Cola](https://github.com/lacensav/cours_web_2e/archive/master.zip) en utilisant la grille de Boostrap
-[getbootstrap.com](https://getbootstrap.com)
+Modifier cette [page html](https://github.com/lacensav/cours_web_2e/raw/master/assets/images/exercice-grille.zip) afin de convertir la mise en page en colonne en grille. La page originale utilise les système de float, je vous demande donc:
 
-* Avoir une side bar avec les liens vers les différentes étapes de la recette et un block de contenu. Donc min 2 colonnes.
-* Les galleries d’image doivent utiliser une sous-grille
+* D'importer la grille css de bootstrap comme vu au cours
+* De remplacer l'html pour introduire la grille bootstrap
+* De garder une mise en page aussi identique que possible en utilisant seulement les classes css fournie par la grille
+* D'enlever le css qui n'est plus nécessaire dans le fichier main.css
+* D'ajouter l'exercice fini sur votre site
 
 ## Exercice 8
 
