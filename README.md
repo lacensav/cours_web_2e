@@ -1,5 +1,13 @@
 # Cours de web et culture digitale - 2B Ensav
 
+## Horaire prélecture
+
+{%em%}Soyez à l’heure, il n’y aura que 10 minutes par personne{%endem%}
+
+{%em%}Vous pouvez changer l’ordre de passage entre-vous comme vous voulez{%endem%}
+
+[Voir l’horaire](https://docs.google.com/spreadsheets/d/1Pl4GIdH0Nrqyi-offotLvbMlbCaeGAXmLxEubSfjR-g/edit?usp=sharing)
+
 ## Contact
 
 ensav@rorsvort.com
