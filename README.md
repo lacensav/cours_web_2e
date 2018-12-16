@@ -54,7 +54,7 @@ Présence
 
 ## Hébergeurs
 
-- [BitBalloon](https://www.bitballoon.com) #statique #drag_and_drop
+- [Netlify drop](https://app.netlify.com/drop) #statique #drag_and_drop
 - [Get Forge](https://getforge.com) #statique #drag_and_drop
 - [Amazon s3](http://www.smalldatajournalism.com/projects/one-offs/using-amazon-s3/) #statique
 - [Neocities](https://neocities.org/) # Hébergement basique + editeur
