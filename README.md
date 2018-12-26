@@ -59,6 +59,7 @@ Présence
 - [Amazon s3](http://www.smalldatajournalism.com/projects/one-offs/using-amazon-s3/) #statique
 - [Neocities](https://neocities.org/) # Hébergement basique + editeur
 - [000webhost (pour le wordpress)](https://www.000webhost.com) #ftp
+- [Updog](https://updog.co/) #drag_and_drop #statique
 
 ## Logiciels ftp
 
