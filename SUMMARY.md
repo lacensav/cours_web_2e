@@ -7,6 +7,13 @@
 - [Mise en ligne](mise_en_ligne.md)
 - [Travail de fin d’année](travail-de-fin-dannee.md)
 
+## Exercices
+
+- [Exercice 1](exercices/exo-01.md)
+- [Exercice 2](exercices/exo-02.md)
+- [Exercice 3](exercices/exo-03.md)
+- [Exercice 4](exercices/exo-04.md)
+
 ## CULTURE DIGITALE
 
 - [Le web et son histoire](culture-digitale/le-web-et-son-historire.md)

@@ -38,18 +38,42 @@ Il faut donc retenir que le World Wide Web ou Web ou « la toile » est conten
 
 # Historique
 
+**1930 : Mundaneum**
+
+Le Mundaneum avait pour but de réunir dans un même lieu toutes les connaissances du monde et ce, sous toutes ses formes (livres, affiches, journaux venant du monde entier...) dans un gigantesque et novateur Répertoire bibliographique universel5, que l’on peut considérer comme un ancêtre de Google ou Wikipédia à l’époque du papier. Cependant, devant l’ampleur de la tâche, les promoteurs durent privilégier certains domaines et se limiter essentiellement à la documentation internationale.
+
+http://lieu.mundaneum.org/fr/historique-lieu
+
+**1948 : La cybernétique**
+
+Basée sur la résistance du canal à la transmission des messages, est née en 1947 cette discipline nouvelle appelée cybernétique par son fondateur, Norbert Wiener, et qui constituera une véritable mathématique de l'information et de la communication.
+
+Ce mouvement fut, dès le départ, très interdisciplinaire et a eu une influence considérable sur les sciences cognitives, l'intelligence artificielle, la modélisation économique, la psychologie & le management.
+
+Deux concepts essentiels à comprendre:
+
+Wiener introduit le concept selon lequel les systèmes ont des «inputs» et des «outputs» qui sont influencés par des mécanismes de «feed-back». La rétroaction et l'auto-correction (ou autorégulation).
+
+Cet une étude des systèmes à finalité où l’on évalue et controle les processus en cours et les ré-ajuste par rapport à cette finalité. Par exemple: les grilles d’évaluations dans l’enseignement ou les tableaux d’indicateurs de performances.
+
+Cette materialisation des processus est une reconstruction d’une certaine réalité. L’illuison est de croire que ces indicateurs sont le reflet exact de la réalité alors qu’ils en sont la reformulation permantes.
+Il arrive souvent que l’on redéfinisse la réalité sur la base de ces indicateurs ce qui réalise la professie de Beaudrillard: «Les simulacres précèdent la réalité».
+(https://www.youtube.com/watch?v=986_bUPOxok)
+
+En 53 le terme disparait. Comme si ce système qui mettait en relation le cerveau et la machine n’était pas présentable au public. Il s’éparpille dans toutes les disciplines qu’exerçaient ses créateurs.
+
+```
+Lacan -> inconscient comme language et comme code
+Adn -> code + message
+Bateson -> repense la thérapie en terme de communication entre le docteur et son patient
+```
+
 Video Voyage en cybernetique : https://www.youtube.com/watch?v=AFOGk6qrEQU
 
 > **A méditer:**
 > Lien entre l’histoire comme compilation des meilleures histoires et la problématique de l’archivage sur le net.
 > Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier.
 > Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.[^2]
-
-**1930 : Mundaneum**
-
-Le Mundaneum avait pour but de réunir dans un même lieu toutes les connaissances du monde et ce, sous toutes ses formes (livres, affiches, journaux venant du monde entier...) dans un gigantesque et novateur Répertoire bibliographique universel5, que l’on peut considérer comme un ancêtre de Google ou Wikipédia à l’époque du papier. Cependant, devant l’ampleur de la tâche, les promoteurs durent privilégier certains domaines et se limiter essentiellement à la documentation internationale.
-
-http://lieu.mundaneum.org/fr/historique-lieu
 
 **1962 :** Premiers ecris de C.R. Licklider concernant un ‘reseau intergalactique’ ou toute la planete serait interconnectée. Un endroit ou n’importe qui pourrait accéder a des applications et données ou qu il soit dans le monde
 
@@ -63,8 +87,7 @@ Essayez: [String to binary sur Duck Duck Go](https://duckduckgo.com/?q=hello+La+
 USA vit dans la psychose d ’une attaque surprise de la Russie Paul Baran de la Rand Corporation se pose une question : Si un réseau d’ordinateurs est endommagé dans une guerre nucléaire, comment les militaires communiqueront-ils ?
 
 **1965 : Le message, c'est le médium.**
-Marshall McLuhan, philosophe des medias canadien. On s’y réfèrera beaucoup quand on commencera à parler de «cybernétique» (la science de la communication dans l'être vivant et dans la machine).
-Il nous dit: la nature d’un media (du canal de transmission d’un message) compte plus que le sens ou le contenu du message. 
+Marshall McLuhan (1911 - 1980), Canadien. Auteur de le médium est le message et de la galaxie de Gutenberg. Dans le médium est le message, il prône la force du canal dans la théorie de la communication (cf modèle de Jakobson) : Le canal de transmission d'un message possède aussi sa propre logique et contribue à donner au message une force et une coloration particulière. McLuhan voulait donc montrer combien le support (téléphone, télévision, livre) pouvait agir directement sur un message.
 
 > **A méditer:**
 > Les nouveaux médias commencent toujours par imiter les anciens médias. (ref skeuomorphisme interface Apple)
@@ -84,12 +107,12 @@ Il décrit sa conception en détail dans son ouvrage Computer Lib/Dream machines
 
 > Il y a à l’époque un besoin de rassembler tout le savoir de l’humanité quelque part :
 >
-> * Bibliothèque d’Alexandrie
-> * Enclyclopedie
-> * mundaneum
-> * As we might think
-> * Project Alexandria
-> * le web
+> - Bibliothèque d’Alexandrie
+> - Enclyclopedie
+> - mundaneum
+> - As we might think
+> - Project Alexandria
+> - le web
 
 **29 octobre 1969**
 
@@ -107,18 +130,16 @@ http://tremblinguterus.blogspot.be/2012/10/cyber-threats-history-rise-of-hacker.
 
 http://www.zones-subversives.com/le-cyberpunk-science-fiction-et-critique-sociale
 
-
-
 **1986 : Le Logiciel Libre**
 quand les ordinateurs sont entrés dans le monde des affaires, que les programmeurs ont commencé à subvenir à leurs besoins en limitant les droits associés à leurs logiciels et en en taxant chaque copie.
 Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement1, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.
 
 Définition de la Free Software Foundation (FSF):
 
-> * la liberté d'exécuter le programme, pour tous les usages ;
-> * la liberté d'étudier le fonctionnement du programme et de l'adapter à ses besoins ;
-> * la liberté de redistribuer des copies du programme (ce qui implique la possibilité aussi bien de donner que de vendre des copies) ;
-> * la liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
+> - la liberté d'exécuter le programme, pour tous les usages ;
+> - la liberté d'étudier le fonctionnement du programme et de l'adapter à ses besoins ;
+> - la liberté de redistribuer des copies du programme (ce qui implique la possibilité aussi bien de donner que de vendre des copies) ;
+> - la liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
 
 [En savoir plus sur le logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
@@ -167,11 +188,11 @@ Le Web 3.0, lui, n’est pas vraiment défini. En fait, l’expression est emplo
 
 # Vision Sémanticienne
 
-* Web 1.0 : le Web où les personnes parlent aux machines
-* Web 2.0 : le Web où les personnes parlent aux personnes (par le biais des \* machines)
-* Web 3.0 : le Web où les machines parlent aux machines
-* Web 4.0 : le Web comme intelligence artificielle complémentaire à la race \* humaine
-* Web 5.0 : le Web comme intelligence artificielle se substituant à la race humaine
+- Web 1.0 : le Web où les personnes parlent aux machines
+- Web 2.0 : le Web où les personnes parlent aux personnes (par le biais des \* machines)
+- Web 3.0 : le Web où les machines parlent aux machines
+- Web 4.0 : le Web comme intelligence artificielle complémentaire à la race \* humaine
+- Web 5.0 : le Web comme intelligence artificielle se substituant à la race humaine
   [^3]
 
 ---
