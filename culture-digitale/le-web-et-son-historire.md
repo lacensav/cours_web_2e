@@ -63,8 +63,8 @@ Essayez: [String to binary sur Duck Duck Go](https://duckduckgo.com/?q=hello+La+
 USA vit dans la psychose d ’une attaque surprise de la Russie Paul Baran de la Rand Corporation se pose une question : Si un réseau d’ordinateurs est endommagé dans une guerre nucléaire, comment les militaires communiqueront-ils ?
 
 **1965 : Le message, c'est le médium.**
-Marshall McLuhan, philosophe des medias canadien.
-Elle signifie que la nature d’un media (du canal de transmission d’un message) compte plus que le sens ou le contenu du message.
+Marshall McLuhan, philosophe des medias canadien. On s’y réfèrera beaucoup quand on commencera à parler de «cybernétique» (la science de la communication dans l'être vivant et dans la machine).
+Il nous dit: la nature d’un media (du canal de transmission d’un message) compte plus que le sens ou le contenu du message. 
 
 > **A méditer:**
 > Les nouveaux médias commencent toujours par imiter les anciens médias. (ref skeuomorphisme interface Apple)
@@ -105,6 +105,10 @@ Le réseau Internet prend de l’ampleur avec la création des premières adress
 **1983 : cyberpunk**
 http://tremblinguterus.blogspot.be/2012/10/cyber-threats-history-rise-of-hacker.html
 
+http://www.zones-subversives.com/le-cyberpunk-science-fiction-et-critique-sociale
+
+
+
 **1986 : Le Logiciel Libre**
 quand les ordinateurs sont entrés dans le monde des affaires, que les programmeurs ont commencé à subvenir à leurs besoins en limitant les droits associés à leurs logiciels et en en taxant chaque copie.
 Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement1, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.
@@ -116,10 +120,9 @@ Définition de la Free Software Foundation (FSF):
 > * la liberté de redistribuer des copies du programme (ce qui implique la possibilité aussi bien de donner que de vendre des copies) ;
 > * la liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
 
-[En savoir plus sur le logicial libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
+[En savoir plus sur le logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
 
-Il est interessant de voir comment certains artiste contemporain gère leur propriété intellectuelle:
-[Rapael Rosendael](/art/artites-internet.html#Rapael_Rosendael)
+Même si code d’une page web est accessible, Il n’est pas forcément open source. Mais dès lors comment protégér les œuvres sur internet? Certains artistes contemporains gèrent leur propriété intellectuelle avec des contrats. Par example les contrats de [Rapael Rosendael](http://www.artwebsitesalescontract.com/)
 
 **1987 : Les artistes s’empare de l’hypertexte**
 Déjà bien avant le web on voit des artistes et des écrivains s’emparer de ce nouveau support et des capacité de l’hyper texte pour créer de nouvelles façons de raconter.
