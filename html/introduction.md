@@ -8,11 +8,11 @@
 
 HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).[^2]
 
-# De quoi a-t-on besoin pour coder de html?
+# De quoi a-t-on besoin pour coder de l’html?
 
-* Un navigateur (pour visualiser)
-* Un editeur de texte (VsCode, Atom, Sublime Text, TextEdit,…)
-* Votre gestionnaire de fichiers (le finder sur Mac)
+- Un navigateur (pour visualiser)
+- Un editeur de texte (VsCode, Atom, Sublime Text, TextEdit,…)
+- Votre gestionnaire de fichiers (le finder sur Mac)
 
 # A quoi ça ressemble?
 
@@ -35,7 +35,7 @@ En HTML une balise est utilisée pour créer un element.
 Le nom d’un élément HTML est le nom utilisé dans des chevrons comme par exemple
 
 ```html
-<p>
+<p></p>
 ```
 
 pour un paragraphe. Notez que le nom de la balise fermante est précédé par un caractère barre oblique. [^3]
@@ -48,24 +48,24 @@ Ne pas inclure une balise de fermeture est une erreur fréquente chez les début
 
 > **Pour vous aider:**
 >
-> * balise = boite / contenu. Poupée russe (2 parties sauf certaines)
-> * html = les murs de la maison
-> * head = grenier (ce quon ne voit pas)
-> * body = le salon
+> - balise = boite / contenu. Poupée russe (2 parties sauf certaines)
+> - html = les murs de la maison
+> - head = grenier (ce quon ne voit pas)
+> - body = le salon
 
 # Premier squelette de page
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Ma page</title>
-</head>
-<body>
-  Hello world
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ma page</title>
+  </head>
+  <body>
+    Hello world
+  </body>
 </html>
 ```
 

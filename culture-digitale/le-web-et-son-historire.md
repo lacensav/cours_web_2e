@@ -126,9 +126,16 @@ Bon alors, envoyé le mot login c’etait un bon début mais envoyé un texte ce
 Le réseau Internet prend de l’ampleur avec la création des premières adresses email qui permettent alors de localiser les systèmes sur le réseau.
 
 **1983 : cyberpunk**
+
+« Le cyberpunk tente de démystifier les codes culturels afin de déchiffrer les stratégies dissimulées de domination, de désir, de détermination, de pouvoir et de volonté d’exercer le pouvoir », décrit Mark Downham.
+Le cyberpunk évoque la dimension cybernétique et mécanique d’une vie réifiée. Ce mouvement propose une critique radicale des technologies virtuelles et de leur emprise sur l’existence humaine.
+Mais le cyberpunk évoque également le thème de la colonisation du corps humain par la machine, avec « les prothèses, les implants électroniques, la chirurgie esthétique, le cyberespace, l’ADN, l’altération générique », énumère Mark Downham. Mais les machines envahissent également le domaine mental, à travers l’intelligence artificielle et la neurochimie. Les technologies modifient radicalement la nature humaine et refaçonnent les individus.
+http://www.zones-subversives.com/le-cyberpunk-science-fiction-et-critique-sociale
+
+Hacker history:
 http://tremblinguterus.blogspot.be/2012/10/cyber-threats-history-rise-of-hacker.html
 
-http://www.zones-subversives.com/le-cyberpunk-science-fiction-et-critique-sociale
+Ex: Le cérébromancien, Blade Runner, Ghost in the shell
 
 **1986 : Le Logiciel Libre**
 quand les ordinateurs sont entrés dans le monde des affaires, que les programmeurs ont commencé à subvenir à leurs besoins en limitant les droits associés à leurs logiciels et en en taxant chaque copie.
@@ -162,9 +169,9 @@ Le Centre européen de recherche nucléaire (CERN) met en ligne la première pag
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WTKIgdfoHxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-**2009 :** Après les premiers réseaux sans fil portant la norme WaveLAN, le Wi-Fi fait son apparition. Dans le même temps, la Tunisie s’impose comme un pionnier dans le monde arabe et africain en permettant l’utilisation commerciale et publique de l’Internet dans le pays.
+**1996 :** Après les premiers réseaux sans fil portant la norme WaveLAN, le Wi-Fi fait son apparition. Dans le même temps, la Tunisie s’impose comme un pionnier dans le monde arabe et africain en permettant l’utilisation commerciale et publique de l’Internet dans le pays.
 
-**2009 :** Naissance du premier service d’échange de fichiers musicaux connu sous le nom Napster. L'avènement du peer-to-peer change radicalement l’utilisation du Web mais également le visage de l’industrie de l’audiovisuel. Par ailleurs, la population de la toile passe de 250 millions à 500 millions entre 1999 et 2002.
+**1999 :** Naissance du premier service d’échange de fichiers musicaux connu sous le nom Napster. L'avènement du peer-to-peer change radicalement l’utilisation du Web mais également le visage de l’industrie de l’audiovisuel. Par ailleurs, la population de la toile passe de 250 millions à 500 millions entre 1999 et 2002.
 
 **2003 :** Tor Project
 The Hidden wiki http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page
