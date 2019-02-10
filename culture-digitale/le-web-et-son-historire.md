@@ -74,6 +74,7 @@ Video Voyage en cybernetique : https://www.youtube.com/watch?v=AFOGk6qrEQU
 > Lien entre l’histoire comme compilation des meilleures histoires et la problématique de l’archivage sur le net.
 > Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier.
 > Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.[^2]
+> Doit-on s’en remettre aux IA? https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist
 
 **1962 :** Premiers ecris de C.R. Licklider concernant un ‘reseau intergalactique’ ou toute la planete serait interconnectée. Un endroit ou n’importe qui pourrait accéder a des applications et données ou qu il soit dans le monde
 
