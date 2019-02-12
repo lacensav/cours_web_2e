@@ -24,11 +24,11 @@ Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’
 
 ![](assets/images/deploy_strategies.jpg)
 
-* Les hébergements partagés ou mutualisés
-* Les hébergements dédiés
-* L’hébergement virtuel dédié
-* Les hébergements dédiés dits « managés », avec « serveur dédié infogéré » ou « clés en main »
-* La colocation
+- Les hébergements partagés ou mutualisés
+- Les hébergements dédiés
+- L’hébergement virtuel dédié
+- Les hébergements dédiés dits « managés », avec « serveur dédié infogéré » ou « clés en main »
+- La colocation
 
 La plupart des hébergeurs sont payants.
 Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations gratuites sont souvent des offres d'appel pour les prestations payantes, plus riches en fonctionnalités et plus performantes.
@@ -52,21 +52,14 @@ C’est la première fois qu’un fournisseur d’hébergement est supposé cré
 
 Aller sur [https://www.000webhost.com](https://www.000webhost.com)
 
-![Enregistrement](assets/images/ftp/01.png)
-
-![Quitter la modal box, rester sur gratuit](assets/images/ftp/02.png)
-
-![Vérifier votre email](assets/images/ftp/03.png)
-
-![Votre email est bien vérifié](assets/images/ftp/04.png)
-
-![C'est bon, ça ne me dérange pas.](assets/images/ftp/05.png)
-
-![Cliquez sur l’adresse de votre site](assets/images/ftp/06.png)
-
-![Il vous demande d’ajouter une page d’accueil](assets/images/ftp/07.png)
-
-![Vos informations de connection ftp](assets/images/ftp/08.png)
+![](assets/images/ftp/01.png)
+![](assets/images/ftp/02.png)
+![](assets/images/ftp/03.png)
+![](assets/images/ftp/04.png)
+![](assets/images/ftp/05.png)
+![](assets/images/ftp/06.png)
+![](assets/images/ftp/07.png)
+![](assets/images/ftp/08.png)
 
 ### Filezilla
 
