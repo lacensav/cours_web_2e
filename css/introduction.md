@@ -87,7 +87,7 @@ et le css
 }
 ```
 
-{%em%}Retenez: les id, c’est comme highlander, il ne peut en rester qu’un. Les classes «C’est la class!» donc c’est pour le style.{%endem%}
+{%em%}Retenez: les id, c’est une carte d’identité, il n’y a qu’une personne avec la même carte. Les classes «C’est la class!» donc c’est pour le style.{%endem%}
 
 Plus d’info sur les sélecteurs css [ici](https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_CSS)
 
@@ -107,7 +107,7 @@ Pour spécifier les unités de CSS vous avez la possibilité entre plusieurs uni
 
 | Unité | Description                                                                              |
 | ----- | ---------------------------------------------------------------------------------------- |
-| em    | Relative par rapport à la taille de police de l’élement courant                          |
+| em    | Relative par rapport à la taille de police de l’élement courant                         |
 | rem   | Relative par rapport à la taille de police du document                                   |
 | vw    | Relative par rapport à la largeur de la fenêtre. 10vh == 10% de la largeur de la fenêtre |
 | vh    | Relative par rapport à la hauteur de la fenêtre. 10vh == 10% de la hauteur de la fenêtre |
@@ -127,6 +127,21 @@ Celles-ci sont:
 * Le style par défaut du navigateur pour le langage de balisage
 * Le style spécifié par l'utilisateur lisant le document
 * Le style lié au document par son auteur
+
+## Dompter les navigateurs
+
+Chaque navigateur à ses styles par défault et cela peut devenir ambitieu de vouloir combler toutes ces petites diffrences nous-même.
+C’est pourquoi on préfère généralement remettre tout ces styles au même niveau avant de commencer.
+Pour cela le standard actuel est d’utiliser: [Normalize.css](https://necolas.github.io/normalize.css/)
+Téléchargez-le et ajouter un lien vers le document dans votre balise head.
+
+```html
+<link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+```
+
+## Les formes géométriques
+
+[https://css-tricks.com/examples/ShapesOfCSS/](https://css-tricks.com/examples/ShapesOfCSS/)
 
 ## Le positionnement
 
