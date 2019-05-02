@@ -16,6 +16,7 @@
 - [Exercice 5](exercices/exo-05.md)
 - [Exercice 6](exercices/exo-06.md)
 - [Exercice 7](exercices/exo-07.md)
+- [Exercice 9](exercices/exo-09.md)
 
 ## CULTURE DIGITALE
 
