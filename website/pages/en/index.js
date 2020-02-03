@@ -96,6 +96,26 @@ class Index extends React.Component {
             </div>
           </div>
         </div>
+        <Container>
+          <GridBlock
+            padding={["bottom", "top"]}
+            layout="threeColumn"
+            contents={[
+              {
+                title: "Frequently Asked Questions",
+                content: "Questions gathered from the community",
+              },
+              {
+                title: "More",
+                content: "Lots of documentation is on this site",
+              },
+              {
+                title: "More",
+                content: "Lots of documentation is on this site",
+              },
+            ]}
+          />
+        </Container>
         <div className="mainContainer">
           <Culture />
           <Code />

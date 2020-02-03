@@ -70,13 +70,40 @@ Ces balises servent aussi améliorer les conditions de navigation les lecteurs d
 
 ## Une navigation avec des ancres
 
-<p data-height="265" data-theme-id="0" data-slug-hash="QamBEv" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Navigation avec ancres" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/QamBEv/">Navigation avec ancres</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+### Comment cibler un élément?
+
+Nous avons à notre disposition deux attributs HTML qui nous permettent d'identifier une balise (ou plusieures) dans une règle css.
+
+![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmoodle.iutv.univ-paris13.fr%2Fimg%2Fweb%2Fwebs1-tp-1-4.png&f=1&nofb=1)
+
+#### L’attribut Id
+
+il ne peut-être utilisé qu'une seule fois sur la page.  
+Comme nous essayons de réutiliser différentes règles CSS sur plusieurs éléments, cet attribut ne nous est donc pas très utile.
+
+```html
+<p id="highlander">Hello</p>
+```
+
+#### L’attribut class
+
+Nous pouvons via cet attribut associer des règles CSS a une balise en ajoutant le nom de ces règles dans la valeur de l'attribut, séparé par une espace
+
+```html
+<p class="big fat boy">Hello</p>
+```
+
+> Retenez: les id, c’est une carte d’identité, il n’y a qu’une personne avec la même carte. Les classes «C’est la class!» donc c’est pour le style.
 
 ### Les ancres
 
 > Les encres sont des pointeurs vers un élément de la page html
 
+![](https://mdn.mozillademos.org/files/11695/ancre_6.png)
+
 Lorsque vous cliquez sur un lien qui comporte une ancre, le navigateur va automatiquement scroller jusqu'à l’endroit où se trouve l’élément en question.
+
+<p data-height="265" data-theme-id="0" data-slug-hash="QamBEv" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Navigation avec ancres" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/QamBEv/">Navigation avec ancres</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 Pour en savoir plus sur la création de lien, rendez-vous sur:
 [https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL](https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL)

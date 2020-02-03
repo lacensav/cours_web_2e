@@ -3,6 +3,8 @@ id: html-03
 title: Cours 3
 ---
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRRUFglx5wc05fSbpdqC7plpACnNed5xrS5NO4qRINYjf247fWusCSoXM1lKjuij8Q60jLK85dA0m9g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Usabilité
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSu_1ycqmgyX7K64LesERNqPcz7JLa1TCoawxtzDGbvBaPsgIszw7N3ySxoRZtFZav6SRDYtuGfZrnC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -139,34 +141,39 @@ Mais si l’url est `http://monsite.com/`, cela correspond juste au dossier «pu
 Pour savoir quoi afficher, il faudrait spécifier un fichier comme `http://monsite.com/a-propos.html`.
 Si l’on ne lui dit rien, le serveur va automatiquement (par convention) chercher à l’intérieur du dossier un fichier qui s’appelle `index.html`.
 
-```html
+```txt
 <!-- L’adresse voulue -->
 
 http://monsite.com/
 
 <!-- Le fichier demandé -->
 
-|public_html/ |-- index.html
+|public_html/
+  |-- index.html
 ```
 
-```html
+```txt
 <!-- L’adresse voulue -->
 
 http://monsite.com/travaux/archive.html
 
 <!-- Le fichier demandé -->
 
-|public_html/ |travaux/ |-- archive.html
+|public_html/
+  |travaux/
+  |-- archive.html
 ```
 
-```html
+```txt
 <!-- L’adresse voulue -->
 
 http://monsite.com/expositions/
 
 <!-- Le fichier demandé -->
 
-|public_html/ |expositions/ |-- index.html
+|public_html/
+  |expositions/
+  |-- index.html
 ```
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
