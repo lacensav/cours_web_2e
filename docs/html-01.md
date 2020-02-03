@@ -53,17 +53,22 @@ Ce mouvement fut, dès le départ, très interdisciplinaire et a eu une influenc
 
 Deux concepts essentiels à comprendre:
 
-Wiener introduit le concept selon lequel les systèmes ont des «inputs» et des «outputs» qui sont influencés par des mécanismes de «feed-back». La rétroaction et l'auto-correction (ou autorégulation).
+Wiener introduit le concept selon lequel les systèmes ont des «inputs» et des «outputs» qui sont influencés par des mécanismes de «feed-back». **La rétroaction** et **l'auto-correction** (ou autorégulation).
 
-Cet une étude des systèmes à finalité où l’on évalue et controle les processus en cours et les ré-ajuste par rapport à cette finalité. Par exemple: les grilles d’évaluations dans l’enseignement ou les tableaux d’indicateurs de performances.
+Cet une étude des systèmes à finalité où l’on évalue et controle les processus en cours et les ré-ajuste par rapport à cette finalité. Par exemple: **les grilles d’évaluations** dans l’enseignement ou les **tableaux d’indicateurs de performances**.
 
-Cette materialisation des processus est une reconstruction d’une certaine réalité. L’illuison est de croire que ces indicateurs sont le reflet exact de la réalité alors qu’ils en sont la reformulation permantes.
-Il arrive souvent que l’on redéfinisse la réalité sur la base de ces indicateurs ce qui réalise la professie de Beaudrillard: «Les simulacres précèdent la réalité».
-(https://www.youtube.com/watch?v=986_bUPOxok)
+Cette materialisation des processus est une reconstruction d’une certaine réalité. L’illusion est de croire que ces indicateurs sont le reflet exact de la réalité alors qu’ils en sont la reformulation permantes.
+Il arrive souvent que l’on redéfinisse la réalité sur la base de ces indicateurs ce qui réalise la professie de Beaudrillard:
+
+> Les simulacres précèdent la réalité.
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/986_bUPOxok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 En 53 le terme disparait. Comme si ce système qui mettait en relation le cerveau et la machine n’était pas présentable au public. Il s’éparpille dans toutes les disciplines qu’exerçaient ses créateurs.
 
-```
+```text
 Lacan -> inconscient comme language et comme code
 Adn -> code + message
 Bateson -> repense la thérapie en terme de communication entre le docteur et son patient
@@ -74,7 +79,8 @@ Video Voyage en cybernetique : https://www.youtube.com/watch?v=AFOGk6qrEQU
 > **A méditer:**
 > Lien entre l’histoire comme compilation des meilleures histoires et la problématique de l’archivage sur le net.
 > Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier.
-> Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.[^2]
+> Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.
+>
 > Doit-on s’en remettre aux IA? https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist
 
 **1962 :** Premiers ecris de C.R. Licklider concernant un ‘reseau intergalactique’ ou toute la planete serait interconnectée. Un endroit ou n’importe qui pourrait accéder a des applications et données ou qu il soit dans le monde
@@ -93,12 +99,14 @@ Marshall McLuhan (1911 - 1980), Canadien. Auteur de le médium est le message et
 
 > **A méditer:**
 > Les nouveaux médias commencent toujours par imiter les anciens médias. (ref skeuomorphisme interface Apple)
-> Reference Futuriste a propos des cubistes : comment voulez representer le mouvement et la vitesse avec une technique medievaleuse?
+> Référence Futuriste a propos des cubistes : comment voulez representer le mouvement et la vitesse avec une technique medievaleuse?
 
 > **À méditer:**
 > Les médias agissent sur nos sens, nous « reprogramment », et conditionnent notre perception et notre appréhension du monde.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78oMjNCAayQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/78oMjNCAayQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 **1965 : L’hypertexte**
 Ted Nelson appelle hypertexte un réseau constitué par un ensemble de documents informatiques (originaux, citations, annotations) liés entre eux, soit tout un système hypertexte. Pour lui, la principale propriété de l’hypertexte est de ne pas être séquentiel (ou linéaire), par opposition à un discours ou aux pages d’un livre. Il s’agit aussi pour lui d’un « concept unifié d’idées et de données interconnectées, et de la façon dont ces idées et ces données peuvent être éditées sur un écran d’ordinateur »
@@ -106,7 +114,7 @@ Ted Nelson appelle hypertexte un réseau constitué par un ensemble de documents
 Il décrit sa conception en détail dans son ouvrage Computer Lib/Dream machines.
 
 > **A méditer:**
-> 
+>
 > Il y a à l’époque un besoin de rassembler tout le savoir de l’humanité quelque part :
 >
 > - L’Enclyclopédie
@@ -168,7 +176,9 @@ Le Centre européen de recherche nucléaire (CERN) met en ligne la première pag
 
 **1995 :** Amazon.com devient le premier portail de commerce électronique à voir le jour. Il offre notamment à Internet une nouvelle dimension commerciale.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WTKIgdfoHxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WTKIgdfoHxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 **1996 :** Après les premiers réseaux sans fil portant la norme WaveLAN, le Wi-Fi fait son apparition. Dans le même temps, la Tunisie s’impose comme un pionnier dans le monde arabe et africain en permettant l’utilisation commerciale et publique de l’Internet dans le pays.
 
@@ -202,19 +212,17 @@ Le Web 3.0, lui, n’est pas vraiment défini. En fait, l’expression est emplo
 - Web 4.0 : le Web comme intelligence artificielle complémentaire à la race \* humaine
 - Web 5.0 : le Web comme intelligence artificielle se substituant à la race humaine[^3]
 
-
 [^1]: http://arts-numeriques.codedrops.net/L-internet-et-le-World-Wide-Web
 [^2]: http://www.computerhistory.org/internet_history/
 [^3]: David Fayon, “Web 2.0 et au-delà”, ed. Economica, Paris, 2010, p.11.
 
---- 
+---
 
 ## Ma première page web
 
 ### Qu’est-ce que l’Html
 
 ![](https://31.media.tumblr.com/4cb7911e3b942a76a06f1d12864cf54e/tumblr_myjmgq3DyP1ry46hlo1_r1_400.gif)
-
 
 ### Définiton
 
@@ -256,38 +264,25 @@ pour un paragraphe. Notez que le nom de la balise fermante est précédé par un
 
 Ne pas inclure une balise de fermeture est une erreur fréquente chez les débutants, et peut conduire à des résultats étranges.
 
-> **Pour vous aider:**
->
-> - balise = boite / contenu. Poupée russe (2 parties sauf certaines)
-> - html = les murs de la maison
-> - head = grenier (ce quon ne voit pas)
-> - body = le salon
+### Balises «block» vs «inline»
 
-### Premier squelette de page
+Par default le texte s’affiche en ligne => il faut des balises pour structurer la page. Example :
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Ma page</title>
-  </head>
-  <body>
-    Hello world
-  </body>
-</html>
-```
+<p data-height="265" data-theme-id="0" data-slug-hash="jYwdbp" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Hello world" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/jYwdbp/">Hello world</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-http://jsbin.com/?html,output
+Il existe deux catégories importantes d’éléments en HTML que vous devez connaître : les éléments de **niveau bloc (block)** et les éléments **en ligne (inline)**.
 
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+#### Les éléments de niveau de bloc
 
----
+Ils sont souvent des **éléments structurels** de la page et représentent des **paragraphes, des listes, des menus de navigation, des pieds de page, etc.** Un élément de niveau bloc ne peut pas être imbriqué dans un élément inline, mais il peut être imbriqué dans un autre élément de niveau bloc. [^2]
 
-[^3]: https://developer.mozilla.org/fr/docs/Glossaire/balise)
-[^2]: https://developer.mozilla.org/fr/docs/Web/HTML)
+<p data-height="265" data-theme-id="0" data-slug-hash="EobEoP" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Block tags" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/EobEoP/">Block tags</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
+#### Les éléments en ligne
+
+Ce sont eux qui sont contenus dans des éléments de niveau bloc. Ils entourent seulement des petites parties du contenu du document, pas des paragraphes entiers ni des regroupements de contenu. Un élément en ligne ne fait pas apparaître une nouvelle ligne dans le document. Il apparaît généralement dans un paragraphe de texte, par exemple un élément (hyperlien) `<a>` ou des éléments d’accentuation tels que `<em>` ou `<strong>`.
+
+<p data-height="265" data-theme-id="0" data-slug-hash="XVzEEb" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Inline tags" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/XVzEEb/">Inline tags</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 ### Titres
 
@@ -371,3 +366,46 @@ http://jsbin.com/?html,output
 </blockquote>
 ```
 
+### Premier squelette de page
+
+> **Pour vous aider:**
+>
+> - balise = boite / contenu. Poupée russe (2 parties sauf certaines)
+> - html = les murs de la maison
+> - head = grenier (ce quon ne voit pas)
+> - body = le salon
+
+**Standart**
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ma page</title>
+  </head>
+  <body>
+    Hello world
+  </body>
+</html>
+```
+
+Vous pouvez le retrouver ici: [http://jsbin.com/?html,output](http://jsbin.com/?html,output)
+
+**Aventureux**
+
+```html
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="./style.css" />
+<title>Hello</title>
+<p>Bonne année.</p>
+```
+
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+---
+
+[^3]: https://developer.mozilla.org/fr/docs/Glossaire/balise)
+[^2]: https://developer.mozilla.org/fr/docs/Web/HTML)

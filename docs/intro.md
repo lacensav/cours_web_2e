@@ -15,7 +15,7 @@ sidebar_label: Plan des cours
 
 ### Technique
 
-Éléments de base sauf image 
+Éléments de base sauf image
 https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 - titre
@@ -34,7 +34,6 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 - 1 html squelette
 - 3 utilisation des balises adéquate
 - 1 balises fermée
-
 
 ## Cours 2
 
@@ -67,7 +66,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
   A classer https://generativeartistry.com/
 - Alternative.to
 
-### Technique 
+### Technique
 
 - sauver les images pour le web
 - page d'accueil du site avec tous les exo
@@ -83,14 +82,12 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 ### Culture
 
-- Gifs
 - Comment internet fonctionne
 - La carte n'est pas le territoire
 - Intro au geo net art et autres artistes utilisant la notion de carte
 
-### Technique 
+### Technique
 
-- usabilité
 - Balise sémantique «article»
 - navigation à ancres
 - différence entre class et id
@@ -120,6 +117,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 - Comment faire un bouton
 
 ### À faire
+
 - Styliser le menu de navigation (avec style pour current page)
 - Ajouter un lien vers css reset dans chaque pages
 - Ajouet un lien vers votre css dans chaque pages
@@ -128,6 +126,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 ## Cours 6
 
 ### Culture
+
 - Revision cours 5 + ego en classe pour vérifier
 
 ### Technique
@@ -143,10 +142,9 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 - Remplacer l’œuvre de Albers par une autre au choix dont vous remplacerez l’image par une version en css.
 
-
 ## Cours 7
 
-### Culture 
+### Culture
 
 - Pangramme (https://images-na.ssl-images-amazon.com/images/I/71kaN-L7BSL.jpg)
 - Comment hacker la recherche sur google
@@ -155,14 +153,14 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 ### Technique
 
-+ Hover
-+ Forme géométriques https://css-tricks.com/examples/ShapesOfCSS/
-+ Mise en page css http://fr.learnlayout.com/position.html
-+ https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
-+ Layout menu vertical fixed left?
-+ Google font http://www.googwle.com/webfonts
+- Hover
+- Forme géométriques https://css-tricks.com/examples/ShapesOfCSS/
+- Mise en page css http://fr.learnlayout.com/position.html
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
+- Layout menu vertical fixed left?
+- Google font http://www.googwle.com/webfonts
   http://www.w3schools.com/cssref/css_websafe_fonts.asp
-+ Transforms: http://tympanus.net/codrops/css_reference/transform/
+- Transforms: http://tympanus.net/codrops/css_reference/transform/
 
 ### À faire
 
@@ -173,17 +171,17 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 ## Cours 8
 
-+ Présentation Travail de fin d’année par Serge
-+ Image de fond
-+ Transition, animation, transform
+- Présentation Travail de fin d’année par Serge
+- Image de fond
+- Transition, animation, transform
 
 ## Cours 9
-
 
 - Grille bootstrap
 
   - Download grid and reboot
   - https://getbootstrap.com/docs/4.3/layout/overview/
+
 - Animate.css https://daneden.github.io/animate.css/
 - Overflow
 
@@ -205,10 +203,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 ### A faire
 
-
-
 ---
-
 
 A préparer pour chaque cours:
 
@@ -217,13 +212,9 @@ A préparer pour chaque cours:
 - liste de présence imprimée
 - résultat des cottes
 
-
-
 http://www.pydnet.net/?page_id=77
 
 ## Cours 8 ?
-
-
 
 Travail final
 

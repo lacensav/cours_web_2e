@@ -18,7 +18,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "Cours de web 2B",
+  projectName: "cours_web_2e",
   organizationName: "lacensav",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
