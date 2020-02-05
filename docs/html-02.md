@@ -55,7 +55,11 @@ Il y a tellement de données en sciences qu’il devient difficile d’en faire 
 
 Peut-être est-ce un des rôles de l’art. Et symboliquement du netart.
 
-### L’internet et le livre
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/AFOGk6qrEQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Internet & pérénité
 
 > Le web s’envole et les écris restent
 
@@ -76,11 +80,50 @@ Pour le web c’est plus compliqué, on peut parfois vite aller effacer et chang
 
 On pourrait presque dire que l’internet n’a de mémoire que la somme des traces que ses utilisateurs en ont gardé. La mémoire du web serait-elle une œuvre d’art?
 
----
+## Procédés de création contemporaine
 
-[^1]: [La Trinité Intérieure : mémoire, intelligence et volonté chez Augustin](https://fr.wikipedia.org/wiki/Augustin_d%27Hippone)
-[^2]: https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3
-[^3]: L’art de la mémoire, Frances A. Yates, Gallimard 1987
+- Accumulation
+- Analogie / comparaison
+- Changement d’échelle
+- Choc émotionnel
+- Criptage
+- Dé-contextualisation
+- Découpage, segmentation, fracture, deconstruction
+- Defonctionalisation (chaise sur laquelle on ne peut pas s’assoir)
+- Désacralisation
+- Détournement, Réaffectation, changement d’identité
+- Effet de perspective
+- Esthétisation du laid, annihilation du beau
+- Figure de style (Allégorie, Oxymore, Métaphore, Anagramme, Lipogramme)
+- Graphisme
+- Hacking / usurpation
+- Illusion d’optique (ex: Trompe l'oeil, Anamorphose)
+- Immersion
+- Jeux sur le language (?)
+- Ludification
+- Méta-communication (le médium qui parle de lui-mm, s’auto-(re)-définit), méta-création
+- Mise en abyme
+- Recadrage / Cadrage
+- Référence (artistique, litteraire, ...)
+- Reproduction en série, clonage, duplication, remake ...
+- Série non clonée (bescher chateau d’eau)
+- Stochastique (aléatoire)
+- Subversion
+- Théâtralisation
+- Traitement du temps (éphémère. pérenne)
+
+### Critères d’appartenance à l’art contemporain
+
+> La majorité des experts, des historiens de l’art, des critiques et des conservateurs situe
+> l’apparition de l’art contemporain en 1969 lors de l’exposition
+> séminale [_Quand les attitudes deviennent forme_](http://www.leftmatrix.com/whenattitudes.html), organisée par Harald
+> Szeemann à la kunsthalle de Berne, en Suisse.[^4]
+> L’appartenance d’une œuvre au monde de l’art contemporain est
+> le résultat d’une «sélection» dont le critère le plus important est sa
+> «congruence avec le présent», ce qui implique «une rupture avec le passé,
+> constitutive de ce qui est devenu un nouveau “paradigme” esthétique, une nouvelle définition du sens de la normalité en art[^5] ».
+
+Source: [Marcel Fournier et Marian Misdrahi, Critères et processus d’évaluation en art contemporain. Les concours d’aide à la création du CALQ](https://www.erudit.org/fr/revues/globe/2014-v17-n1-globe01705/1028634ar.pdf)
 
 ## Html
 
@@ -210,3 +253,56 @@ La balise finale pour afficher le logo sur la page `exercice-1.html` sera donc:
 ```
 <img src="../images/logo.png"/>
 ```
+
+## Comment mettre son code en ligne
+
+### IP et DNS
+
+Lorsque un visiteur demande une page à son navigateur Web, celui-ci interroge des serveurs DNS pour connaître l’adresse IP du serveur hébergeant ce site.
+
+Dès qu’il obtient la réponse, le navigateur va interroger ce serveur et lui demander cette page.
+
+Le serveur web va alors chercher la page sur son ou ses disques durs (s’il s’agit d'une page statique), ou la fabriquer à l’aide d'un script (s’il s’agit d'une page dynamique), puis l’envoyer au navigateur, qui l’affiche sur l’écran du visiteur.
+
+Il peut être important de localiser l’endroit où l’hébergeur a ses serveurs. La plupart des moteurs de recherches se basent aussi sur la localisation des serveurs afin d'effectuer le référencement d'un site Web.
+
+### Quelle est mon IP?
+
+http://whatismyipaddress.com/
+
+Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’endroit d’où l’on fait notre connexion vers le web.
+
+![](assets/images/html/ip-compare.png)
+
+### Les types d'hébergements
+
+![](https://s3-eu-central-1.amazonaws.com/boris-screenshots/Mise_en_ligne__GitBook_2020-02-05_10-49-11.png)
+
+- Les hébergements partagés ou mutualisés
+- Les hébergements dédiés
+- L’hébergement virtuel dédié
+- Les hébergements dédiés dits « managés », avec « serveur dédié infogéré » ou « clés en main »
+- La colocation
+
+La plupart des hébergeurs sont payants.
+Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations gratuites sont souvent des offres d'appel pour les prestations payantes, plus riches en fonctionnalités et plus performantes.
+
+### Netlify
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vywDFg2uIxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Ftp / Filezilla
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3gAeASon6ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+[^1]: [La Trinité Intérieure : mémoire, intelligence et volonté chez Augustin](https://fr.wikipedia.org/wiki/Augustin_d%27Hippone)
+[^2]: https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3
+[^3]: L’art de la mémoire, Frances A. Yates, Gallimard 1987
+[^4]: Alain Quemin, «Trajectoires de notoriété et de consécration dans les arts visuels : contribution sociologique à l’histoire de l’art contemporain», Sociologie et sociétés, (à paraître, octobre 2015)
+[^5]: Nathalie HEiNiCH, Le triple jeu de l’art contemporain…, op. cit., p. 11.

@@ -68,16 +68,6 @@ Il arrive souvent que l’on redéfinisse la réalité sur la base de ces indica
 
 En 53 le terme disparait. Comme si ce système qui mettait en relation le cerveau et la machine n’était pas présentable au public. Il s’éparpille dans toutes les disciplines qu’exerçaient ses créateurs.
 
-```text
-Lacan -> inconscient comme language et comme code
-Adn -> code + message
-Bateson -> repense la thérapie en terme de communication entre le docteur et son patient
-```
-
-Video Voyage en cybernetique : https://www.youtube.com/watch?v=AFOGk6qrEQU
-
-> **A méditer:**
-> Lien entre l’histoire comme compilation des meilleures histoires et la problématique de l’archivage sur le net.
 > Le web n’ayant de pas de version, il nous est impossible de voir le site d’un journal d’hier.
 > Cela pose pas mal de questions quant à la responsabilité lorsque nous mettons du contenu en ligne.
 >
@@ -393,7 +383,7 @@ Ce sont eux qui sont contenus dans des éléments de niveau bloc. Ils entourent 
 
 Vous pouvez le retrouver ici: [http://jsbin.com/?html,output](http://jsbin.com/?html,output)
 
-**Aventureux**
+**Aventureux**v
 
 ```html
 <!DOCTYPE html>

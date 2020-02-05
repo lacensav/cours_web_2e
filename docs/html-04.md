@@ -52,6 +52,14 @@ C'est dans les intersections créées lors du choc des expériences que la chimi
 
 [https://9-eyes.com/page/3](https://9-eyes.com/page/3)
 
+### Aram Bartholl
+
+![](https://arambartholl.com/wwwppp/wp-content/uploads/2018/03/aram_bartholl_map_kassel_2013_07-1000x667.jpg)
+
+[https://arambartholl.com/de/map/](https://arambartholl.com/de/map/)
+
+### Geo netart, quesako?
+
 ## Élements de mise en page
 
 Comme nous l’avons vu dans l’introduction au HTML, les balises HTML nous aide à structurer la page. Depuis la version 5 de HTML nous avons la possibilité ajouter des balises, et de leur donner un nom de notre choix. celles-ci seront l’équivalent une balise `div` (balise block). Afin de ne pas réinventer la roue, le standard qui définit l’HTML fournit une série de balises pour nous aider à structure la page. En voici quelques-unes :
