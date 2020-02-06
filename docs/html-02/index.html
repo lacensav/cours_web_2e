@@ -1,0 +1,292 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Cours 2 · EB CASO 2B</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQEPKDfLH-KUyFEDd-VezbJ4OD3JWPXaIweXe9yEnMe3RusVYx-QGiqYMNlCiFI3yjeicFeHHYRgxFx/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;749&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Cours 2 · EB CASO 2B"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lacensav.github.io/cours_web_2e/"/><meta property="og:description" content="&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQEPKDfLH-KUyFEDd-VezbJ4OD3JWPXaIweXe9yEnMe3RusVYx-QGiqYMNlCiFI3yjeicFeHHYRgxFx/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;749&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;"/><meta property="og:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cours_web_2e/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script src="/cours_web_2e/js/scrollSpy.js"></script><link rel="stylesheet" href="/cours_web_2e/css/main.css"/><script src="/cours_web_2e/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cours_web_2e/"><img class="logo" src="/cours_web_2e/img/lacambre-logo-line.svg" alt="EB CASO 2B"/><h2 class="headerTitleWithLogo">EB CASO 2B</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/cours_web_2e/docs/intro" target="_self">Leçons</a></li><li class=""><a href="/cours_web_2e/docs/exo-intro" target="_self">Exercices</a></li><li class=""><a href="/cours_web_2e/help" target="_self">Contact</a></li><li class=""><a target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Chapitre 1</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 1</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/intro">Plan des cours</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-01">Cours 1</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/cours_web_2e/docs/html-02">Cours 2</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-03">Cours 3</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-04">Cours 4</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 2</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-01">Cours 5</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-02">Cours 6</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-03">Cours 7</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-04">Cours 8</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 3</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-01">Cours 9</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-02">Cours 10</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-01">Cours 11</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-02">Cours 12</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Cours 2</h1></header><article><div><span><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQEPKDfLH-KUyFEDd-VezbJ4OD3JWPXaIweXe9yEnMe3RusVYx-QGiqYMNlCiFI3yjeicFeHHYRgxFx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2><a class="anchor" aria-hidden="true" id="le-darknet"></a><a href="#le-darknet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le darknet</h2>
+<h3><a class="anchor" aria-hidden="true" id="tor"></a><a href="#tor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TOR</h3>
+<div class="video">
+  <iframe tor height="315" src="https://www.youtube-nocookie.com/embed/Mnrn3y-Qbyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p><a href="https://www.torproject.org/fr/">Voir la page du projet Tor</a></p>
+<h2><a class="anchor" aria-hidden="true" id="art-et-mémoire"></a><a href="#art-et-mémoire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Art et mémoire</h2>
+<h3><a class="anchor" aria-hidden="true" id="le-théâtre-de-la-mémoire"></a><a href="#le-théâtre-de-la-mémoire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le théâtre de la mémoire</h3>
+<blockquote>
+<p>«Pour Saint-Augustin, la mémoire participe à la vie de l’esprit. C’est elle qui instaure de la durée, de la profondeur de champ, qui permet de donner sens aux expériences.
+Ainsi la mémoire est une « chambre intérieure vaste et illimitée » où sont conservées nos actions passées, les images de ce que nous avons vu et perçu mais aussi ce que nous avons appris des arts libéraux ainsi que les affections de l’esprit : joie, tristesse, désir et peur» <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+</blockquote>
+<p><img src="https://www.researchgate.net/profile/Antoine_Gros3/publication/331075349/figure/fig1/AS:726264478433283@1550166353952/Representation-du-Theatre-de-la-Memoire-Anonyme.png" alt="Theatre de la mémoire "></p>
+<p><strong>Est-il possible de mémoriser toute connaissance humaine au moyen d’un nombre fini d’images ?</strong></p>
+<p>Tel était en tout cas le pari audacieux que l’humaniste Giulio Camillo (1480-1544),
+considéré comme l’un des personnages les plus célèbres de son temps, tenta de tenir en bâtissant son «théâtre de la mémoire ».</p>
+<p>Comme décrit dans «L’art de la mémoire» <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>, la mémoire artificielle se construit en créant à partir de choses dont on veut souvenir, des images mémorables (absurde, sex, symboles).</p>
+<p>Ce processus ressemble fort à ce que l’on connait dans la création artistique.</p>
+<p>L’artiste étant celui qui crée des images mémorables.</p>
+<blockquote>
+<p>« Une œuvre n’est pas quelque chose de beau à regarder, sa valeur c’est d'être une école de pensée. L’important est l’image mentale qu’elle imprime. » <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+</blockquote>
+<p>Mais dans ce processus il y a forcément abstraction, ne serait que lors de la symbolization.</p>
+<p>On comprend mieux pourquoi la perte liée à l’abstraction est un élément essentiel de la création artistique.</p>
+<h3><a class="anchor" aria-hidden="true" id="memoire-histoire-et-internet"></a><a href="#memoire-histoire-et-internet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Memoire, histoire et internet.</h3>
+<p>Une dimension importante de la science se trouve dans l’intérềt de l’histoire à se souvenir de celui qui a inventer quelque chose.</p>
+<p>L’histoire n’est qu’une fraction de ce que l’on a bien voulu retenir.</p>
+<p>Cette dimension ressemble fort à ce qui est en jeux également en art où l’on s’atèle à produire des images/histoire mémorable.</p>
+<p>C’est un combat incessant entre les artistes pour connaître ceux qui seront retenu de l’histoire.</p>
+<p>Il y a tellement de données en sciences qu’il devient difficile d’en faire de nouvelles histoires.</p>
+<p>Peut-être est-ce un des rôles de l’art. Et symboliquement du netart.</p>
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/AFOGk6qrEQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3><a class="anchor" aria-hidden="true" id="internet--pérénité"></a><a href="#internet--pérénité" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Internet &amp; pérénité</h3>
+<blockquote>
+<p>Le web s’envole et les écris restent</p>
+</blockquote>
+<p>Le web est éphémère mais rare sont les personnes qui s’en rendent compte.
+Malgré que cela faisait partie des idées des créateurs du web, le web n’a pas de backup, pas de version, et le les sites changent ou disparaissent.
+En fait la réalité est que chacun est responsable de faire son historique du web.
+Il y a donc toute une série de savoir qui disparaissent avec le temps et qui sont perdus à jamais.
+Heureusement qu’il nous reste les livres et <a href="https://archive.org/web/?&amp;ui3=1">The Web archives</a>!</p>
+<p><a href="https://archive.org/web/?&amp;ui3=1">The Web archives</a> nous permet de, par exemple, voir comment le site d’Apple était en 1997 - <a href="https://web.archive.org/web/19970715124703/http://www.apple.com/a">https://web.archive.org/web/19970715124703/http://www.apple.com/a</a></p>
+<p>Ou de revoir des fameux virus DOS rendus maintenant inoffensif au <a href="https://archive.org/details/malwaremuseum">Malware museum</a></p>
+<p>Ce côté éphémère à des implications non négligeable en ce sens qu’elle change notre rapport la Vérité et à la responsabilité des paroles.
+Quand quelqu’un écrit un livre, il doit bien assumer ce qu’il écrit, à moins de brûler tous les exemplaires du livre.</p>
+<p>Pour le web c’est plus compliqué, on peut parfois vite aller effacer et changer du contenus comme si de rien n’était.</p>
+<p>On pourrait presque dire que l’internet n’a de mémoire que la somme des traces que ses utilisateurs en ont gardé. La mémoire du web serait-elle une œuvre d’art?</p>
+<h2><a class="anchor" aria-hidden="true" id="procédés-de-création-contemporaine"></a><a href="#procédés-de-création-contemporaine" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Procédés de création contemporaine</h2>
+<ul>
+<li>Accumulation</li>
+<li>Analogie / comparaison</li>
+<li>Changement d’échelle</li>
+<li>Choc émotionnel</li>
+<li>Criptage</li>
+<li>Dé-contextualisation</li>
+<li>Découpage, segmentation, fracture, deconstruction</li>
+<li>Defonctionalisation (chaise sur laquelle on ne peut pas s’assoir)</li>
+<li>Désacralisation</li>
+<li>Détournement, Réaffectation, changement d’identité</li>
+<li>Effet de perspective</li>
+<li>Esthétisation du laid, annihilation du beau</li>
+<li>Figure de style (Allégorie, Oxymore, Métaphore, Anagramme, Lipogramme)</li>
+<li>Graphisme</li>
+<li>Hacking / usurpation</li>
+<li>Illusion d’optique (ex: Trompe l'oeil, Anamorphose)</li>
+<li>Immersion</li>
+<li>Jeux sur le language (?)</li>
+<li>Ludification</li>
+<li>Méta-communication (le médium qui parle de lui-mm, s’auto-(re)-définit), méta-création</li>
+<li>Mise en abyme</li>
+<li>Recadrage / Cadrage</li>
+<li>Référence (artistique, litteraire, ...)</li>
+<li>Reproduction en série, clonage, duplication, remake ...</li>
+<li>Série non clonée (bescher chateau d’eau)</li>
+<li>Stochastique (aléatoire)</li>
+<li>Subversion</li>
+<li>Théâtralisation</li>
+<li>Traitement du temps (éphémère. pérenne)</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="critères-dappartenance-à-lart-contemporain"></a><a href="#critères-dappartenance-à-lart-contemporain" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Critères d’appartenance à l’art contemporain</h3>
+<blockquote>
+<p>La majorité des experts, des historiens de l’art, des critiques et des conservateurs situe
+l’apparition de l’art contemporain en 1969 lors de l’exposition
+séminale <a href="http://www.leftmatrix.com/whenattitudes.html"><em>Quand les attitudes deviennent forme</em></a>, organisée par Harald
+Szeemann à la kunsthalle de Berne, en Suisse.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>
+L’appartenance d’une œuvre au monde de l’art contemporain est
+le résultat d’une «sélection» dont le critère le plus important est sa
+«congruence avec le présent», ce qui implique «une rupture avec le passé,
+constitutive de ce qui est devenu un nouveau “paradigme” esthétique, une nouvelle définition du sens de la normalité en art<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup> ».</p>
+</blockquote>
+<p>Source: <a href="https://www.erudit.org/fr/revues/globe/2014-v17-n1-globe01705/1028634ar.pdf">Marcel Fournier et Marian Misdrahi, Critères et processus d’évaluation en art contemporain. Les concours d’aide à la création du CALQ</a></p>
+<h2><a class="anchor" aria-hidden="true" id="html"></a><a href="#html" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Html</h2>
+<h3><a class="anchor" aria-hidden="true" id="tableaux"></a><a href="#tableaux" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tableaux</h3>
+<table>
+  <tr>
+    <th>Entête 1</th>
+    <th>Entête 2</th>
+    <th>Entête 3</th>
+    <th>Entête 4</th>
+  </tr>
+  <tr>
+    <td>Cellule 1</td>
+    <td>Cellule 2</td>
+    <td>Cellule 3</td>
+    <td>Cellule 4</td>
+  </tr>
+</table>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Cellule 1<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Cellule 2<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Cellule 3<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Cellule 4<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Cellule 1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Cellule 2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Cellule 3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Cellule 4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="images"></a><a href="#images" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Images</h3>
+<p><img src="https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif"/></p>
+<pre><code class="hljs">&lt;img <span class="hljs-attribute">src</span>=<span class="hljs-string">"https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif"</span>/&gt;
+</code></pre>
+<blockquote>
+<p>Une image peut pointer vers un fichier à l’aide d’un chemin <strong>relatif</strong> ou <strong>absolus</strong>.</p>
+</blockquote>
+<h4><a class="anchor" aria-hidden="true" id="les-adresses-absolues"></a><a href="#les-adresses-absolues" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les adresses absolues</h4>
+<p>Le chemin d’une adresse absolue ne change pas est-il toujours valable quel que soit l’endroit où on se trouve.
+Vous pouvez comparer cela à l’adresse que vous posez sur une enveloppe où que vous soyez dans le monde elle arrivera toujours au même endroit.</p>
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="MrLEmm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Chemin absolus">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/MrLEmm">
+  Chemin absolus</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<p>Le chemin de cette image permet à cette image d’être utilisée sur <strong>n’importe quelle page</strong> de votre site sans en changer l’adresse.</p>
+<h4><a class="anchor" aria-hidden="true" id="les-adresses-relatives"></a><a href="#les-adresses-relatives" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les adresses relatives</h4>
+<p>Le chemin d’une adresse relative ne fonctionne que par rapport à l’endroit où vous vous trouvez.
+Si je vous explique le trajet entre chambre et le salon, les instructions pour y arriver seront fausses si vous changer d’endroit d’origine</p>
+<p>Considérons l’arborescence de fichiers suivante,</p>
+<pre><code class="hljs">- exos
+  |<span class="hljs-comment">-- exercices-1.html</span>
+
+- images
+  |<span class="hljs-comment">-- logo.png</span>
+
+<span class="hljs-keyword">index</span>.html
+</code></pre>
+<p>Si dans mon fichier <code>index.html</code>, je veux placer l’image se trouvant dans le dossier images, comment dois-je procéder?</p>
+<p>Pour ce faire il nous faut ajouter une balise image dans le fichier <code>index.html</code>. Son attribut <code>src</code> sera un chemin qui</p>
+<ul>
+<li>entre dans le dossier <code>images</code>,</li>
+<li>fait référence au fichier qu’on voudrait afficher, c’est à dire <code>logo.png</code></li>
+</ul>
+<blockquote>
+<p>Pour sortir d’un dossier, on utilise <code>../</code></p>
+</blockquote>
+<blockquote>
+<p>Pour rentrer dans un dossier, on utilise le nom du dossier. <code>images</code> par exemple.</p>
+</blockquote>
+<p>Construisons maintenant l’addresse vers notre image sur <code>index.html</code> pas à pas:</p>
+<p>Entrer dans le dossier <code>images</code></p>
+<pre><code class="hljs"><span class="hljs-attribute">images</span>
+</code></pre>
+<p>Référencer le fichier qu’on voudrait afficher, c’est à dire <code>logo.png</code></p>
+<pre><code class="hljs">images/logo<span class="hljs-selector-class">.png</span>
+</code></pre>
+<p>La balise finale</p>
+<pre><code class="hljs">&lt;img <span class="hljs-attribute">src</span>=<span class="hljs-string">"images/logo.png"</span>/&gt;
+</code></pre>
+<p>Si je veux maintenant afficher la même image dans le fichier <code>exos/exercice-1.html</code>.
+Il me faut donc pour afficher cette image:</p>
+<ul>
+<li>sortir du dossier <code>exos</code></li>
+<li>renter dans le dossier <code>images</code></li>
+<li>référencer le fichier <code>logo.png</code></li>
+</ul>
+<p>Ce qui nous donne:</p>
+<p><code>..</code> pour sortir de <code>exos</code></p>
+<p><code>../images</code> pour entrer dans <code>images</code></p>
+<p><code>../images/logo.png</code> pour référencer le fichier logo.png</p>
+<p>La balise finale pour afficher le logo sur la page <code>exercice-1.html</code> sera donc:</p>
+<pre><code class="hljs">&lt;img <span class="hljs-attribute">src</span>=<span class="hljs-string">"../images/logo.png"</span>/&gt;
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="comment-mettre-son-code-en-ligne"></a><a href="#comment-mettre-son-code-en-ligne" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comment mettre son code en ligne</h2>
+<h3><a class="anchor" aria-hidden="true" id="ip-et-dns"></a><a href="#ip-et-dns" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IP et DNS</h3>
+<p>Lorsque un visiteur demande une page à son navigateur Web, celui-ci interroge des serveurs DNS pour connaître l’adresse IP du serveur hébergeant ce site.</p>
+<p>Dès qu’il obtient la réponse, le navigateur va interroger ce serveur et lui demander cette page.</p>
+<p>Le serveur web va alors chercher la page sur son ou ses disques durs (s’il s’agit d'une page statique), ou la fabriquer à l’aide d'un script (s’il s’agit d'une page dynamique), puis l’envoyer au navigateur, qui l’affiche sur l’écran du visiteur.</p>
+<p>Il peut être important de localiser l’endroit où l’hébergeur a ses serveurs. La plupart des moteurs de recherches se basent aussi sur la localisation des serveurs afin d'effectuer le référencement d'un site Web.</p>
+<h3><a class="anchor" aria-hidden="true" id="quelle-est-mon-ip"></a><a href="#quelle-est-mon-ip" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quelle est mon IP?</h3>
+<p><a href="http://whatismyipaddress.com/">http://whatismyipaddress.com/</a></p>
+<p>Avec Tor ou un <a href="https://www.thefreedictionary.com/VPN">VPN</a> on peut changer l’endroit d’où l’on fait notre connexion vers le web.</p>
+<p><img src="/cours_web_2e/docs/assets/images/html/ip-compare.png" alt=""></p>
+<h3><a class="anchor" aria-hidden="true" id="les-types-dhébergements"></a><a href="#les-types-dhébergements" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les types d'hébergements</h3>
+<p><img src="https://s3-eu-central-1.amazonaws.com/boris-screenshots/Mise_en_ligne__GitBook_2020-02-05_10-49-11.png" alt=""></p>
+<ul>
+<li>Les hébergements partagés ou mutualisés</li>
+<li>Les hébergements dédiés</li>
+<li>L’hébergement virtuel dédié</li>
+<li>Les hébergements dédiés dits « managés », avec « serveur dédié infogéré » ou « clés en main »</li>
+<li>La colocation</li>
+</ul>
+<p>La plupart des hébergeurs sont payants.
+Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations gratuites sont souvent des offres d'appel pour les prestations payantes, plus riches en fonctionnalités et plus performantes.</p>
+<h3><a class="anchor" aria-hidden="true" id="netlify"></a><a href="#netlify" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Netlify</h3>
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vywDFg2uIxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3><a class="anchor" aria-hidden="true" id="ftp--filezilla"></a><a href="#ftp--filezilla" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ftp / Filezilla</h3>
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3gAeASon6ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<hr>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1"  class="footnote-item"><p><a href="https://fr.wikipedia.org/wiki/Augustin_d%27Hippone">La Trinité Intérieure : mémoire, intelligence et volonté chez Augustin</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2"  class="footnote-item"><p>L’art de la mémoire, Frances A. Yates, Gallimard 1987 <a href="#fnref2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3"  class="footnote-item"><p><a href="https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3">https://fr.wikipedia.org/wiki/Claes_Oldenburg#cite_note-ReferenceA-3</a> <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn4"  class="footnote-item"><p>Alain Quemin, «Trajectoires de notoriété et de consécration dans les arts visuels : contribution sociologique à l’histoire de l’art contemporain», Sociologie et sociétés, (à paraître, octobre 2015) <a href="#fnref4" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn5"  class="footnote-item"><p>Nathalie HEiNiCH, Le triple jeu de l’art contemporain…, op. cit., p. 11. <a href="#fnref5" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 05/02/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/cours_web_2e/docs/html-01"><span class="arrow-prev">← </span><span>Cours 1</span></a><a class="docs-next button" href="/cours_web_2e/docs/html-03"><span>Cours 3</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#le-darknet">Le darknet</a><ul class="toc-headings"><li><a href="#tor">TOR</a></li></ul></li><li><a href="#art-et-mémoire">Art et mémoire</a><ul class="toc-headings"><li><a href="#le-théâtre-de-la-mémoire">Le théâtre de la mémoire</a></li><li><a href="#memoire-histoire-et-internet">Memoire, histoire et internet.</a></li><li><a href="#internet--pérénité">Internet &amp; pérénité</a></li></ul></li><li><a href="#procédés-de-création-contemporaine">Procédés de création contemporaine</a><ul class="toc-headings"><li><a href="#critères-dappartenance-à-lart-contemporain">Critères d’appartenance à l’art contemporain</a></li></ul></li><li><a href="#html">Html</a><ul class="toc-headings"><li><a href="#tableaux">Tableaux</a></li><li><a href="#images">Images</a></li></ul></li><li><a href="#comment-mettre-son-code-en-ligne">Comment mettre son code en ligne</a><ul class="toc-headings"><li><a href="#ip-et-dns">IP et DNS</a></li><li><a href="#quelle-est-mon-ip">Quelle est mon IP?</a></li><li><a href="#les-types-dhébergements">Les types d'hébergements</a></li><li><a href="#netlify">Netlify</a></li><li><a href="#ftp--filezilla">Ftp / Filezilla</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cours_web_2e/" class="nav-home"><img src="/cours_web_2e/img/favicon.ico" alt="EB CASO 2B" width="66" height="58"/></a><div><h5>Leçon</h5><a href="/cours_web_2e/docs/en/intro.html">Plan des cours</a><a href="/cours_web_2e/docs/en/html-01.html">Ma première page html</a><a href="/cours_web_2e/docs/en/css-01.html">Les feuilles de style</a></div><div><h5>More</h5><a href="/cours_web_2e/blog">Blog</a><a href="https://github.com/lacensav/cours_web_2e">GitHub</a><div class="social"><a href="https://twitter.com/borisrorsvort" class="twitter-follow-button">Follow @borisrorsvort</a></div></div></section><section class="copyright">CC 4.0</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>

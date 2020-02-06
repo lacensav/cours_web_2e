@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Plan des cours · EB CASO 2B</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Cours 1"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Plan des cours · EB CASO 2B"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lacensav.github.io/cours_web_2e/"/><meta property="og:description" content="## Cours 1"/><meta property="og:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cours_web_2e/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script src="/cours_web_2e/js/scrollSpy.js"></script><link rel="stylesheet" href="/cours_web_2e/css/main.css"/><script src="/cours_web_2e/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cours_web_2e/"><img class="logo" src="/cours_web_2e/img/lacambre-logo-line.svg" alt="EB CASO 2B"/><h2 class="headerTitleWithLogo">EB CASO 2B</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/cours_web_2e/docs/intro" target="_self">Leçons</a></li><li class=""><a href="/cours_web_2e/docs/exo-intro" target="_self">Exercices</a></li><li class=""><a href="/cours_web_2e/help" target="_self">Contact</a></li><li class=""><a target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Chapitre 1</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 1</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/cours_web_2e/docs/intro">Plan des cours</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-01">Cours 1</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-02">Cours 2</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-03">Cours 3</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-04">Cours 4</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 2</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-01">Cours 5</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-02">Cours 6</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-03">Cours 7</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-04">Cours 8</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 3</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-01">Cours 9</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-02">Cours 10</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-01">Cours 11</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-02">Cours 12</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Plan des cours</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="cours-1"></a><a href="#cours-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 1</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture"></a><a href="#culture" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Introduction</li>
+<li>Questionnaire</li>
+<li>Histoire de l’internet, comment peut-il devenir un outil subversif?</li>
+<li>Ma première page html</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique"></a><a href="#technique" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<p>Éléments de base sauf image
+<a href="https://lacensav.github.io/cours_web_2e/html/elements-de-base.html">https://lacensav.github.io/cours_web_2e/html/elements-de-base.html</a></p>
+<ul>
+<li>titre</li>
+<li>paragraphe</li>
+<li>liste ordonnée</li>
+<li>liste non ordonée</li>
+<li>citation</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire"></a><a href="#à-faire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>ajouter une page index.html</li>
+<li>la navigation ne doit pas encore comporter de lien (on le verra dans 2 cours)</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="cotation"></a><a href="#cotation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cotation</h4>
+<ul>
+<li>1 html squelette</li>
+<li>3 utilisation des balises adéquate</li>
+<li>1 balises fermée</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-2"></a><a href="#cours-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 2</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture-1"></a><a href="#culture-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Le darknet 15 min</li>
+<li>Le web et la mémoire 15 min
+<a href="https://lacensav.github.io/cours_web_2e/culture-digitale/art-et-memoire.html">https://lacensav.github.io/cours_web_2e/culture-digitale/art-et-memoire.html</a></li>
+<li>Intro Net-art 15 min si le temps</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-1"></a><a href="#technique-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>Tableaux</li>
+<li>Image avec chemin absolu et attributs</li>
+<li>Déployer sur hébergeur</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-1"></a><a href="#à-faire-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>Œuvres exposées</li>
+</ul>
+<p>// Pas d'autres page car ils doivent déployer</p>
+<h2><a class="anchor" aria-hidden="true" id="cours-3"></a><a href="#cours-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 3</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture-2"></a><a href="#culture-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Intro usabilité (si pas en retard) (bonne pratiques de design, handicaps,…)</li>
+<li>Intro glitch + exo live</li>
+<li>Intro art génératif (neural network, code art, …)
+A classer <a href="https://generativeartistry.com/">https://generativeartistry.com/</a></li>
+<li>Alternative.to</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-2"></a><a href="#technique-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>sauver les images pour le web</li>
+<li>page d'accueil du site avec tous les exo</li>
+<li>lien relatif - absolu - mail - tel</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-2"></a><a href="#à-faire-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>ajouter une page contact</li>
+<li>transformation la navigation en lien vers les autres pages</li>
+<li>ajouter des lien absolu «En savoir plus sur la page d'accueil»</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-4"></a><a href="#cours-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 4</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture-3"></a><a href="#culture-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Comment internet fonctionne</li>
+<li>La carte n'est pas le territoire</li>
+<li>Intro au geo-netart et autres artistes utilisant la carte</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-3"></a><a href="#technique-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>Balise sémantique «article»</li>
+<li>navigation à ancres</li>
+<li>différence entre class et id</li>
+<li>éléments de mise en page (main, article,…)</li>
+<li>lien sur une image</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-3"></a><a href="#à-faire-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>ajouter la page calendrier</li>
+<li>ajouter les liens sur la première page vers les œuvres en utilisant une ancre</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-5"></a><a href="#cours-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 5</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture-4"></a><a href="#culture-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Workshop procédé de création par rapport au travail final (générer 2 idées en 5 min avec 5 phrases max. Puis pitch. Arriver à générer chez l’autre une image indélébile. 30m</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-4"></a><a href="#technique-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>Introduction Css <a href="https://lacensav.github.io/cours_web_2e/css/introduction.html">https://lacensav.github.io/cours_web_2e/css/introduction.html</a></li>
+<li>Css reset</li>
+<li>Inline-block (vs Inline &amp; block)</li>
+<li>Centrage du contenu (via body padding)</li>
+<li>Réutiliser les mm styles avec des classes communes (ex: current page styles)</li>
+<li>Comment faire un bouton</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-4"></a><a href="#à-faire-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>Styliser le menu de navigation (avec style pour current page)</li>
+<li>Ajouter un lien vers css reset dans chaque pages</li>
+<li>Ajouter un lien vers votre css dans chaque pages</li>
+<li>Centrer le contenu sur la page avec marges interieures</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-6"></a><a href="#cours-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 6</h2>
+<ul>
+<li>Revision cours 5 + exo en classe pour vérifier</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-5"></a><a href="#technique-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>Box system et box-sizing</li>
+<li>Centrage avec container margin auto</li>
+<li>Positionnement css (relative, absolute, fixed,...).</li>
+<li>Example pseudo Albers avec des carrés</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-5"></a><a href="#à-faire-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>Rendez la navigation fixe</li>
+<li>Remplacer l’œuvre de Albers par une autre au choix dont vous remplacerez l’image par une version en css.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-7"></a><a href="#cours-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 7</h2>
+<h3><a class="anchor" aria-hidden="true" id="culture-5"></a><a href="#culture-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h3>
+<ul>
+<li>Pangramme (<a href="https://images-na.ssl-images-amazon.com/images/I/71kaN-L7BSL.jpg">https://images-na.ssl-images-amazon.com/images/I/71kaN-L7BSL.jpg</a>)</li>
+<li>Comment hacker la recherche sur google</li>
+<li>Intro au flux Rss</li>
+<li>Css zen garden 10m?</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="technique-6"></a><a href="#technique-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technique</h3>
+<ul>
+<li>Hover</li>
+<li>Forme géométriques <a href="https://css-tricks.com/examples/ShapesOfCSS/">https://css-tricks.com/examples/ShapesOfCSS/</a></li>
+<li>Mise en page css <a href="http://fr.learnlayout.com/position.html">http://fr.learnlayout.com/position.html</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook">https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook</a></li>
+<li>Layout menu vertical fixed left?</li>
+<li>Google font <a href="http://www.googwle.com/webfonts">http://www.googwle.com/webfonts</a>
+<a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp">http://www.w3schools.com/cssref/css_websafe_fonts.asp</a></li>
+<li>Transforms: <a href="http://tympanus.net/codrops/css_reference/transform/">http://tympanus.net/codrops/css_reference/transform/</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-6"></a><a href="#à-faire-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h3>
+<ul>
+<li>Ajouter des styles de survol avec transition sur les liens, la navigation.</li>
+<li>Remplacer l’œuvre de <a href="https://frama.link/oXZtswfE">Cardon</a> par une autre au choix dont vous remplacerez l’image par une version en css.</li>
+<li>Rendre les image flex avec max-width.</li>
+<li>Transformer la barre de navigation en colonne.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-8"></a><a href="#cours-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 8</h2>
+<ul>
+<li>Présentation Travail de fin d’année par Serge</li>
+<li>Image de fond</li>
+<li>Transition, animation, transform</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-9"></a><a href="#cours-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 9</h2>
+<ul>
+<li><p>Grille bootstrap</p>
+<ul>
+<li>Download grid and reboot</li>
+<li><a href="https://getbootstrap.com/docs/4.3/layout/overview/">https://getbootstrap.com/docs/4.3/layout/overview/</a></li>
+</ul></li>
+<li><p>Animate.css <a href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a></p></li>
+<li><p>Overflow</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="à-faire-7"></a><a href="#à-faire-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À Faire</h3>
+<ul>
+<li>Utiliser les medias query pour ajuster la navigation</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="cours-10"></a><a href="#cours-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 10</h2>
+<ul>
+<li><p>Bootstrap suite ()</p></li>
+<li><p>Javascript (20m):</p>
+<p><a href="https://www.google.be/search?q=mille+milliard+de+poeme&amp;espv=2&amp;biw=1309&amp;bih=707&amp;site=webhp&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=Aqv5VNbGJIG1OqKWgaAF&amp;ved=0CAYQ_AUoAQ">https://www.google.be/search?q=mille+milliard+de+poeme&amp;espv=2&amp;biw=1309&amp;bih=707&amp;site=webhp&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=Aqv5VNbGJIG1OqKWgaAF&amp;ved=0CAYQ_AUoAQ</a></p></li>
+<li><p>Recup js from <a href="http://davide.balula.free.fr/">http://davide.balula.free.fr/</a></p></li>
+<li><p>animation custom css</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="a-faire"></a><a href="#a-faire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A faire</h3>
+<hr>
+<p>A préparer pour chaque cours:</p>
+<ul>
+<li>pdf avec résultat final</li>
+<li>les textes à intégrer</li>
+<li>liste de présence imprimée</li>
+<li>résultat des cottes</li>
+</ul>
+<p><a href="http://www.pydnet.net/?page_id=77">http://www.pydnet.net/?page_id=77</a></p>
+<h2><a class="anchor" aria-hidden="true" id="cours-8-"></a><a href="#cours-8-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cours 8 ?</h2>
+<p>Travail final</p>
+<p><a href="https://www.scoop.it/topic/qrart">https://www.scoop.it/topic/qrart</a></p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 06/02/2020</em></div><div class="docs-prevnext"><a class="docs-next button" href="/cours_web_2e/docs/html-01"><span>Cours 1</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#cours-1">Cours 1</a><ul class="toc-headings"><li><a href="#culture">Culture</a></li><li><a href="#technique">Technique</a></li><li><a href="#à-faire">À faire</a></li></ul></li><li><a href="#cours-2">Cours 2</a><ul class="toc-headings"><li><a href="#culture-1">Culture</a></li><li><a href="#technique-1">Technique</a></li><li><a href="#à-faire-1">À faire</a></li></ul></li><li><a href="#cours-3">Cours 3</a><ul class="toc-headings"><li><a href="#culture-2">Culture</a></li><li><a href="#technique-2">Technique</a></li><li><a href="#à-faire-2">À faire</a></li></ul></li><li><a href="#cours-4">Cours 4</a><ul class="toc-headings"><li><a href="#culture-3">Culture</a></li><li><a href="#technique-3">Technique</a></li><li><a href="#à-faire-3">À faire</a></li></ul></li><li><a href="#cours-5">Cours 5</a><ul class="toc-headings"><li><a href="#culture-4">Culture</a></li><li><a href="#technique-4">Technique</a></li><li><a href="#à-faire-4">À faire</a></li></ul></li><li><a href="#cours-6">Cours 6</a><ul class="toc-headings"><li><a href="#technique-5">Technique</a></li><li><a href="#à-faire-5">À faire</a></li></ul></li><li><a href="#cours-7">Cours 7</a><ul class="toc-headings"><li><a href="#culture-5">Culture</a></li><li><a href="#technique-6">Technique</a></li><li><a href="#à-faire-6">À faire</a></li></ul></li><li><a href="#cours-8">Cours 8</a></li><li><a href="#cours-9">Cours 9</a><ul class="toc-headings"><li><a href="#à-faire-7">À Faire</a></li></ul></li><li><a href="#cours-10">Cours 10</a><ul class="toc-headings"><li><a href="#a-faire">A faire</a></li></ul></li><li><a href="#cours-8-">Cours 8 ?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cours_web_2e/" class="nav-home"><img src="/cours_web_2e/img/favicon.ico" alt="EB CASO 2B" width="66" height="58"/></a><div><h5>Leçon</h5><a href="/cours_web_2e/docs/en/intro.html">Plan des cours</a><a href="/cours_web_2e/docs/en/html-01.html">Ma première page html</a><a href="/cours_web_2e/docs/en/css-01.html">Les feuilles de style</a></div><div><h5>More</h5><a href="/cours_web_2e/blog">Blog</a><a href="https://github.com/lacensav/cours_web_2e">GitHub</a><div class="social"><a href="https://twitter.com/borisrorsvort" class="twitter-follow-button">Follow @borisrorsvort</a></div></div></section><section class="copyright">CC 4.0</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>

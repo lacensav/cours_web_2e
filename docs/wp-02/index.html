@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Cours 12 · EB CASO 2B</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Le CMS WordPress"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Cours 12 · EB CASO 2B"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lacensav.github.io/cours_web_2e/"/><meta property="og:description" content="## Le CMS WordPress"/><meta property="og:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cours_web_2e/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script src="/cours_web_2e/js/scrollSpy.js"></script><link rel="stylesheet" href="/cours_web_2e/css/main.css"/><script src="/cours_web_2e/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cours_web_2e/"><img class="logo" src="/cours_web_2e/img/lacambre-logo-line.svg" alt="EB CASO 2B"/><h2 class="headerTitleWithLogo">EB CASO 2B</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/cours_web_2e/docs/intro" target="_self">Leçons</a></li><li class=""><a href="/cours_web_2e/docs/exo-intro" target="_self">Exercices</a></li><li class=""><a href="/cours_web_2e/help" target="_self">Contact</a></li><li class=""><a target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Chapitre 3</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 1</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/intro">Plan des cours</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-01">Cours 1</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-02">Cours 2</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-03">Cours 3</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-04">Cours 4</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 2</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-01">Cours 5</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-02">Cours 6</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-03">Cours 7</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-04">Cours 8</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 3</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-01">Cours 9</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-02">Cours 10</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-01">Cours 11</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/cours_web_2e/docs/wp-02">Cours 12</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Cours 12</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="le-cms-wordpress"></a><a href="#le-cms-wordpress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le CMS WordPress</h2>
+<p>C’est le programme que nous installons sur un serveur. Il gère tous les contenus, l’ensemble du blog. C’est la matrice…</p>
+<h3><a class="anchor" aria-hidden="true" id="le-thème"></a><a href="#le-thème" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le thème</h3>
+<p>C’est le design, l’habillage du site. C’est ce qui est garant de l’unité du blog. On l’appelle également « Template ».</p>
+<h3><a class="anchor" aria-hidden="true" id="les-plug-ins"></a><a href="#les-plug-ins" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les plug-ins</h3>
+<ul>
+<li>Ce sont des petits programmes qui viennent s’ajouter au CMS WordPress pour compléter ses fonctionnalités ;</li>
+<li>Ils permettent de rendre votre blog plus riche ;</li>
+</ul>
+<p>Attention, plus il y a de plug-ins et plus vous risquez d’alourdir votre blog et de ralentir son temps de téléchargement (pas conseillé !) ;</p>
+<p>Attention également aux plug-ins qui ont des failles de sécurités ou des bugs;</p>
+<p>Vérifiez toujours la compatibilité de votre plug-in avec la version de votre CMS WordPress…</p>
+<p>Consultez les commentaires pour savoir s’il existe des risques quelconques à l’installation de ce programme.</p>
+<h3><a class="anchor" aria-hidden="true" id="les-documents-multimédias"></a><a href="#les-documents-multimédias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les documents multimédias</h3>
+<p>Ce sont tous les fichiers que vous téléchargez (images, PDF, vidéos, enregistrements audio…).</p>
+<h3><a class="anchor" aria-hidden="true" id="les-widgets"></a><a href="#les-widgets" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les widgets</h3>
+<p>Ce sont des éléments qui s’affichent sur le blog selon des positions bien définies (colonne de gauche, de droite, dans l’entête/header, dans le pied de page/footer) ;</p>
+<p>Ils permettent d’ajouter des contenus, d’améliorer la navigation (articles les plus lus, catégories…) ou des fonctionnalités intéressantes (Facebook Likebox, Boutons de partages…).</p>
+<h3><a class="anchor" aria-hidden="true" id="les-pages"></a><a href="#les-pages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les pages</h3>
+<blockquote>
+<p>Attention, les pages ne sont pas des articles;</p>
+</blockquote>
+<p>Les pages reprennent la philosophie d’un site classique. Elles permettent de créer des « pages » dans le menu principal afin d’apporter du contenu spécifique (Qui sommes-nous, page de contact…).</p>
+<h3><a class="anchor" aria-hidden="true" id="les-articles--posts"></a><a href="#les-articles--posts" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les articles / posts</h3>
+<p>Les articles sont pour la plupart du temps présenté par ordre chronologique (de plus récent au plus ancien) depuis la page d’accueil du site.
+Ils peuvent être regroupés par catégorie ou par tag (mot-clé).</p>
+<h2><a class="anchor" aria-hidden="true" id="le-squelette"></a><a href="#le-squelette" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le squelette</h2>
+<p><img src="/cours_web_2e/img/wordpress/squelette-wp.png" alt="squelette-wp"></p>
+<h3><a class="anchor" aria-hidden="true" id="le-header-en-tête"></a><a href="#le-header-en-tête" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le Header (En-tête)</h3>
+<p>Zone d’insertions du logo, de la bannière principale du blog, du menu principal et d’autres fonctionnalités telles que des boutons de partages ou la zone de du moteur de recherche interne (Searchbox).</p>
+<h3><a class="anchor" aria-hidden="true" id="la-sidebar"></a><a href="#la-sidebar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>La Sidebar</h3>
+<p>Zone de chargement des widgets;
+Peut-être à droite ou à gauche (il arrive également qu’il y en ait en footer et en dessous du header !).</p>
+<h3><a class="anchor" aria-hidden="true" id="le-footer-pied-de-page"></a><a href="#le-footer-pied-de-page" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le Footer (pied de page)</h3>
+<p>Clôture le blog;
+Permets d’afficher le menu bas avec les mentions légales, les conditions de vente, le plan du site…
+Permets d’afficher quelques widgets.</p>
+<h3><a class="anchor" aria-hidden="true" id="zone-appelée-«-loop-»"></a><a href="#zone-appelée-«-loop-»" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zone appelée « LOOP »</h3>
+<blockquote>
+<p><a href="https://developer.wordpress.org/reference/classes/wp_query/">https://developer.wordpress.org/reference/classes/wp_query/</a></p>
+</blockquote>
+<h4><a class="anchor" aria-hidden="true" id="lindex"></a><a href="#lindex" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>L’Index</h4>
+<p>Il affiche tout ou partie des articles (liste de posts) en page d’accueil.</p>
+<h4><a class="anchor" aria-hidden="true" id="les-archives"></a><a href="#les-archives" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les Archives</h4>
+<p>Affichée par mots-clés (tags), catégories, dates ou par auteur.</p>
+<h4><a class="anchor" aria-hidden="true" id="les-pages-1"></a><a href="#les-pages-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les pages</h4>
+<p>Affiche les titres des pages, leurs contenus, les commentaires et autres tags.</p>
+<h4><a class="anchor" aria-hidden="true" id="le-single-ou-post"></a><a href="#le-single-ou-post" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Le Single ou Post</h4>
+<p>Affiche que le titre, le contenu, les catégories et tags d’un post.
+Les commentaires</p>
+<p>Affiche l’avatar (photo, représentation graphique de la personne qui a laissé le commentaire), les commentaires et les pingbacks quand il y en a un (permet de tenir au courant le propriétaire d’un site/contenu à mentionnant son site ou un lien de son site).</p>
+<p>La fonction de recherche (moteur de recherche sémantique interne)
+Affiche une liste des résultats de recherches</p>
+<h2><a class="anchor" aria-hidden="true" id="ma-page-daccueil"></a><a href="#ma-page-daccueil" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ma page d’accueil</h2>
+<ul>
+<li>Créer un template home</li>
+<li>Afficher les 3 derniers post de 3 catégories différente (multiple loops)</li>
+<li>Afficher les images à la une pour chacun d’eux</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="selectionner-des-posts-dune-certaine-catégorie"></a><a href="#selectionner-des-posts-dune-certaine-catégorie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Selectionner des posts d’une certaine catégorie</h3>
+<p>Définir la requête</p>
+<pre><code class="hljs css language-php"><span class="hljs-meta">&lt;?php</span>
+  $the_query = <span class="hljs-keyword">new</span> WP_Query( <span class="hljs-keyword">array</span>(
+    <span class="hljs-string">'category_name'</span> =&gt; <span class="hljs-string">'design'</span>,
+    <span class="hljs-string">'posts_per_page'</span> =&gt; <span class="hljs-number">3</span>,
+  ));
+<span class="hljs-meta">?&gt;</span>
+</code></pre>
+<p>Créer la boucle</p>
+<pre><code class="hljs css language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">while</span> ($the_query -&gt; have_posts()) : $the_query -&gt; the_post(); <span class="hljs-meta">?&gt;</span>
+
+    Ici viendra le contenu de chaque article
+
+<span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endwhile</span>; <span class="hljs-meta">?&gt;</span>
+</code></pre>
+<p>Dans la boucle, récupérer les données que l’on veut afficher</p>
+<pre><code class="hljs css language-php">&lt;a href=<span class="hljs-string">"&lt;?php the_permalink() ?&gt;"</span>&gt;<span class="hljs-meta">&lt;?php</span> the_title(); <span class="hljs-meta">?&gt;</span>&lt;/a&gt;
+<span class="hljs-meta">&lt;?php</span> the_post_thumbnail(<span class="hljs-keyword">array</span>( <span class="hljs-number">200</span>, <span class="hljs-number">99999</span> )); <span class="hljs-meta">?&gt;</span>
+&lt;p&gt;<span class="hljs-meta">&lt;?php</span> the_excerpt(__(<span class="hljs-string">'(more…)'</span>)); <span class="hljs-meta">?&gt;</span>&lt;/p&gt;
+</code></pre>
+<p>Remettre la requête à zéro</p>
+<pre><code class="hljs css language-php"><span class="hljs-meta">&lt;?php</span> wp_reset_postdata(); <span class="hljs-meta">?&gt;</span>
+</code></pre>
+<p>Tout ensemble</p>
+<pre><code class="hljs css language-php">&lt;div class="travaux"&gt;
+  &lt;?php
+    $the_query = new WP_Query( array(
+      'category_name' =&gt; 'design',
+      'posts_per_page' =&gt; 3,
+   ));
+  ?&gt;
+  &lt;?php while ($the_query -&gt; have_posts()) : $the_query -&gt; the_post(); ?&gt;
+
+      &lt;a href="&lt;?php the_permalink() ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;
+      &lt;p&gt;&lt;?php the_excerpt('…'); ?&gt;&lt;/p&gt;
+
+  &lt;?php endwhile; ?&gt;
+  &lt;?php wp_reset_postdata(); ?&gt;
+&lt;/div&gt;
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="afficher-limage-à-la-une-pour-chaque-post"></a><a href="#afficher-limage-à-la-une-pour-chaque-post" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Afficher l’image à la une pour chaque post</h3>
+<p>A l’intérieur d’une boucle, lorsque «<code>the_post()</code>» est définis, à une multitudes de fonction pour récupérer du contenu de ce post. Pour certaine, il faudra les activer dans un fichier que l’on nomme <code>functions.php</code></p>
+<p>Le fichier <code>functions.php</code> étant déjà un fichier php, il faut pas de nouveau ajouter les balises <code>&lt;?php ?&gt;</code>.</p>
+<pre><code class="hljs css language-php">add_theme_support( <span class="hljs-string">'post-thumbnails'</span> );
+</code></pre>
+<p>Ensuite, sur votre page html, pour afficher le l’image</p>
+<pre><code class="hljs css language-php"><span class="hljs-meta">&lt;?php</span> the_post_thumbnail(<span class="hljs-string">'thumbnail'</span>); <span class="hljs-meta">?&gt;</span>
+</code></pre>
+<p>Pour une taille personnalisée</p>
+<pre><code class="hljs css language-php"><span class="hljs-meta">&lt;?php</span> the_post_thumbnail(<span class="hljs-keyword">array</span>( <span class="hljs-number">200</span>, <span class="hljs-number">99999</span> )); <span class="hljs-meta">?&gt;</span>
+</code></pre>
+<blockquote>
+<p>Sources:
+<a href="https://developer.wordpress.org/reference/functions/the_post_thumbnail/">https://developer.wordpress.org/reference/functions/the_post_thumbnail/</a> &gt; <a href="http://wordpress.bbxdesign.com/anatomie-dun-theme">http://wordpress.bbxdesign.com/anatomie-dun-theme</a> &gt; <a href="http://www.my-guroo.com/2014/08/anatomie-theme-wordpress-template-blog/">http://www.my-guroo.com/2014/08/anatomie-theme-wordpress-template-blog/</a></p>
+</blockquote>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 06/02/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/cours_web_2e/docs/wp-01"><span class="arrow-prev">← </span><span>Cours 11</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#le-cms-wordpress">Le CMS WordPress</a><ul class="toc-headings"><li><a href="#le-thème">Le thème</a></li><li><a href="#les-plug-ins">Les plug-ins</a></li><li><a href="#les-documents-multimédias">Les documents multimédias</a></li><li><a href="#les-widgets">Les widgets</a></li><li><a href="#les-pages">Les pages</a></li><li><a href="#les-articles--posts">Les articles / posts</a></li></ul></li><li><a href="#le-squelette">Le squelette</a><ul class="toc-headings"><li><a href="#le-header-en-tête">Le Header (En-tête)</a></li><li><a href="#la-sidebar">La Sidebar</a></li><li><a href="#le-footer-pied-de-page">Le Footer (pied de page)</a></li><li><a href="#zone-appelée-«-loop-»">Zone appelée « LOOP »</a></li></ul></li><li><a href="#ma-page-daccueil">Ma page d’accueil</a><ul class="toc-headings"><li><a href="#selectionner-des-posts-dune-certaine-catégorie">Selectionner des posts d’une certaine catégorie</a></li><li><a href="#afficher-limage-à-la-une-pour-chaque-post">Afficher l’image à la une pour chaque post</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cours_web_2e/" class="nav-home"><img src="/cours_web_2e/img/favicon.ico" alt="EB CASO 2B" width="66" height="58"/></a><div><h5>Leçon</h5><a href="/cours_web_2e/docs/en/intro.html">Plan des cours</a><a href="/cours_web_2e/docs/en/html-01.html">Ma première page html</a><a href="/cours_web_2e/docs/en/css-01.html">Les feuilles de style</a></div><div><h5>More</h5><a href="/cours_web_2e/blog">Blog</a><a href="https://github.com/lacensav/cours_web_2e">GitHub</a><div class="social"><a href="https://twitter.com/borisrorsvort" class="twitter-follow-button">Follow @borisrorsvort</a></div></div></section><section class="copyright">CC 4.0</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>

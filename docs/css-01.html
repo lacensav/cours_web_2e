@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Cours 5 · EB CASO 2B</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Workshop: Comment géréner des idées de geonetart?"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Cours 5 · EB CASO 2B"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lacensav.github.io/cours_web_2e/"/><meta property="og:description" content="## Workshop: Comment géréner des idées de geonetart?"/><meta property="og:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cours_web_2e/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script src="/cours_web_2e/js/scrollSpy.js"></script><link rel="stylesheet" href="/cours_web_2e/css/main.css"/><script src="/cours_web_2e/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cours_web_2e/"><img class="logo" src="/cours_web_2e/img/lacambre-logo-line.svg" alt="EB CASO 2B"/><h2 class="headerTitleWithLogo">EB CASO 2B</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/cours_web_2e/docs/intro" target="_self">Leçons</a></li><li class=""><a href="/cours_web_2e/docs/exo-intro" target="_self">Exercices</a></li><li class=""><a href="/cours_web_2e/help" target="_self">Contact</a></li><li class=""><a target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Chapitre 2</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 1</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/intro">Plan des cours</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-01">Cours 1</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-02">Cours 2</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-03">Cours 3</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/html-04">Cours 4</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 2</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/cours_web_2e/docs/css-01">Cours 5</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-02">Cours 6</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-03">Cours 7</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/css-04">Cours 8</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Chapitre 3</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-01">Cours 9</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/expert-02">Cours 10</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-01">Cours 11</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/wp-02">Cours 12</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Cours 5</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="workshop-comment-géréner-des-idées-de-geonetart"></a><a href="#workshop-comment-géréner-des-idées-de-geonetart" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Workshop: Comment géréner des idées de geonetart?</h2>
+<p>Workshop procédé de création par rapport au travail final (générer 2 idées en 5 min avec 5 phrases max. Puis pitch. Arriver à générer chez l’autre une image indélébile. 30m</p>
+<h2><a class="anchor" aria-hidden="true" id="introduction-aux-css"></a><a href="#introduction-aux-css" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction aux CSS</h2>
+<blockquote>
+<p>Les feuilles de style en cascade1, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.
+Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990,
+CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000. [^1]</p>
+</blockquote>
+<p>Comme l'HTML nous a permis de structurer le texte présent dans votre page,
+les CSS vont nous permettre de présenter ce contenu tant au niveau de l'esthétique que de son positionnement.</p>
+<p>Les CSS attachés à une page ou plusieurs sont généralement appelés: {%em%}«les styles»{%endem%}.</p>
+<p>Il y a plusieurs manières de mettre des styles dans un document HTML:</p>
+<ol>
+<li>directement introduire le style dans la balise HTML (Feuille de style interne)</li>
+<li>une feuille de style dans le body de la page HTML grâce à la balise <code>style</code> (Feuille de style interne)</li>
+<li>une feuille de style séparée dans un fichier <code>*.css</code> (Feuille de style externe)</li>
+</ol>
+<p>Nous concentrerons sur le troisième procédé car il nous permettra de réutiliser le style sur plusieurs pages et:</p>
+<ul>
+<li>D’éviter des duplications</li>
+<li>D’avoir un maintenance plus aisée</li>
+<li>D’utiliser le même contenu avec différents styles pour différents usages</li>
+<li>D’avoir des milliers de pages qui ont un aspect similaire.</li>
+</ul>
+<p>Lorsqu’un visiteur affiche une page, son navigateur charge les informations de style en même temps que le contenu de la page.
+Lorsqu’il imprime une page, vous fournissez des informations de style différentes qui rendent la page imprimée facile à lire.</p>
+<p>Si vous cherchez un exemple sur Internet de balises HTML, vous en trouverez sûrement certaines qui comportent des éléments de style.</p>
+<pre><code class="hljs css language-html">Dans les anciennes versions d’html, vous pouviez faire ceci:
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">align</span>=<span class="hljs-string">"center"</span>&gt;</span>How to Carve Wood<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+</code></pre>
+<p>Ce ne sont pas des CSS à proprement parlé mais des attributs de cette balise qui permettent de lui rajouter un certain style.
+Nous éviterons d’utiliser ce genre d’attributs car ils sont sur la voie de garage et ne permettent pas toute une série de choses listées plus haut.</p>
+<h3><a class="anchor" aria-hidden="true" id="que-peut-on-faire-avec-du-css"></a><a href="#que-peut-on-faire-avec-du-css" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Que peut-on faire avec du css?</h3>
+<p data-height="265" data-theme-id="0" data-slug-hash="JMxmgx" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Logo lacambre css" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/JMxmgx/">Logo lacambre css</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<h4><a class="anchor" aria-hidden="true" id="css-zen-garden"></a><a href="#css-zen-garden" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Css zen garden</h4>
+<blockquote>
+<p>En 2003, se lance CSS Zen Garden, un site de présentation des diverses possibilités CSS (Feuilles de style en cascade) qui s'offrent aux pages web.
+Les feuilles de styles sont proposées par des designers, puis sont appliquées sur le contenu du site.
+Ainsi on peut afficher la page d'une centaine de manières différentes.
+Le contenu de la page HTML reste quant à lui invariant. Le site est disponible dans de nombreuses langues.
+Lorsqu’il a été lancé en avril 2003, il ne contenait que cinq designs. [^2]</p>
+</blockquote>
+<p><a href="http://www.csszengarden.com/">http://www.csszengarden.com/</a></p>
+<p>D’autres exemples de ce que l’on peut réaliser avec des css:</p>
+<ul>
+<li><a href="http://designm.ag/graphic-design/50-css-only-icon-graphics/">http://designm.ag/graphic-design/50-css-only-icon-graphics/</a></li>
+<li><a href="https://picturepan2.github.io/devices.css/">https://picturepan2.github.io/devices.css/</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="comment-cibler-un-élément"></a><a href="#comment-cibler-un-élément" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comment cibler un élément?</h3>
+<p><img src="https://s3-eu-central-1.amazonaws.com/boris-screenshots/Introduction__GitBook_2020-02-05_11-36-15.png" alt=""></p>
+<p>Nous avons à notre disposition deux attributs HTML qui nous permettent d'identifier une balise (ou plusieures) dans une règle css.</p>
+<h4><a class="anchor" aria-hidden="true" id="lattribut-id"></a><a href="#lattribut-id" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>L’attribut Id</h4>
+<p>il ne peut-être utilisé qu'une seule fois sur la page.<br>
+Comme nous essayons de réutiliser différentes règles CSS sur plusieurs éléments, cet attribut ne nous est donc pas très utile.</p>
+<h4><a class="anchor" aria-hidden="true" id="lattribut-class"></a><a href="#lattribut-class" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>L’attribut class</h4>
+<p>Nous pouvons via cet attribut associer des règles CSS a une balise en ajoutant le nom de ces règles dans la valeur de l'attribut, séparé par une espace</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"super cool nice"</span>&gt;</span>Hello<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<p>et le css</p>
+<pre><code class="hljs css language-css"><span class="hljs-selector-class">.super</span> {
+}
+
+<span class="hljs-selector-class">.cool</span> {
+}
+
+<span class="hljs-selector-class">.nice</span> {
+}
+</code></pre>
+<blockquote>
+<p>Retenez: les id, c’est une carte d’identité, il n’y a qu’une personne avec la même carte. Les classes «C’est la class!» donc c’est pour le style.</p>
+</blockquote>
+<p>Plus d’info sur les sélecteurs css <a href="https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_CSS">ici</a></p>
+<h3><a class="anchor" aria-hidden="true" id="anatomie-dune-règle-css"></a><a href="#anatomie-dune-règle-css" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anatomie d’une règle css</h3>
+<p><img src="https://s3-eu-central-1.amazonaws.com/boris-screenshots/Introduction__GitBook_2020-02-05_11-37-46.png" alt="Anatomie d’une règle css"></p>
+<h3><a class="anchor" aria-hidden="true" id="les-propiétés"></a><a href="#les-propiétés" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les propiétés</h3>
+<p>Voici une liste complètes de toutes les propriétés que vous pouvez utiliser pour modifier l’apparence d’une balise html:</p>
+<p><a href="https://tympanus.net/codrops/css_reference/#section_css-property">https://tympanus.net/codrops/css_reference/#section_css-property</a></p>
+<h3><a class="anchor" aria-hidden="true" id="les-unités-des-valeurs"></a><a href="#les-unités-des-valeurs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Les unités des valeurs</h3>
+<p>Pour spécifier les unités de CSS vous avez la possibilité entre plusieurs unité de mesure.</p>
+<table>
+<thead>
+<tr><th>Unité</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>em</td><td>Relative par rapport à la taille de police de l’élement courant</td></tr>
+<tr><td>rem</td><td>Relative par rapport à la taille de police du document</td></tr>
+<tr><td>vw</td><td>Relative par rapport à la largeur de la fenêtre. 10vh == 10% de la largeur de la fenêtre</td></tr>
+<tr><td>vh</td><td>Relative par rapport à la hauteur de la fenêtre. 10vh == 10% de la hauteur de la fenêtre</td></tr>
+<tr><td>%</td><td>Pourcentage par rapport au conteneur</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="la-cascade-et-héritage"></a><a href="#la-cascade-et-héritage" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>La cascade et héritage</h3>
+<p data-height="265" data-theme-id="0" data-slug-hash="VygVXa" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Cascade & héritage" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VygVXa/">Cascade & héritage</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p>Le style final d'un élément peut être spécifié à de nombreux endroits, qui peuvent interagir de manière complexe.
+C’est ce qui rend CSS puissant, mais peut aussi le rendre déroutant et difficile à débuguer.</p>
+<p>Trois sources principales d'information de styles forment une cascade.</p>
+<p>Celles-ci sont:</p>
+<ul>
+<li>Le style par défaut du navigateur pour le langage de balisage</li>
+<li>Le style spécifié par l'utilisateur lisant le document</li>
+<li>Le style lié au document par son auteur</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="dompter-les-navigateurs-avec-le-«css-reset»"></a><a href="#dompter-les-navigateurs-avec-le-«css-reset»" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dompter les navigateurs avec le «Css reset»</h3>
+<p>Chaque navigateur à ses styles par défault et cela peut devenir ambitieu de vouloir combler toutes ces petites diffrences nous-même.
+C’est pourquoi on préfère généralement remettre tout ces styles au même niveau avant de commencer.
+Pour cela le standard actuel est d’utiliser: <a href="https://necolas.github.io/normalize.css/">Normalize.css</a>
+Téléchargez-le et ajouter un lien vers le document dans votre balise head.</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span> <span class="hljs-attr">media</span>=<span class="hljs-string">"screen"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"normalize.css"</span> /&gt;</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="inline-block-vs-inline--block"></a><a href="#inline-block-vs-inline--block" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inline-block (vs Inline &amp; block)</h3>
+<h3><a class="anchor" aria-hidden="true" id="centrage-du-contenu-via-body-padding"></a><a href="#centrage-du-contenu-via-body-padding" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Centrage du contenu (via body padding)</h3>
+<h3><a class="anchor" aria-hidden="true" id="utitiliser-les-classes-multiple-pour-indiquer-une-variation"></a><a href="#utitiliser-les-classes-multiple-pour-indiquer-une-variation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Utitiliser les classes multiple pour indiquer une variation</h3>
+<h3><a class="anchor" aria-hidden="true" id="comment-donner-à-un-lien-lapparence-dun-bouton"></a><a href="#comment-donner-à-un-lien-lapparence-dun-bouton" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comment donner à un lien l’apparence d’un bouton</h3>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 06/02/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/cours_web_2e/docs/html-04"><span class="arrow-prev">← </span><span>Cours 4</span></a><a class="docs-next button" href="/cours_web_2e/docs/css-02"><span>Cours 6</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#workshop-comment-géréner-des-idées-de-geonetart">Workshop: Comment géréner des idées de geonetart?</a></li><li><a href="#introduction-aux-css">Introduction aux CSS</a><ul class="toc-headings"><li><a href="#que-peut-on-faire-avec-du-css">Que peut-on faire avec du css?</a></li><li><a href="#comment-cibler-un-élément">Comment cibler un élément?</a></li><li><a href="#anatomie-dune-règle-css">Anatomie d’une règle css</a></li><li><a href="#les-propiétés">Les propiétés</a></li><li><a href="#les-unités-des-valeurs">Les unités des valeurs</a></li><li><a href="#la-cascade-et-héritage">La cascade et héritage</a></li><li><a href="#dompter-les-navigateurs-avec-le-«css-reset»">Dompter les navigateurs avec le «Css reset»</a></li><li><a href="#inline-block-vs-inline--block">Inline-block (vs Inline &amp; block)</a></li><li><a href="#centrage-du-contenu-via-body-padding">Centrage du contenu (via body padding)</a></li><li><a href="#utitiliser-les-classes-multiple-pour-indiquer-une-variation">Utitiliser les classes multiple pour indiquer une variation</a></li><li><a href="#comment-donner-à-un-lien-lapparence-dun-bouton">Comment donner à un lien l’apparence d’un bouton</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cours_web_2e/" class="nav-home"><img src="/cours_web_2e/img/favicon.ico" alt="EB CASO 2B" width="66" height="58"/></a><div><h5>Leçon</h5><a href="/cours_web_2e/docs/en/intro.html">Plan des cours</a><a href="/cours_web_2e/docs/en/html-01.html">Ma première page html</a><a href="/cours_web_2e/docs/en/css-01.html">Les feuilles de style</a></div><div><h5>More</h5><a href="/cours_web_2e/blog">Blog</a><a href="https://github.com/lacensav/cours_web_2e">GitHub</a><div class="social"><a href="https://twitter.com/borisrorsvort" class="twitter-follow-button">Follow @borisrorsvort</a></div></div></section><section class="copyright">CC 4.0</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>

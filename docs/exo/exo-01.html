@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Exercice 1 · EB CASO 2B</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## À faire"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Exercice 1 · EB CASO 2B"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lacensav.github.io/cours_web_2e/"/><meta property="og:description" content="## À faire"/><meta property="og:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://lacensav.github.io/cours_web_2e/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cours_web_2e/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"/><script src="/cours_web_2e/js/scrollSpy.js"></script><link rel="stylesheet" href="/cours_web_2e/css/main.css"/><script src="/cours_web_2e/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cours_web_2e/"><img class="logo" src="/cours_web_2e/img/lacambre-logo-line.svg" alt="EB CASO 2B"/><h2 class="headerTitleWithLogo">EB CASO 2B</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/cours_web_2e/docs/intro" target="_self">Leçons</a></li><li class="siteNavGroupActive"><a href="/cours_web_2e/docs/exo-intro" target="_self">Exercices</a></li><li class=""><a href="/cours_web_2e/help" target="_self">Contact</a></li><li class=""><a target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Exercices</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Exercices</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo-intro">Introduction</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/cours_web_2e/docs/exo/exo-01">Exercice 1</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-02">Exercice 2</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-03">Exercice 3</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-04">Exercice 4</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-05">Exercice 5</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-06">Exercice 6</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-07">Exercice 7</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-09">Exercice 9</a></li><li class="navListItem"><a class="navItem" href="/cours_web_2e/docs/exo/exo-10">Exercice 10</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Exercice 1</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="à-faire"></a><a href="#à-faire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>À faire</h2>
+<ul>
+<li>ajouter une page index.html</li>
+<li>la navigation ne doit pas encore comporter de lien (on le verra dans 2 cours)</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="rendu"></a><a href="#rendu" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendu</h2>
+<p><img src="/cours_web_2e/img/exercices/exo-01/exo-01.jpg" alt=""></p>
+<h2><a class="anchor" aria-hidden="true" id="texte"></a><a href="#texte" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Texte</h2>
+<p>Accueil — Œuvres exposées — Calendrier — Contact
+Galerie Geox - Arts géométriques
+Artistes en vedette
+Josef Albers
+Josef Albers suit une formation d'instituteur de 1905 à 1908, puis enseigne pendant huit ans.</p>
+<p>Il mène de front les obligations de son poste d'instituteur et des études à l'Académie royale des beaux-arts de Berlin de 1913 à 1915. Il obtient son diplôme d'éducateur artistique. À partir de 1916, il suit des études à l'École des Arts décoratifs de Essen et travaille en outre comme professeur. Puis il étudie auprès de Frantz von Stuck à l'Académie de Munich en 1919 et 1920. Étudiant au Bauhaus de Weimar de 1920 à octobre 1923, Josef Albers suit le cours préliminaire de Johannes Itten puis installe un atelier de peinture sur verre. Nommé compagnon en 1922, il devient Maître au Bauhaus d'octobre 1923 à avril 1933 et donne les cours de « Théorie des matériaux » et de « Théorie du travail » au premier semestre, la plus importante partie du cours préliminaire dont il devient le directeur officiel en 1928. Il est nommé chef de l'atelier de menuiserie de mai 1928 à avril 1929. À partir d'octobre, il est chargé du cours de « dessin figuratif » pour les autres semestres. Dans l'enseignement fondamental qu'il assume au Bauhaus, Josef Albers prend pour thèmes la construction et les matériaux, leur apparence et leur représentation. Créateur d'assemblages de verre et de vitraux, ainsi que de projets de typographie, de meubles et d'objets usuels en verre et en métal. Expressionniste à ses débuts, Albers produit ensuite de la peinture abstraite géométrique.</p>
+<p>Ayant généré très probablement une impulsion pour l'avant-garde américaine des années 1960 et 70, Josef Albers peut être considéré comme un précurseur de l'Op Art.</p>
+<p>Son œuvre autant que son enseignement se basent sur la complexité de l'appréciation perceptive de formes colorées simples, notamment le carré, auquel il consacre à partir de 1950 la série « Homage to the Square » (Hommage au carré), dans laquelle il varie les couleurs d'aplats carrés imbriqués.</p>
+<p>Œuvres célèbres
+Peinture
+1958 : Homage to the Square Series : Assertive.
+1963 : Homage to the Square Series : Green Scent (Senteur verte), au Musée Ludwig, à Cologne.
+Guy Cardon
+Guy Cardon est un artiste plasticien belge. Diplômé de l’École des Arts St-Luc de Bruxelles, section architecture d'intérieur, il vit et travaille au vert entre Bruxelles et Liège. Ses réalisations sont exposées régulièrement et se trouvent dans des collections privées et des collections d'entreprises.</p>
+<p>J'apprécie l'équilibre et la simplicité. Mes compositions sont des tentatives visant à compenser le chaos qui nous entoure.
+Nous vivons dans un monde complexe et souvent chaotique. Dans ce contexte, mes constructions se veulent des parenthèses, des respirations, des invitations à expérimenter d'autres logiques. Toujours clairement structurées, les compositions sont simples mais souvent inattendues. Dans mes peintures et dessins abstraits, j'utilise des moyens visuels élémentaires qui ne s'encombrent d'aucune signification propre, en continuité avec un certain modernisme qui se tient à l'écart de tout système, de toute théorie. Les rapports de formes et de couleurs oscillent entre dynamisme et sérénité, équilibre et tension.</p>
+<p>Je veux plus que du plaisir visuel. Ce qui m'intéresse, c'est la force des structures, c'est l'énergie des couleurs. Et c'est de les faire travailler ensemble pour susciter des émotions, des sentiments.
+Œuvres célèbres
+Peinture
+1958 : Blue look
+1963 : Spring stripes</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 30/01/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/cours_web_2e/docs/exo-intro"><span class="arrow-prev">← </span><span>Introduction</span></a><a class="docs-next button" href="/cours_web_2e/docs/exo/exo-02"><span>Exercice 2</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#à-faire">À faire</a></li><li><a href="#rendu">Rendu</a></li><li><a href="#texte">Texte</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cours_web_2e/" class="nav-home"><img src="/cours_web_2e/img/favicon.ico" alt="EB CASO 2B" width="66" height="58"/></a><div><h5>Leçon</h5><a href="/cours_web_2e/docs/en/intro.html">Plan des cours</a><a href="/cours_web_2e/docs/en/html-01.html">Ma première page html</a><a href="/cours_web_2e/docs/en/css-01.html">Les feuilles de style</a></div><div><h5>More</h5><a href="/cours_web_2e/blog">Blog</a><a href="https://github.com/lacensav/cours_web_2e">GitHub</a><div class="social"><a href="https://twitter.com/borisrorsvort" class="twitter-follow-button">Follow @borisrorsvort</a></div></div></section><section class="copyright">CC 4.0</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>
