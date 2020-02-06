@@ -58,7 +58,70 @@ C'est dans les intersections créées lors du choc des expériences que la chimi
 
 [https://arambartholl.com/de/map/](https://arambartholl.com/de/map/)
 
-### Geo netart, quesako?
+## Net art - Geo net art
+
+### Mendi Lewis Obadike
+
+http://blacknetart.com/keepingupappearances.html
+
+### Dina Kelberman
+
+http://dinakelberman.tumblr.com/
+
+### Donald Hanson
+
+I created an net art piece that moves to a new URL whenever someone views it. It is not possible to link to the art piece. Over time the art piece will become very hard to view. This is an experiment in introducing artificial scarcity into digital work.
+
+https://t.co/L3FZ2lJDKE
+
+### Jamie Zawinski
+
+Hacker culture site - https://www.jwz.org/
+
+### Jonathan Puckey
+
+http://pointerpointer.com/
+
+Ou plus sérieusement:
+
+_[Using internet as design tools](https://puckey.studio/projects/van-abbemuseum)_
+
+Ou encore
+
+_[Anti selfie club](https://puckey.studio/projects/anti-selfie-club)_
+
+### Mario Klingemann
+
+Ai art, neural quasimodo
+http://mario-klingemann.tumblr.com/
+
+### Kyle McDonald
+
+Site: http://kylemcdonald.net/
+
+Shu Lea Cheang's I.K.U. in the style of Picasso's "Girl with Mandolin". Excerpt begins at 39:42, the scene with all the inflatable dolls. More on I.K.U.: imdb.com/title/tt0255233/
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/138217571?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/138217571">Picasso x Porn</a> from <a href="https://vimeo.com/kylemcdonald">Kyle McDonald</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+### Ben Kinsley:
+
+http://benkinsley.com/street-with-a-view/
+
+### SOOZ collectif
+
+http://sooz.global/
+http://prostheticknowledge.tumblr.com/post/126370521356/sooz-online-net-art-exhibition-features-new-pieces
+http://sooz.global/#/feelingclose
+
+### Emilio Vavarella
+
+Chasseur de glitch sur google street view
+http://emiliovavarella.com/archive/google-trilogy/report-a-problem/
+
+### Halley doherty
+
+http://www.theguardian.com/profile/halley-docherty
 
 ## Élements de mise en page
 

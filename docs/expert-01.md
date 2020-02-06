@@ -1,13 +1,66 @@
 ---
 id: expert-01
-title: This is document number 3
+title: Cours 9
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## La grille css:
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+### Quelques examples
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+- http://unsemantic.com/
+- http://flexboxgrid.com/
+- https://getbootstrap.com/
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+### Qu’est un framework?
+
+Un framework ensemble de styles prédéfinis que l’on peut réutiliser partout pour construire notre site plus rapidement garder une cohérence graphique.
+
+Pour pouvoir utiliser ce style, une documentation nous fournit des exemples de structures HTML à utiliser pour chaque style.
+
+### Utiliser la grille de bootstrap
+
+Nous allons utiliser la grille de bootstrap car même si nous n’utilisons que la grille aujourd’huie cela vous permettra d’ajouter des modules au fur et à mesure si vous décidez de continuer a apprendre.
+
+Commencez par télécharger la grille en vous rendant sur le [site de bootstrap](https://getbootstrap.com/)
+
+Ensuite dezippez le dossier téléchargé et allez regarder dans le dossier css.
+
+Extrayez le fichier bootstrap-grid.css et allez le mettre dans le dossier de votre site.
+
+Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nouvelle feuille de styles.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mon site</title>
+    <link rel="stylesheet" href="bootstrap-grid.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">hello</div>
+        <div class="col-6">hello</div>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+### Exemple de modèle de mise en page sans framework
+
+Il est toujours possible de faire son layout soi-même, sans utiliser de grille. Voici un exemple.
+
+https://www.quackit.com/html/templates/layout_templates.cfm
+
+<p data-height="265" data-theme-id="0" data-slug-hash="GyOQXN" data-default-tab="result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="3 column layout" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/GyOQXN/">3 column layout</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+## Animate.css
+
+https://daneden.github.io/animate.css/
+
+## Overflow

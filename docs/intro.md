@@ -84,7 +84,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 - Comment internet fonctionne
 - La carte n'est pas le territoire
-- Intro au geo net art et autres artistes utilisant la notion de carte
+- Intro au geo-netart et autres artistes utilisant la carte
 
 ### Technique
 
@@ -103,9 +103,7 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 
 ### Culture
 
-- https://arambartholl.com/de/map/
 - Workshop procédé de création par rapport au travail final (générer 2 idées en 5 min avec 5 phrases max. Puis pitch. Arriver à générer chez l’autre une image indélébile. 30m
-- Css zen garden 10m
 
 ### Technique
 
@@ -113,33 +111,30 @@ https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
 - Css reset
 - Inline-block (vs Inline & block)
 - Centrage du contenu (via body padding)
-- Class current pour la nav
+- Réutiliser les mm styles avec des classes communes (ex: current page styles)
 - Comment faire un bouton
 
 ### À faire
 
 - Styliser le menu de navigation (avec style pour current page)
 - Ajouter un lien vers css reset dans chaque pages
-- Ajouet un lien vers votre css dans chaque pages
+- Ajouter un lien vers votre css dans chaque pages
 - Centrer le contenu sur la page avec marges interieures
 
 ## Cours 6
 
-### Culture
-
-- Revision cours 5 + ego en classe pour vérifier
+- Revision cours 5 + exo en classe pour vérifier
 
 ### Technique
 
-- Réutiliser les mm styles avec des classes communes
 - Box system et box-sizing
 - Centrage avec container margin auto
-- Positionnement css (relative, absolute, fixed,...). Exemple pseudo Albers avec des carrés
+- Positionnement css (relative, absolute, fixed,...).
+- Example pseudo Albers avec des carrés
 
 ### À faire
 
 - Rendez la navigation fixe
-
 - Remplacer l’œuvre de Albers par une autre au choix dont vous remplacerez l’image par une version en css.
 
 ## Cours 7

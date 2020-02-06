@@ -1,13 +1,142 @@
 ---
 id: expert-02
-title: This is document number 3
+title: Cours 10
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## Bootstrap suite
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+## animation suite
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+## Comment hacker du javascript ?
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+> Connaître assez de javascript pour être dangeureux
+
+> C’est quoi ? Ou le trouve-t-on ? Essayer dans l’inspecteur
+
+### Quel jour fait-il ?
+
+Rendez-vous sur la page de l’artiste [Davide Balula](http://davide.balula.free.fr/) et inspecter le code source.
+
+https://www.google.be/search?q=mille+milliard+de+poeme&espv=2&biw=1309&bih=707&site=webhp&source=lnms&tbm=isch&sa=X&ei=Aqv5VNbGJIG1OqKWgaAF&ved=0CAYQ_AUoAQ
+
+On y trouve une fonction javascript qui affiche le jour d’aujourdhui.
+
+```html
+<script>
+  // La fonction execute ses instruction quand elle est appelée plus bas avec tomorrowIs()
+  function tomorrowIs() {
+    // représente une variable (boîte) dans laquelle sont stoquée la liste des jours de la semaine
+    var weekDays = [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY",
+    ];
+
+    // le numéro du de la semaine
+    var today = new Date().getDay();
+
+    // va rechercher dans la variable weekDays le jour qui correspond à l’index que l’on a stoqué dans la variable today.
+    document.write(weekDays[today]);
+  }
+</script>
+```
+
+Pour afficher le résultat de cette fonction sur notre paqe html, il nous faut l’appeller.
+
+```html
+<p>
+  Aujourd’hui, c’est
+  <script>
+    tomorrowIs();
+  </script>
+</p>
+```
+
+<p data-height="265" data-theme-id="0" data-slug-hash="NjNwpZ" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Today is" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/NjNwpZ/">Today is</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+**Exercice:** Remplacer les jours de la semaine par des vers de poésies (à défaut, quelques unes du http://www.pipotron.free.fr)
+
+### Les cent mille milliards de poèmes (Raymond Queneau)
+
+Nous pouvons reprendre le même code et changer la méthode de sélection en applicant un nombre aléatoire:
+
+```html
+<script>
+  // La fonction execute ses instruction quand elle est appelée plus bas avec tomorrowIs()
+  function randomPoems() {
+    // représente une variable (boîte) dans laquelle sont stoquée la liste des jours de la semaine
+    var poems = [
+      "En ce qui concerne la restriction que nous constatons, il serait bon de favoriser la globalité des ouvertures possibles, avec beaucoup de recul.",
+      "Compte tenu de la baisse de confiance observée, on ne peut se passer d'examiner l'ensemble des améliorations réalisables, depuis longtemps.",
+      "En ce qui concerne la dualité de la situation que nous constatons, il est nécessaire de considérer la totalité des options opportunes, pour longtemps.",
+      "Nonobstant cette inflexion intrinsèque, il ne faut pas s'interdire de caractériser systématiquement les actions de bon sens, de toute urgence.",
+      "Malgré la situation de ces derniers temps, je suggère fortement d'uniformiser l'ensemble des modalités opportunes, parce que les mêmes causes produisent les mêmes effets.",
+      "Quelle que soit complexité de ces derniers temps, il est préférable d'inventorier les principales modalités optimales, même si nous devons en tirer des conséquences.",
+      "Où que nous mène l'austérité intrinsèque, il est nécessaire de façonner les relations des améliorations envisageables, à l'avenir.",
+    ];
+
+    // le numéro du de la semaine
+    var random = Math.floor(Math.random() * poems.length);
+
+    // va rechercher dans la variable weekDays le jour qui correspond à l’index que l’on a stoqué dans la variable today.
+    document.write(poems[random]);
+  }
+</script>
+```
+
+Nous avons donc maintenant un générateur de poéme aléatoire mais cela ne reste qu’une phrase à la fois.
+Pour avoir plusieurs générateurs sur la même page, il nous suffira de dupliquer le code situé dans les script tag et de changer le nom des foncions
+
+**Un example à 2 fonctions de 2 vers ressemblera à ceci:**
+
+```html
+<script>
+  function randomPoems1() {
+    var poems = [
+      "En ce qui concerne la restriction que nous constatons, il serait bon de favoriser la globalité des ouvertures possibles, avec beaucoup de recul.",
+      "Compte tenu de la baisse de confiance observée, on ne peut se passer d'examiner l'ensemble des améliorations réalisables, depuis longtemps.",
+    ];
+
+    var random = Math.floor(Math.random() * poems.length);
+
+    document.write(poems[random]);
+  }
+
+  function randomPoems2() {
+    var poems = [
+      "Nonobstant cette inflexion intrinsèque, il ne faut pas s'interdire de caractériser systématiquement les actions de bon sens, de toute urgence.",
+      "Malgré la situation de ces derniers temps, je suggère fortement d'uniformiser l'ensemble des modalités opportunes, parce que les mêmes causes produisent les mêmes effets.",
+    ];
+
+    var random = Math.floor(Math.random() * poems.length);
+
+    document.write(poems[random]);
+  }
+</script>
+
+<p>
+  <script>
+    randomPoems1();
+  </script>
+</p>
+<p>
+  <script>
+    randomPoems2();
+  </script>
+</p>
+```
+
+<p data-height="265" data-theme-id="0" data-slug-hash="dWMZdK" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Random poems 2" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/dWMZdK/">Random poems 2</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+### Alterner des classes sur plusieurs balises
+
+Cliquez sur le paragraphe
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MGYRKZ" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Js - toggle class" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MGYRKZ/">Js - toggle class</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+- Recup js from http://davide.balula.free.fr/

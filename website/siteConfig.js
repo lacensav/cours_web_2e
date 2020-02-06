@@ -16,7 +16,8 @@ const siteConfig = {
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
-
+  twitterUsername: "borisrorsvort",
+  gitHubUsername: "borisrorsvort",
   // Used for publishing and more
   projectName: "cours_web_2e",
   organizationName: "lacensav",
@@ -29,7 +30,7 @@ const siteConfig = {
     { doc: "intro", label: "Leçons" },
     { doc: "exo-intro", label: "Exercices" },
     { page: "help", label: "Contact" },
-    { blog: true, label: "News" },
+    { blog: false, label: "News" },
   ],
 
   /* path to images for header/footer */

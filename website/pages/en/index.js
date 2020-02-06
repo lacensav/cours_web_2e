@@ -24,11 +24,7 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}
       >
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
+        <GridBlock contents={props.children} layout={props.layout} />
       </Container>
     );
 
@@ -37,9 +33,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              "To make your landing page more attractive, use illustrations! Check out " +
-              "[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. " +
-              "The illustrations you see on this page are from unDraw.",
+              "Grâce à l’étude du HTML, des outils d’édition du code, des bases des css et de WordPress, l’étudiant sera capable, en fin de cursus, de créer son propre site portfolio et de le mettre en ligne.",
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: "left",
             title: "Code",
@@ -52,7 +46,8 @@ class Index extends React.Component {
       <Block>
         {[
           {
-            content: "This is another Art of how this project is useful",
+            content:
+              "Comme La Cambre place la création artistique au centre de son enseignement, il est important que les travaux donnés permettent à cette créativité de s’exprimer, même dans sa plus simple expression. L’étudiant sera donc amené à réfléchir la façon dont sa pratique artistique se confronte au Web, mais également à explorer les potentiels artistiques de ce médium en tant que tel.",
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: "right",
             title: "Art",
@@ -66,7 +61,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              "Each new Docusaurus project has **randomly-generated** theme colors.",
+              "Le Web a bien changé depuis l’époque des Skyblog et de Myspace, qui correspondent à ma génération. D’autre part, comme l’art n’est pas immunisé contre son contexte de production, il est important, comme consommateur et créateur, d’en comprendre les codes et les tendances.",
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: "right",
             title: "Culture",
@@ -82,39 +77,35 @@ class Index extends React.Component {
             <div className="wrapper">
               <h1 id="project_title">WEB CASO 2B - Boris Rorsvort</h1>
               <p id="project_tagline">
-                Something short and leading about the collection below—its
-                contents, the creator, etc.
-              </p>
-              <p>
-                <a href="#" class="button button-primary my-2">
-                  Main call to action
-                </a>
-                <a href="#" class="button button-secondary my-2">
-                  Secondary action
-                </a>
+                Mêlant technique, culture et création artistique, ce cours vous
+                donnera les savoirs et pratiques pour créer un portfolio. Il
+                vous permettra de aussi situer votre pratique artistique par
+                rapport au web d’aujourd’hui et d’expérimenter le net.art
               </p>
             </div>
           </div>
         </div>
         <Container>
-          <GridBlock
-            padding={["bottom", "top"]}
-            layout="threeColumn"
-            contents={[
-              {
-                title: "Frequently Asked Questions",
-                content: "Questions gathered from the community",
-              },
-              {
-                title: "More",
-                content: "Lots of documentation is on this site",
-              },
-              {
-                title: "More",
-                content: "Lots of documentation is on this site",
-              },
-            ]}
-          />
+          {
+            //   <GridBlock
+            //   padding={["bottom", "top"]}
+            //   layout="threeColumn"
+            //   contents={[
+            //     {
+            //       title: "Frequently Asked Questions",
+            //       content: "Questions gathered from the community",
+            //     },
+            //     {
+            //       title: "More",
+            //       content: "Lots of documentation is on this site",
+            //     },
+            //     {
+            //       title: "More",
+            //       content: "Lots of documentation is on this site",
+            //     },
+            //   ]}
+            // />
+          }
         </Container>
         <div className="mainContainer">
           <Culture />
