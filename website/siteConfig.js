@@ -30,7 +30,6 @@ const siteConfig = {
     { doc: "intro", label: "Leçons" },
     { doc: "exo-intro", label: "Exercices" },
     { page: "help", label: "Contact" },
-    { blog: false, label: "News" },
   ],
 
   /* path to images for header/footer */
