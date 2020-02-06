@@ -15,9 +15,6 @@ sidebar_label: Plan des cours
 
 ### Technique
 
-Éléments de base sauf image
-https://lacensav.github.io/cours_web_2e/html/elements-de-base.html
-
 - titre
 - paragraphe
 - liste ordonnée
