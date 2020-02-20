@@ -58,6 +58,12 @@ C'est dans les intersections créées lors du choc des expériences que la chimi
 
 [https://arambartholl.com/de/map/](https://arambartholl.com/de/map/)
 
+### Caroline Godart
+
+Le corps comme territoire
+
+https://www.balsamine.be/saison-19-20/xx-time-carolinegodart.html
+
 ## Net art - Geo net art
 
 ### Mendi Lewis Obadike
