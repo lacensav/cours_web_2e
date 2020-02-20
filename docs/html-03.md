@@ -117,21 +117,23 @@ Vivement conseillé
 #### Relatif
 
 ```html
-<a href="../exo2/index.html">Exercice 2</a>
+<a href="../work/design.html">Design portfolio</a>
 ```
 
 Plus de documentation officielle [Ici](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a)
 
-### Construire la page d’acceuil de nos Exercices
+### Page d’acceuil
 
 ```
 images
 index.html
-exo1
---- index.hml
-exo2
---- index.hml
---- contact.html
+portfolio
+--- design.html
+--- scenography.html
+--- animations.html
+blog
+--- post-02-02-2020.hml
+--- post-01-02-2020.hml
 ```
 
 #### Pourquoi ma page d’accueil doit-elle s’appeller «index.html» ?

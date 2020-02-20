@@ -66,8 +66,8 @@ sidebar_label: Plan des cours
 ### Technique
 
 - sauver les images pour le web
-- page d'accueil du site avec tous les exo
 - lien relatif - absolu - mail - tel
+- structurer son site (organisation des fichier)
 
 ### À faire
 
