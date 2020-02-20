@@ -7,9 +7,11 @@ title: Cours 3
 
 ## Usabilité
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSu_1ycqmgyX7K64LesERNqPcz7JLa1TCoawxtzDGbvBaPsgIszw7N3ySxoRZtFZav6SRDYtuGfZrnC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe style="margin-bottom: 40px;" src="https://docs.google.com/presentation/d/e/2PACX-1vSu_1ycqmgyX7K64LesERNqPcz7JLa1TCoawxtzDGbvBaPsgIszw7N3ySxoRZtFZav6SRDYtuGfZrnC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Daltonism tester [https://michelf.ca/projects/sim-daltonism/](https://michelf.ca/projects/sim-daltonism/)
+- Daltonism tester [https://michelf.ca/projects/sim-daltonism/](https://michelf.ca/projects/sim-daltonism/)
+
+- Contenu d’abord [http://justinjackson.ca/words_fr.html](http://justinjackson.ca/words_fr.html)
 
 ## Alternatives au logiciels propriétaires
 
@@ -59,6 +61,26 @@ https://airtightinteractive.com/demos/js/ruttetra/
 https://photomosh.com/
 
 ## Art génératif
+
+### Neural art
+
+Neural art - http://prostheticknowledge.tumblr.com/post/127784921171/a-neural-algorithm-of-artistic-style-academic
+
+![](https://66.media.tumblr.com/c97488474946388147298a950b40825c/tumblr_nu6cevAHvt1qav3uso1_540.gifv)
+
+[http://prostheticknowledge.tumblr.com/post/128361922131/picasso-x-porn-neural-net-art-styling-has-taken-a](http://prostheticknowledge.tumblr.com/post/128361922131/picasso-x-porn-neural-net-art-styling-has-taken-a)
+
+**Google dream**
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SCE-QeDfXtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Deep art**
+
+[http://deepart.io/](http://deepart.io/)
+
+### Copy right ?
+
+### Outil
 
 - [https://generativeartistry.com/tutorials/](https://generativeartistry.com/tutorials/)
 - [https://p5js.org/](https://p5js.org/)
