@@ -68,6 +68,7 @@ sidebar_label: Plan des cours
 - sauver les images pour le web
 - lien relatif - absolu - mail - tel
 - structurer son site (organisation des fichier)
+- FTP
 
 ### À faire
 
