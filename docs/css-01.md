@@ -155,3 +155,5 @@ Téléchargez-le et ajouter un lien vers le document dans votre balise head.
 ### Utitiliser les classes multiple pour indiquer une variation
 
 ### Comment donner à un lien l’apparence d’un bouton
+
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
