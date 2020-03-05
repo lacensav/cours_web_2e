@@ -78,6 +78,9 @@ Neural art - http://prostheticknowledge.tumblr.com/post/127784921171/a-neural-al
 
 [http://deepart.io/](http://deepart.io/)
 
+**ART 42**
+[https://art42.net](https://art42.net)
+
 ### Copy right ?
 
 ### Outil
