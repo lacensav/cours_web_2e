@@ -81,6 +81,10 @@ Neural art - http://prostheticknowledge.tumblr.com/post/127784921171/a-neural-al
 **ART 42**
 [https://art42.net](https://art42.net)
 
+**This work does not exist**
+
+[https://thisartworkdoesnotexist.com](https://thisartworkdoesnotexist.com)
+
 ### Copy right ?
 
 ### Outil
