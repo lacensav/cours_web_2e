@@ -150,10 +150,44 @@ Téléchargez-le et ajouter un lien vers le document dans votre balise head.
 
 ### Inline-block (vs Inline & block)
 
+#### Lien inline
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="PoqQjgQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Liens inline">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/PoqQjgQ">
+  Liens inline</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+#### Liens inline-block
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="ZEGrygg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Lien Inline-block">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/ZEGrygg">
+  Lien Inline-block</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+Plus d’exemple ici: [http://fr.learnlayout.com/inline-block.html](http://fr.learnlayout.com/inline-block.html)
+
 ### Centrage du contenu (via body padding)
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="vYOdJEe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Centered body">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/vYOdJEe">
+  Centered body</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ### Utitiliser les classes multiple pour indiquer une variation
 
-### Comment donner à un lien l’apparence d’un bouton
+Vous voyez ici que:
+
+- `btn` ajoute les styles pour le bouton
+- `btn-ib` ajoute le style `inline-block`
+- `current` change la couleur de fond en rouge
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="ZEGrygg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Lien Inline-block">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/ZEGrygg">
+  Lien Inline-block</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
