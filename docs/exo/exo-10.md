@@ -1,8 +1,7 @@
 ---
 id: exo-10
-title: Exercice 10
+title: Exercice 9
 ---
-
 
 ## À faire
 

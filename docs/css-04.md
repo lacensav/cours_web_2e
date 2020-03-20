@@ -3,8 +3,6 @@ id: css-04
 title: Cours 8
 ---
 
-## Présentation Travail de fin d’année par Serge
-
 ## Mettre une image de fond
 
 Pour mettre une image de fond, nous allons devoir utiliser la propriété `background-image` et une image.
