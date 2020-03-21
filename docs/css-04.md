@@ -73,6 +73,10 @@ Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nou
 </html>
 ```
 
+## Les media queries
+
+Vidéo À venir
+
 ## BONUS pour aller plus loin: Animation personnalisée en css
 
 ### Animate.css, des animations prettes à l’emplois
