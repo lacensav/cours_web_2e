@@ -4,16 +4,18 @@ title: Plan des cours
 sidebar_label: Plan des cours
 ---
 
-## Cours 1
+## Module 1 - Html
 
-### Culture
+### Cours 1
+
+#### Culture
 
 - Introduction
 - Questionnaire
 - Histoire de l’internet, comment peut-il devenir un outil subversif?
 - Ma première page html
 
-### Technique
+#### Technique
 
 - titre
 - paragraphe
@@ -21,41 +23,29 @@ sidebar_label: Plan des cours
 - liste non ordonée
 - citation
 
-### À faire
+### Cours 2
 
-- ajouter une page index.html
-- la navigation ne doit pas encore comporter de lien (on le verra dans 2 cours)
-
-#### Cotation
-
-- 1 html squelette
-- 3 utilisation des balises adéquate
-- 1 balises fermée
-
-## Cours 2
-
-### Culture
+#### Culture
 
 - Le darknet 15 min
 - Le web et la mémoire 15 min
   https://lacensav.github.io/cours_web_2e/culture-digitale/art-et-memoire.html
 - Intro Net-art 15 min si le temps
 
-### Technique
+#### Technique
 
 - Tableaux
 - Image avec chemin absolu et attributs
 - Déployer sur hébergeur
 
-### À faire
+#### À faire
 
 - Œuvres exposées
+- Deployer son site
 
-// Pas d'autres page car ils doivent déployer
+### Cours 3
 
-## Cours 3
-
-### Culture
+#### Culture
 
 - Intro usabilité (si pas en retard) (bonne pratiques de design, handicaps,…)
 - Intro glitch + exo live
@@ -63,28 +53,21 @@ sidebar_label: Plan des cours
   A classer https://generativeartistry.com/
 - Alternative.to
 
-### Technique
+#### Technique
 
 - sauver les images pour le web
 - lien relatif - absolu - mail - tel
 - structurer son site (organisation des fichier)
-- FTP
 
-### À faire
+### Cours 4
 
-- ajouter une page contact
-- transformation la navigation en lien vers les autres pages
-- ajouter des lien absolu «En savoir plus sur la page d'accueil»
-
-## Cours 4
-
-### Culture
+#### Culture
 
 - Comment internet fonctionne
 - La carte n'est pas le territoire
 - Intro au geo-netart et autres artistes utilisant la carte
 
-### Technique
+#### Technique
 
 - Balise sémantique «article»
 - navigation à ancres
@@ -92,18 +75,15 @@ sidebar_label: Plan des cours
 - éléments de mise en page (main, article,…)
 - lien sur une image
 
-### À faire
+## Module 2 - Feuille de styles
 
-- ajouter la page calendrier
-- ajouter les liens sur la première page vers les œuvres en utilisant une ancre
+### Cours 5
 
-## Cours 5
-
-### Culture
+#### Culture
 
 - Workshop procédé de création par rapport au travail final (générer 2 idées en 5 min avec 5 phrases max. Puis pitch. Arriver à générer chez l’autre une image indélébile. 30m
 
-### Technique
+#### Technique
 
 - Introduction Css https://lacensav.github.io/cours_web_2e/css/introduction.html
 - Css reset
@@ -112,39 +92,25 @@ sidebar_label: Plan des cours
 - Réutiliser les mm styles avec des classes communes (ex: current page styles)
 - Comment faire un bouton
 
-### À faire
-
-- Styliser le menu de navigation (avec style pour current page)
-- Ajouter un lien vers css reset dans chaque pages
-- Ajouter un lien vers votre css dans chaque pages
-- Centrer le contenu sur la page avec marges interieures
-
-## Cours 6
+### Cours 6
 
 - Revision cours 5 + exo en classe pour vérifier
 
-### Technique
+#### Technique
 
 - Box system et box-sizing
 - Centrage avec container margin auto
 - Positionnement css (relative, absolute, fixed,...).
 - Example pseudo Albers avec des carrés
 
-### À faire
+### Cours 7
 
-- Rendez la navigation fixe
-- Remplacer l’œuvre de Albers par une autre au choix dont vous remplacerez l’image par une version en css.
+#### Culture
 
-## Cours 7
-
-### Culture
-
-- Pangramme (https://images-na.ssl-images-amazon.com/images/I/71kaN-L7BSL.jpg)
 - Comment hacker la recherche sur google
 - Intro au flux Rss
-- Css zen garden 10m?
 
-### Technique
+#### Technique
 
 - Hover
 - Forme géométriques https://css-tricks.com/examples/ShapesOfCSS/
@@ -155,36 +121,32 @@ sidebar_label: Plan des cours
   http://www.w3schools.com/cssref/css_websafe_fonts.asp
 - Transforms: http://tympanus.net/codrops/css_reference/transform/
 
-### À faire
+### Cours 8
 
-- Ajouter des styles de survol avec transition sur les liens, la navigation.
-- Remplacer l’œuvre de [Cardon](https://frama.link/oXZtswfE) par une autre au choix dont vous remplacerez l’image par une version en css.
-- Rendre les image flex avec max-width.
-- Transformer la barre de navigation en colonne.
-
-## Cours 8
-
-- Présentation Travail de fin d’année par Serge
 - Image de fond
-- Transition, animation, transform
-
-## Cours 9
-
+- Transition
 - Grille bootstrap
-
-  - Download grid and reboot
-  - https://getbootstrap.com/docs/4.3/layout/overview/
-
 - Animate.css https://daneden.github.io/animate.css/
 - Overflow
+- Media queries
 
-### À Faire
+Bonus
 
-- Utiliser les medias query pour ajuster la navigation
+- animation personnalisée
 
-## Cours 10
+## Module 3 - Wordpress
 
-- Bootstrap suite ()
+### Cours 9
+
+- Comment foncitonne le FTP
+- Créer un hébergement
+- Installer Wordpress
+
+### Cours 10
+
+- Comment utiliser Wordpress
+
+<!-- - Bootstrap suite ()
 
 - Javascript (20m):
 
@@ -192,23 +154,4 @@ sidebar_label: Plan des cours
 
 - Recup js from http://davide.balula.free.fr/
 
-- animation custom css
-
-### A faire
-
----
-
-A préparer pour chaque cours:
-
-- pdf avec résultat final
-- les textes à intégrer
-- liste de présence imprimée
-- résultat des cottes
-
-http://www.pydnet.net/?page_id=77
-
-## Cours 8 ?
-
-Travail final
-
-https://www.scoop.it/topic/qrart
+- animation custom css -->

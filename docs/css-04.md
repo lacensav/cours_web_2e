@@ -3,7 +3,7 @@ id: css-04
 title: Cours 8
 ---
 
-## Mettre une image de fond
+## Mettre une image de fond sur un balise
 
 Pour mettre une image de fond, nous allons devoir utiliser la propriété `background-image` et une image.
 Pour l’image [http://subtlepatterns.com/](http://subtlepatterns.com/) propose des images motifs subtiles, parfait comme fond de base pour votre site.
@@ -26,12 +26,65 @@ Ce qui donne:
 
 <p data-height="265" data-theme-id="0" data-slug-hash="MQyWrO" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transitions multiples" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MQyWrO/">Transitions multiples</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-## Animation personnalisée en css
+## Comment utiliser une grille css:
+
+### Quelques examples
+
+- http://unsemantic.com/
+- http://flexboxgrid.com/
+- https://getbootstrap.com/
+
+### Qu’est un framework?
+
+Un framework ensemble de styles prédéfinis que l’on peut réutiliser partout pour construire notre site plus rapidement garder une cohérence graphique.
+
+Pour pouvoir utiliser ce style, une documentation nous fournit des exemples de structures HTML à utiliser pour chaque style.
+
+### Utiliser la grille de bootstrap
+
+Nous allons utiliser la grille de bootstrap car même si nous n’utilisons que la grille aujourd’huie cela vous permettra d’ajouter des modules au fur et à mesure si vous décidez de continuer a apprendre.
+
+Commencez par télécharger la grille en vous rendant sur le [site de bootstrap](https://getbootstrap.com/)
+
+Ensuite dezippez le dossier téléchargé et allez regarder dans le dossier css.
+
+Extrayez le fichier bootstrap-grid.css et allez le mettre dans le dossier de votre site.
+
+Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nouvelle feuille de styles.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mon site</title>
+    <link rel="stylesheet" href="bootstrap-grid.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">hello</div>
+        <div class="col-6">hello</div>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+## BONUS pour aller plus loin: Animation personnalisée en css
+
+### Animate.css, des animations prettes à l’emplois
+
+https://daneden.github.io/animate.css/
+
+### Faire une animation soi-même
 
 Pour réaliser des animations plus complexes, il existe un type de règle css qui nous permet de définir des images-clé.
 Pour chaque image clé (de 0 à 100), nous pouvons redéfinir les propriétés css qui s’aplliquent à l’élément.
 
-### Les « keyframes »
+#### Les « keyframes »
 
 **Example**
 
@@ -69,7 +122,7 @@ En version raccourcie
 }
 ```
 
-### L’animation
+#### L’animation
 
 Cette propriété est utilisée pour appeler une série de keyframes à l’intérieur d’une déclaration css.
 
@@ -106,7 +159,7 @@ ou en version raccourcie
 
 Ce code va créer une animation infinie de 4s, avec 1s de retard et de direction opposée.
 
-#### Les préfixes
+##### Les préfixes
 
 Afin que ce code fonctionne dans tous les navigateurs, nous avons besoin d’ajouter des préfixes:
 
@@ -147,7 +200,7 @@ Voici ce que donne notre déclaration animation avec les préfixes:
 }
 ```
 
-#### Animations multiples
+##### Animations multiples
 
 ```css
 .hepla {
@@ -168,11 +221,11 @@ Voici ce que donne notre déclaration animation avec les préfixes:
 }
 ```
 
-#### D’un carré a un cercle
+##### D’un carré a un cercle
 
 <p data-height="300" data-theme-id="0" data-slug-hash="OmNxMj" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="From square to triangle" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OmNxMj/">From square to triangle</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-#### Appliquer des courbe d’accélération avec cubic-bézier
+##### Appliquer des courbe d’accélération avec cubic-bézier
 
 > https://matthewlein.com/ceaser/
 
@@ -187,7 +240,7 @@ div {
 }
 ```
 
-#### Code final
+##### Code final
 
 ```css
 div {
@@ -226,14 +279,14 @@ div {
 }
 ```
 
-### Example d’animation
+#### Example d’animation
 
-#### Fond animé
+##### Fond animé
 
 - http://www.gradient-animator.com/ (couleur, gradients)
 - http://davidwalsh.name/background-animation-css (image)
 
-#### Kinégramme
+##### Kinégramme
 
 http://thinkzone.wlonk.com/Kinegram/Kinegram.htm
 
