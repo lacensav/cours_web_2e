@@ -16,7 +16,11 @@ Le motif se répète automatiquement car c’est le comportement par défault de
 
 ## Les Transitions
 
-les transitions nous permettent de faire une transition entre des valeurs de certaines propriétés CSS, sur une durée et une courbe d'accélération déterminée.
+les transitions nous permettent de faire une transition entre des valeurs de certaines propriétés CSS, sur une durée et une courbe d'accélération déterminée. Survolez le carré dans l’exemples et observez la transition.
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j1T9oq5OgR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="VQawzN" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transition de couleur de fond" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VQawzN/">Transition de couleur de fond</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
@@ -41,6 +45,14 @@ Un framework ensemble de styles prédéfinis que l’on peut réutiliser partout
 Pour pouvoir utiliser ce style, une documentation nous fournit des exemples de structures HTML à utiliser pour chaque style.
 
 ### Utiliser la grille de bootstrap
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WVqJiWSqhBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QZqwb1UqEAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Nous allons utiliser la grille de bootstrap car même si nous n’utilisons que la grille aujourd’huie cela vous permettra d’ajouter des modules au fur et à mesure si vous décidez de continuer a apprendre.
 
@@ -75,7 +87,9 @@ Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nou
 
 ## Les media queries
 
-Vidéo À venir
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QZqwb1UqEAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## BONUS pour aller plus loin: Animation personnalisée en css
 

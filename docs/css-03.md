@@ -76,12 +76,27 @@ Utilisez-les en partant des examples et en les modifiants en fonction de vos bes
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+## Rendre les images flexible
+
+Si votre image est plus grande que la taille actuelle de la fenêtre, elle dépassera et votre page montrera des scrollbars horizontale.
+Pour palier à ce problème nous pouvons utiliser une propriété css que vous connaissez: `max-width`.
+Si la page est plus grande que la taille originale de l’image, l’image gardera sa taille originale.
+Si la page est plus petite que la taille originale, elle prendra la largeur de la page.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="poJOwdg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Images flexible">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/poJOwdg">
+  Images flexible</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ## Intégrer une vidéo en fond de page
 
 <p data-height="265" data-theme-id="0" data-slug-hash="OQNJaR" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="FullScreen YouTube Video Background In Pure CSS" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OQNJaR/">FullScreen YouTube Video Background In Pure CSS</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-## Layout menu vertical fixed left
+## Comment coder une Navigation fixe à gauche
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
-
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T4Ke5lx9XsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
