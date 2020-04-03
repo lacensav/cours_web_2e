@@ -88,7 +88,7 @@ Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nou
 ## Les media queries
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QZqwb1UqEAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pfDRfx1FzqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## BONUS pour aller plus loin: Animation personnalisée en css
