@@ -137,7 +137,7 @@ Celles-ci sont:
 - Le style spécifié par l'utilisateur lisant le document
 - Le style lié au document par son auteur
 
-### Dompter les navigateurs avec le «Css reset»
+### Dompter les navigateurs avec Normalize.css
 
 Chaque navigateur à ses styles par défault et cela peut devenir ambitieu de vouloir combler toutes ces petites diffrences nous-même.
 C’est pourquoi on préfère généralement remettre tout ces styles au même niveau avant de commencer.
