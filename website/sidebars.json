@@ -2,7 +2,7 @@
   "docs": {
     "Module 1": ["intro", "html-01", "html-02", "html-03", "html-04"],
     "Module 2": ["css-01", "css-02", "css-03", "css-04"],
-    "Module 3": ["wp-01"]
+    "Module 3": ["expert-01", "expert-02"]
   },
   "exercices": {
     "Exercices": [

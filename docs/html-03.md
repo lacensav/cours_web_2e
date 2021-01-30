@@ -216,5 +216,4 @@ http://monsite.com/expositions/
   |-- index.html
 ```
 
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <script src="https://player.vimeo.com/api/player.js"></script>

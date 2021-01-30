@@ -3,32 +3,41 @@ id: css-04
 title: Cours 8
 ---
 
+import Codepen from "react-codepen-embed";
+
 ## Mettre une image de fond sur un balise
 
 Pour mettre une image de fond, nous allons devoir utiliser la propriété `background-image` et une image.
 Pour l’image [http://subtlepatterns.com/](http://subtlepatterns.com/) propose des images motifs subtiles, parfait comme fond de base pour votre site.
 
-<p data-height="265" data-theme-id="0" data-slug-hash="ZrWEEK" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Image de fond en motif" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/ZrWEEK/">Image de fond en motif</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<Codepen hash="ZrWEEK" user="borisrorsvort" themeId="light" />
 
 Le motif se répète automatiquement car c’est le comportement par défault de la propriété `background-repeat`. Pour ne pas la répéter il faut lui donner la valeurs `no-repeat`
 
-<p data-height="265" data-theme-id="0" data-slug-hash="KQzKwg" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Image de fond non répété" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/KQzKwg/">Image de fond non répété</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<Codepen hash="KQzKwg" user="borisrorsvort" themeId="light" />
 
 ## Les Transitions
 
 les transitions nous permettent de faire une transition entre des valeurs de certaines propriétés CSS, sur une durée et une courbe d'accélération déterminée. Survolez le carré dans l’exemples et observez la transition.
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j1T9oq5OgR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/j1T9oq5OgR8"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
-<p data-height="265" data-theme-id="0" data-slug-hash="VQawzN" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transition de couleur de fond" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/VQawzN/">Transition de couleur de fond</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<Codepen hash="VQawzN" user="borisrorsvort" themeId="light" />
 
 Nous pouvons également faire une transition en plusieurs propriété css à la fois. Il suffit de remplaces le nom le la propriété par `all`.
 
 Ce qui donne:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="MQyWrO" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Transitions multiples" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/MQyWrO/">Transitions multiples</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<Codepen hash="MQyWrO" user="borisrorsvort" themeId="light" />
 
 ## Comment utiliser une grille css:
 
@@ -47,11 +56,25 @@ Pour pouvoir utiliser ce style, une documentation nous fournit des exemples de s
 ### Utiliser la grille de bootstrap
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/WVqJiWSqhBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/WVqJiWSqhBo"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QZqwb1UqEAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/QZqwb1UqEAY"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 Nous allons utiliser la grille de bootstrap car même si nous n’utilisons que la grille aujourd’huie cela vous permettra d’ajouter des modules au fur et à mesure si vous décidez de continuer a apprendre.
@@ -88,7 +111,14 @@ Ensuite faites un lien dans la partie `<head>` de votre page html vers cette nou
 ## Les media queries
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pfDRfx1FzqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/pfDRfx1FzqE"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ## BONUS pour aller plus loin: Animation personnalisée en css
@@ -241,7 +271,7 @@ Voici ce que donne notre déclaration animation avec les préfixes:
 
 ##### D’un carré a un cercle
 
-<p data-height="300" data-theme-id="0" data-slug-hash="OmNxMj" data-default-tab="css,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="From square to triangle" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/OmNxMj/">From square to triangle</a> by Rorsvort (<a href="http://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<Codepen hash="OmNxMj" user="borisrorsvort" themeId="light" />
 
 ##### Appliquer des courbe d’accélération avec cubic-bézier
 
@@ -308,5 +338,4 @@ div {
 
 http://thinkzone.wlonk.com/Kinegram/Kinegram.htm
 
-<p data-height="300" data-theme-id="0" data-slug-hash="EPYpPW" data-default-tab="css,result" data-user="jimoong" data-embed-version="2" data-pen-title="Kinegram" class="codepen">See the Pen <a href="https://codepen.io/jimoong/pen/EPYpPW/">Kinegram</a> by Jiwoong Lee (<a href="http://codepen.io/jimoong">@jimoong</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<Codepen hash="EPYpPW" user="borisrorsvort" themeId="light" />
