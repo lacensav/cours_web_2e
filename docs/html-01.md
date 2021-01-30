@@ -3,7 +3,9 @@ id: html-01
 title: Cours 1
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRhpIGPEc41aMKuS-aNxLntCVuChOsFpw4QmnbJIcMsmGnijuQWilAXiLFRsTD5qKL55j5FXzelUPOu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="video">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRhpIGPEc41aMKuS-aNxLntCVuChOsFpw4QmnbJIcMsmGnijuQWilAXiLFRsTD5qKL55j5FXzelUPOu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 ## Différence entre le Web et Internet ?
 

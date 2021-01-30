@@ -5,14 +5,19 @@ title: Cours 4
 
 ## Comment fonctionne l’internet?
 
-<iframe style="width: 100%; margin-bottom: 30px;" height="315" src="https://www.youtube-nocookie.com/embed/1YdBsoh4lp8?start=63" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/50730795" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div className="video">
+  <iframe height="315" src="https://www.youtube-nocookie.com/embed/1YdBsoh4lp8?start=63" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div className="video">
+  <iframe src="https://player.vimeo.com/video/50730795" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 <p><a href="https://vimeo.com/50730795">Famous Failures</a> from <a href="https://vimeo.com/stamen">Stamen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## La carte n’est pas le territoire
 
-<iframe style="width: 100%;" height="315" src="https://www.youtube-nocookie.com/embed/hygJoYP_6pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="video">
+  <iframe height="315" src="https://www.youtube-nocookie.com/embed/hygJoYP_6pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 > «L’expérience n’est pas transmissible, seul le dogmatisme l’est» Aragon.
 > « La carte précède le territoire » (Baudrillard).
@@ -107,7 +112,10 @@ Site: http://kylemcdonald.net/
 
 Shu Lea Cheang's I.K.U. in the style of Picasso's "Girl with Mandolin". Excerpt begins at 39:42, the scene with all the inflatable dolls. More on I.K.U.: imdb.com/title/tt0255233/
 
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/138217571?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div className="video">
+  <iframe src="https://player.vimeo.com/video/138217571?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 <p><a href="https://vimeo.com/138217571">Picasso x Porn</a> from <a href="https://vimeo.com/kylemcdonald">Kyle McDonald</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Ben Kinsley:
@@ -180,12 +188,15 @@ Nous pouvons via cet attribut associer des règles CSS a une balise en ajoutant 
 
 Lorsque vous cliquez sur un lien qui comporte une ancre, le navigateur va automatiquement scroller jusqu'à l’endroit où se trouve l’élément en question.
 
-<p data-height="265" data-theme-id="0" data-slug-hash="QamBEv" data-default-tab="html,result" data-user="borisrorsvort" data-embed-version="2" data-pen-title="Navigation avec ancres" class="codepen">See the Pen <a href="https://codepen.io/borisrorsvort/pen/QamBEv/">Navigation avec ancres</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+<p className="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="QamBEv" data-pen-title="Navigation avec ancres">
+  <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/QamBEv">
+  Navigation avec ancres</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
   
 Pour en savoir plus sur la création de lien, rendez-vous sur:
 [https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL](https://developer.mozilla.org/fr/Apprendre/Comprendre_les_URL)
-
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Mettre un lien sur une image
 
@@ -196,3 +207,7 @@ Pour ajouter un lien sur une image, il vous faut simplement enveloper votre bali
   <img src="mon-image.png" />
 </a>
 ```
+
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

@@ -3,14 +3,31 @@ id: html-02
 title: Cours 2
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQEPKDfLH-KUyFEDd-VezbJ4OD3JWPXaIweXe9yEnMe3RusVYx-QGiqYMNlCiFI3yjeicFeHHYRgxFx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="video">
+  <iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vQEPKDfLH-KUyFEDd-VezbJ4OD3JWPXaIweXe9yEnMe3RusVYx-QGiqYMNlCiFI3yjeicFeHHYRgxFx/embed?start=false&loop=false&delayms=3000"
+    frameborder="0"
+    width="960"
+    height="749"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true"
+  ></iframe>  
+</div>
 
 ## Le darknet
 
 ### TOR
 
 <div class="video">
-  <iframe tor height="315" src="https://www.youtube-nocookie.com/embed/Mnrn3y-Qbyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    tor
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/Mnrn3y-Qbyk"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 [Voir la page du projet Tor](https://www.torproject.org/fr/)
@@ -56,7 +73,14 @@ Il y a tellement de données en sciences qu’il devient difficile d’en faire 
 Peut-être est-ce un des rôles de l’art. Et symboliquement du netart.
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/AFOGk6qrEQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/AFOGk6qrEQU"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ### Internet & pérénité
@@ -103,7 +127,7 @@ On pourrait presque dire que l’internet n’a de mémoire que la somme des tra
 - Ludification
 - Méta-communication (le médium qui parle de lui-mm, s’auto-(re)-définit), méta-création
 - Mise en abyme
-- Recadrage / Cadrage
+- Recadrage/Cadrage
 - Référence (artistique, litteraire, ...)
 - Reproduction en série, clonage, duplication, remake ...
 - Série non clonée (bescher chateau d’eau)
@@ -163,7 +187,7 @@ Source: [Marcel Fournier et Marian Misdrahi, Critères et processus d’évaluat
 
 ### Images
 
-<img src="https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif"/>
+<img src="https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif" />
 
 ```
 <img src="https://media.giphy.com/media/Um3ljJl8jrnHy/giphy.gif"/>
@@ -176,11 +200,12 @@ Source: [Marcel Fournier et Marian Misdrahi, Critères et processus d’évaluat
 Le chemin d’une adresse absolue ne change pas est-il toujours valable quel que soit l’endroit où on se trouve.
 Vous pouvez comparer cela à l’adresse que vous posez sur une enveloppe où que vous soyez dans le monde elle arrivera toujours au même endroit.
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="MrLEmm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Chemin absolus">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="MrLEmm" data-pen-title="Chemin absolus">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/MrLEmm">
   Chemin absolus</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Le chemin de cette image permet à cette image d’être utilisée sur **n’importe quelle page** de votre site sans en changer l’adresse.
@@ -272,8 +297,6 @@ http://whatismyipaddress.com/
 
 Avec Tor ou un [VPN](https://www.thefreedictionary.com/VPN) on peut changer l’endroit d’où l’on fait notre connexion vers le web.
 
-![](assets/images/html/ip-compare.png)
-
 ### Les types d'hébergements
 
 ![](https://s3-eu-central-1.amazonaws.com/boris-screenshots/Mise_en_ligne__GitBook_2020-02-05_10-49-11.png)
@@ -290,13 +313,27 @@ Il reste néanmoins quelques hébergeurs gratuits. Dans ce cas, les prestations 
 ### Netlify
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vywDFg2uIxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/vywDFg2uIxY"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ### Ftp / Filezilla
 
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3gAeASon6ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/3gAeASon6ys"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ---

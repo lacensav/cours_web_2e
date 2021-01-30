@@ -3,11 +3,14 @@ id: html-03
 title: Cours 3
 ---
 
+<div class="video">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRRUFglx5wc05fSbpdqC7plpACnNed5xrS5NO4qRINYjf247fWusCSoXM1lKjuij8Q60jLK85dA0m9g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 ## Usabilité
-
-<iframe style="margin-bottom: 40px;" src="https://docs.google.com/presentation/d/e/2PACX-1vSu_1ycqmgyX7K64LesERNqPcz7JLa1TCoawxtzDGbvBaPsgIszw7N3ySxoRZtFZav6SRDYtuGfZrnC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="video">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSu_1ycqmgyX7K64LesERNqPcz7JLa1TCoawxtzDGbvBaPsgIszw7N3ySxoRZtFZav6SRDYtuGfZrnC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 - Daltonism tester [https://michelf.ca/projects/sim-daltonism/](https://michelf.ca/projects/sim-daltonism/)
 
@@ -40,12 +43,18 @@ http://wwwwwwwww.jodi.org/100cc/hqx/i900.html
 
 http://glitchsafari.tumblr.com/
 
-<div style="padding:73.75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/29283329?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video">
+  <iframe src="https://player.vimeo.com/video/29283329?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 <p><a href="https://vimeo.com/29283329">Digital Decay: Meditation/Disintegration</a> from <a href="https://vimeo.com/universe">Claire L. Evans</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-![Cécile Babiole — Copie Non Conforme](http://babiole.net/wp-content/uploads/images/cecilebabiole_copies-non-conformes_2013_02-930x620.jpg)
+![Cécile Babiole — Copie Non Conforme](https://www.makery.info/wp-content/uploads/2014/11/je-ne-dois-pas-copier-cecile-babiole.jpg)
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/25975122?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div class="video">
+  <iframe src="https://player.vimeo.com/video/25975122?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 <p><a href="https://vimeo.com/25975122">Pixels a light and sound installation by Cecile Babiole</a> from <a href="https://vimeo.com/user1794563">cecilebabiole</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Outils
@@ -208,3 +217,4 @@ http://monsite.com/expositions/
 ```
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
