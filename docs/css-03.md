@@ -6,8 +6,7 @@ title: Cours 7
 ## Comment hacker la recherche sur google
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wUGGL5rFetM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wUGGL5rFetM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Intro au flux Rss
@@ -33,7 +32,7 @@ https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Web_fonts
 
 Ci dessous, quelques examples d’application:
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="xxGJJjj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Changer de police standard">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="xxGJJjj" data-pen-title="Changer de police standard">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/xxGJJjj">
   Changer de police standard</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -54,7 +53,7 @@ Utilisez-les en partant des examples et en les modifiants en fonction de vos bes
 
 ### Survol
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="Poqomrq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Hover styles">
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="Poqomrq" data-pen-title="Hover styles">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/Poqomrq">
   Hover styles</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -62,7 +61,7 @@ Utilisez-les en partant des examples et en les modifiants en fonction de vos bes
 
 ### Transforms
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="qBdBmKy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Transform">
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="qBdBmKy"  data-pen-title="Transform">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/qBdBmKy">
   Transform</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -70,7 +69,7 @@ Utilisez-les en partant des examples et en les modifiants en fonction de vos bes
 
 ### Les deux ensemble
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="LYVBJNv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Transform avec hover">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="borisrorsvort" data-slug-hash="LYVBJNv"  data-pen-title="Transform avec hover">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/LYVBJNv">
   Transform avec hover</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -83,7 +82,7 @@ Pour palier à ce problème nous pouvons utiliser une propriété css que vous c
 Si la page est plus grande que la taille originale de l’image, l’image gardera sa taille originale.
 Si la page est plus petite que la taille originale, elle prendra la largeur de la page.
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="poJOwdg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Images flexible">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="borisrorsvort" data-slug-hash="poJOwdg"  data-pen-title="Images flexible">
   <span>See the Pen <a href="https://codepen.io/borisrorsvort/pen/poJOwdg">
   Images flexible</a> by Rorsvort (<a href="https://codepen.io/borisrorsvort">@borisrorsvort</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
