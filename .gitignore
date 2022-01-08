@@ -5,10 +5,10 @@ node_modules
 lib/core/metadata.js
 lib/core/MetadataBlog.js
 
-website/translated_docs
-website/.docusaurus
-website/build/
-website/yarn.lock
-website/node_modules
-website/i18n/*
+translated_docs
+.docusaurus
+build/
+yarn.lock
+node_modules/**/*
+i18n/*
 _book

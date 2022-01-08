@@ -19,12 +19,11 @@ module.exports = {
         docs: {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          path: "../docs",
-          sidebarPath: "../website/sidebars.json",
+          sidebarPath: require.resolve('./sidebars.json'),
         },
         blog: {},
         theme: {
-          customCss: "../src/css/customTheme.css",
+          customCss: [require.resolve('./src/css/customTheme.css')],
         },
       },
     ],
