@@ -1,6 +1,6 @@
 ---
 id: html-03
-title: Cours 3
+title: "Cours 3 : Glitch & usabilité"
 ---
 
 <div class="video">
