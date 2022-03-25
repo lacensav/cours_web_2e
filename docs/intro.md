@@ -114,7 +114,7 @@ sidebar_label: Plan des cours
 
 - Hover
 - Forme géométriques https://css-tricks.com/examples/ShapesOfCSS/
-- Mise en page css http://fr.learnlayout.com/position.html
+- Mise en page css https://web.archive.org/web/20211129200515/https://fr.learnlayout.com
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
 - Layout menu vertical fixed left?
 - Google font http://www.googwle.com/webfonts
