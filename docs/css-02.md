@@ -13,3 +13,5 @@ Réfléchir ensemble sur quoi prendre position, ce que ça veut dire et comment 
 Pour plus d’info sur le « Box model » rendez-vous sur [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model).
 
 > Tutoriel positionnement jusqu’a la page 7 [http://fr.learnlayout.com/](http://fr.learnlayout.com/)
+
+> Tutoriel flex frogs [https://flexboxfroggy.com/#fr](https://flexboxfroggy.com/#fr)
